@@ -79,12 +79,20 @@ def parse_record(page):
     cut = page.find("<th>Name</th>")
     head, table = (page[:cut], page[cut:]) if cut >= 0 else (page, "")
 
+    # The project labels an advisor "Advisor 1", "Doctoral advisor", "Official Advisor",
+    # "Mentor" and so on. Every labelled link above the student table is an advisor.
+    start = head.find("<h2")
     advisors, seen = [], set()
-    for adv_id, adv_name in re.findall(
-            r'Advisor(?:\s*\d+)?:\s*<a href="id\.php\?id=(\d+)">(.*?)</a>', head, re.S):
+    for label, adv_id, adv_name in re.findall(
+            r'([A-Za-z][A-Za-z .\-]{0,40}?)\s*\d*:\s*<a href="id\.php\?id=(\d+)">(.*?)</a>',
+            head[start:], re.S):
         if int(adv_id) not in seen:
             seen.add(int(adv_id))
-            advisors.append({"id": int(adv_id), "name": _clean(adv_name)})
+            advisors.append({"id": int(adv_id), "name": _clean(adv_name), "relation": label.strip()})
+    # a person link above the student table that carries no label is still reported
+    unlabelled = set(int(i) for i in re.findall(r'<a href="id\.php\?id=(\d+)">', head[start:])) - seen
+    for adv_id in sorted(unlabelled):
+        advisors.append({"id": adv_id, "name": "", "relation": "unlabelled link"})
 
     degrees = []
     for m in re.finditer(r'<span style="margin-right: 0\.5em">(.*?)</div>', head, re.S):

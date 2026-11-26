@@ -17,7 +17,7 @@
 		"students": [13344],
 		"advisors": [96330],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Robert_von_Zimmermann",
-		"wikiImage": "http://geschichte.univie.ac.at/files/styles/large/public/bildsammlung/135.200_zimmermann_robert_v_1824-1898_philosophie_ohdat_stich_v_steininger_august.jpg?itok\u003dn2zbnd9l",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20von%20Zimmermann.jpg",
 		"degreeLists": {
 			"Dr. phil. Universität Wien 1846": "img/flags/Austria.gif"
 		},
@@ -28,7 +28,7 @@
 		"name": "Shams ad-Din Al-Bukhari",
 		"students": [201288],
 		"advisors": [217509],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Ajall_Shams_al-Din_Omar",
+		"wikiUrl": "https://ar.wikipedia.org/wiki/شمس_الدين_البخاري",
 		"degreeLists": {
 			"Maragheh Observatory 1245": "img/flags/Iran.gif"
 		},
@@ -51,8 +51,8 @@
 		"name": "Rudolf Agricola",
 		"students": [125898],
 		"advisors": [131584],
-		"wikiUrl": "https://en.wikipedia.org/wiki/rodolphus_agricola#/media/file:rudolf_agricola_1.jpg",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Lucas_Cranach_d._%C3%84._045.jpg/1200px-Lucas_Cranach_d._%C3%84._045.jpg",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Rodolphus_Agricola",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Lucas_Cranach_d._%C3%84._045.jpg",
 		"degreeLists": {
 			"Magister artium Università degli Studi di Ferrara 1478": "img/flags/Italy.gif"
 		},
@@ -98,7 +98,6 @@
 		"name": "Pietro Roccabonella",
 		"students": [127166, 152903],
 		"advisors": [148882, 164338],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Gaetano_da_Thiene_(philosopher)",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tiepolo_-_S%C3%A3o_Caetano_de_Tiene.jpg",
 		"degreeLists": {
 			"M.D. Università degli Studi di Padova 1450": "img/flags/Italy.gif"
@@ -123,8 +122,8 @@
 		"name": "Kazimierz Twardowski",
 		"students": [13345],
 		"advisors": [15176, 141831],
-		"wikiUrl": "https://pl.wikipedia.org/wiki/Kazimierz_Twardowski",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kazimierz_Twardowski_1933.jpg/1200px-Kazimierz_Twardowski_1933.jpg",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Kazimierz_Twardowski",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kazimierz_Twardowski_1933.jpg",
 		"degreeLists": {
 			"Ph.D. Universität Wien 1891": "img/flags/Austria.gif"
 		},
@@ -170,7 +169,6 @@
 		"name": "Johann Pasch",
 		"students": [128986],
 		"advisors": [127962],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Johan_Pasch",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Roslin_-_Johan_Pasch.jpg",
 		"degreeLists": {
 			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1683": "img/flags/Germany.gif"
@@ -182,8 +180,8 @@
 		"name": "Georg Wolffgang Wedel",
 		"students": [125846],
 		"advisors": [125154, 101860],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Georg_Wolfgang_Wedel",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/GeorgWolfgangWedelGAWolfgang.jpg/1200px-GeorgWolfgangWedelGAWolfgang.jpg",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Georg_Wolfgang_Wedel",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/97/GeorgWolfgangWedelGAWolfgang.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Friedrich-Schiller-Universität Jena 1667": "img/flags/Germany.gif",
 			"Universiteit Leiden 1667": "img/flags/Germany.gif"
@@ -208,7 +206,7 @@
 		"name": "Victor Marek",
 		"students": [1],
 		"advisors": [489],
-		"wikiUrl": "https://pl.wikipedia.org/wiki/Victor_W._Marek",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Victor_W._Marek",
 		"degreeLists": {
 			"Ph.D. Uniwersytet Warszawski 1968": "img/flags/Poland.gif"
 		},
@@ -217,7 +215,7 @@
 	"1": {
 		"id": 1,
 		"name": "V. K. Cody Bumgardner",
-		"students": [],
+		"students": [2],
 		"advisors": [22583],
 		"wikiUrl": "https://pl.wikipedia.org/wiki/Victor_W._Marek",
 		"degreeLists": {
@@ -243,7 +241,7 @@
 		"students": [47793, 143011],
 		"advisors": [137705, 60984, 143859, 125561],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg/1200px-Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg",
 		"degreeLists": {
 			"Dr. phil. Universität Leipzig 1666": "img/flags/Germany.gif",
 			"Dr. jur. Universität Altdorf 1667": "img/flags/Germany.gif",
@@ -256,7 +254,7 @@
 		"name": "Franz Jakob Clemens",
 		"students": [15176],
 		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Franz_Jakob_Clemens",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Franz_Jakob_Clemens",
 		"degreeLists": {
 			"Dr. phil. Universität Berlin 1839": "img/flags/Germany.gif"
 		},
@@ -277,8 +275,8 @@
 		"id": 96327,
 		"name": "Franz Josef Ritter von Gerstner",
 		"students": [96330],
-		"advisors": [143091],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Franz_Josef_von_Gerstner",
+		"advisors": [143091, 143129],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Franz_Josef_Gerstner",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/ae/GerstnerSen_Linz_Budweis_Railway.jpg",
 		"degreeLists": {
 			"University of Prague 1777": "/img/flags/CzechRepublic.gif"
@@ -303,7 +301,7 @@
 		"name": "Jakob Beuerlin",
 		"students": [143044],
 		"advisors": [152647],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Jacob_Beurlin",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jakob_Beurlin",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jakob_Beurlin_%281522-1561%29.jpg",
 		"degreeLists": {
 			"Dr. theol. Eberhard-Karls-Universität Tübingen 1551": "img/flags/Germany.gif"
@@ -327,7 +325,7 @@
 		"name": "Gregory Chioniadis",
 		"students": [184632],
 		"advisors": [204293],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Gregory_Choniades",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Gregory_Chioniades",
 		"degreeLists": {
 			"Astronomy 1250": "img/flags/Constantinople.gif"
 		},
@@ -338,7 +336,7 @@
 		"name": "Adriaan van den Spieghel",
 		"students": [125023, 125154],
 		"advisors": [125109],
-		"wikiUrl": "https://nl.wikipedia.org/wiki/Adriaan_van_den_Spiegel",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Adriaan_van_den_Spiegel",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adriaan_van_den_Spieghel.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Università degli Studi di Padova 1603": "img/flags/Italy.gif",
@@ -362,11 +360,12 @@
 		"name": "Nikolaus Eglinger",
 		"students": [53410],
 		"advisors": [125125, 129708],
-		"death": "1711",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Nikolaus_Eglinger",
 		"degreeLists": {
 			"Medicinae Dr. Universität Basel 1660": "img/flags/Switzerland.gif"
 		},
-		"isProcessed": true
+		"isProcessed": true,
+		"death": "1711"
 	},
 	"125023": {
 		"id": 125023,
@@ -374,7 +373,7 @@
 		"students": [101860],
 		"advisors": [114992, 125006],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Adolphus_Vorstius",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adolphus-Vorstius.jpg/1200px-Adolphus-Vorstius.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/48/Adolphus-Vorstius.jpg",
 		"degreeLists": {
 			"Philosophiae Dr. Universiteit Leiden 1619": "img/flags/Netherlands.gif",
 			"Medicinae Dr. Università degli Studi di Padova 1622": "img/flags/Italy.gif"
@@ -386,7 +385,7 @@
 		"name": "Georg Calixt",
 		"students": [127956],
 		"advisors": [128104, 128105],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Georg_Calixt",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Georg_Calixtus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/0/08/Georg_Calixt.jpg",
 		"degreeLists": {
 			"Magister artium, Theol. Dr. Universität Helmstedt 1607": "img/flags/Germany.gif"
@@ -452,7 +451,7 @@
 	"127092": {
 		"id": 127092,
 		"name": "Valentin Thau",
-		"students": [128348],
+		"students": [128348, 125379],
 		"advisors": [127011],
 		"wikiUrl": "https://de.wikipedia.org/wiki/Valentin_Thau",
 		"degreeLists": {
@@ -465,7 +464,8 @@
 		"name": "Giovanni Battista (Giambattista) Beccaria",
 		"students": [17864],
 		"advisors": [],
-		"wikiUrl": "https://es.wikipedia.org/wiki/Giovanni_Battista_Beccaria",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Giovanni_Battista_Beccaria",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Giambattista%20Beccaria%20%28cropped%29.jpg",
 		"degreeLists": {},
 		"isProcessed": true
 	},
@@ -485,7 +485,7 @@
 		"id": 127606,
 		"name": "Ambrosius Rhodius",
 		"students": [127724],
-		"advisors": [127459, 127461],
+		"advisors": [127459, 127461, 125379, 127098, 221101],
 		"wikiUrl": "https://de.wikipedia.org/wiki/Ambrosius_Rhode",
 		"degreeLists": {
 			"Magister artium 1600": "img/flags/Germany.gif",
@@ -511,7 +511,7 @@
 		"students": [60985],
 		"advisors": [125450, 125416],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Christiaan_Huygens",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/51/Christiaan_Huygens.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Caspar_Netscher_-_Christiaan_Huygens%2C_the_astronomer%2C_1671.jpg",
 		"degreeLists": {
 			"Artium Liberalium Magister Universiteit Leiden 1647": "img/flags/Netherlands.gif",
 			"Juris utriusque Doctor Université d\u0027Angers 1655": "img/flags/France.gif"
@@ -535,7 +535,7 @@
 		"students": [114992, 128105],
 		"advisors": [128305, 128348],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Duncan_Liddel",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Portrait_of_Duncan_Liddel_attributed_to_George_Jamieson._Wellcome_M0008733.jpg/1200px-Portrait_of_Duncan_Liddel_attributed_to_George_Jamieson._Wellcome_M0008733.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Portrait_of_Duncan_Liddel_attributed_to_George_Jamieson._Wellcome_M0008733.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Universität Helmstedt 1596": "img/flags/Germany.gif",
 			"Magister artium Europa-Universität Viadrina Frankfurt 1582": "img/flags/Germany.gif"
@@ -571,7 +571,10 @@
 		"students": [140181],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Geert_Groote",
-		"degreeLists": {},
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Fantasieportret%20Geert%20Grote.jpg",
+		"degreeLists": {
+			"Magister artium Université de Paris 1358": "img/flags/France.gif"
+		},
 		"isProcessed": true
 	},
 	"134781": {
@@ -588,7 +591,9 @@
 		"students": [140181],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Florens_Radewyns",
-		"degreeLists": {},
+		"degreeLists": {
+			"M.A. Charles University 1378": "img/flags/CzechRepublic.gif"
+		},
 		"isProcessed": true
 	},
 	"127107": {
@@ -597,7 +602,7 @@
 		"students": [126956],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_St%C3%B6ffler",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/en/e/ef/Stoeffler1.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Stoeffler1.jpg",
 		"degreeLists": {
 			"Magister artium Universität Ingolstadt 1476": "img/flags/Germany.gif"
 		},
@@ -639,18 +644,6 @@
 		},
 		"isProcessed": true
 	},
-	"74384": {
-		"id": 74384,
-		"name": "Abraham Klein (Calovius)",
-		"students": [127923],
-		"advisors": [],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Abraham_Calovius",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/2/23/Abraham-Calov-05.jpg",
-		"degreeLists": {
-			"Dr. theol. Universität Rostock 1632": "img/flags/Germany.gif"
-		},
-		"isProcessed": true
-	},
 	"127636": {
 		"id": 127636,
 		"name": "Johann Friedrich Christ",
@@ -668,7 +661,7 @@
 		"name": "Johannes Müller Regiomontanus",
 		"students": [126112],
 		"advisors": [126087, 131561],
-		"wikiUrl": "https://en.wikipedia.org/wiki/regiomontanus",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Regiomontanus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Johannes_Regiomontanus.jpg",
 		"degreeLists": {
 			"Magister artium Universität Leipzig 1457": "img/flags/Germany.gif",
@@ -682,7 +675,7 @@
 		"students": [126119],
 		"advisors": [127646],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Matthias_Gesner",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Johann_Mattias_Gesner_-_Titelkupfer.jpg/1200px-Johann_Mattias_Gesner_-_Titelkupfer.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Johann_Mattias_Gesner_-_Titelkupfer.jpg",
 		"degreeLists": {
 			"Magister artium Friedrich-Schiller-Universität Jena 1715": "img/flags/Germany.gif"
 		},
@@ -706,7 +699,7 @@
 		"name": "Émile Borel",
 		"students": [86693],
 		"advisors": [34254],
-		"wikiUrl": "https://en.wikipedia.org/wiki/émile_borel",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Émile_Borel",
 		"wikiImage": "https://en.wikipedia.org/wiki/émile_borel#/media/emile_borel-1932.jpg",
 		"degreeLists": {
 			"Ph.D. École Normale Supérieure Paris 1893": "img/flags/France.gif"
@@ -717,8 +710,8 @@
 		"id": 127646,
 		"name": "Johann Franz Buddeus",
 		"students": [127647],
-		"advisors": [127962],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Johann_Franz_Buddeus",
+		"advisors": [127962, 228334],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Franz_Buddeus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/40/Johann-Franz-Buddeus.jpg",
 		"degreeLists": {
 			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1687": "img/flags/Germany.gif"
@@ -739,7 +732,7 @@
 	"143011": {
 		"id": 143011,
 		"name": "Nicolas Malebranche",
-		"students": [54440],
+		"students": [54440, 112689],
 		"advisors": [60985],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nicolas_Malebranche",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nicolas_Malebranche.jpg",
@@ -776,7 +769,7 @@
 		"name": "Henri Léon Lebesgue",
 		"students": [86692],
 		"advisors": [39071],
-		"wikiUrl": "https://en.wikipedia.org/wiki/henri_lebesgue",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Henri_Lebesgue",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lebesgue_2.jpeg",
 		"degreeLists": {
 			"Ph.D. Université Henri Poincaré Nancy 1 1902": "img/flags/France.gif"
@@ -789,6 +782,7 @@
 		"students": [24546],
 		"advisors": [86693],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Zygmunt_Janiszewski",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Zygmunt%20Janiszewski.jpg",
 		"degreeLists": {
 			"Ph.D. Université Paris 1911": "img/flags/France.gif"
 		},
@@ -855,7 +849,6 @@
 		"name": "Johann Caspar Bauhin",
 		"students": [129628],
 		"advisors": [125125],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Caspar_Bauhin",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bauhin_Gaspard_1550-1624.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Universität Basel 1649": "img/flags/Switzerland.gif"
@@ -865,8 +858,8 @@
 	"47793": {
 		"id": 47793,
 		"name": "Christian M. von Wolff",
-		"students": [106922],
-		"advisors": [113719, 60985],
+		"students": [106922, 260114],
+		"advisors": [113719, 60985, 157308],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Christian_Wolff_(philosopher)",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/90/Christian_Wolff.jpg",
 		"degreeLists": {
@@ -891,7 +884,7 @@
 		"name": "Johann Georg Büsch",
 		"students": [127710],
 		"advisors": [60782, 208259],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Georg_Kerner",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Georg_Büsch",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Georg_Kerner_Portr%C3%A4t_1.jpg",
 		"degreeLists": {
 			"Magister Georg-August-Universität Göttingen 1752": "img/flags/Germany.gif",
@@ -913,7 +906,7 @@
 	"38586": {
 		"id": 38586,
 		"name": "Leonhard Euler",
-		"students": [17864],
+		"students": [17864, 122737],
 		"advisors": [53410],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Leonhard_Euler",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Leonhard_Euler.jpg",
@@ -929,7 +922,9 @@
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nicole_Oresme",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/35/Oresme.jpg",
-		"degreeLists": {},
+		"degreeLists": {
+			"Université de Paris 1356": "img/flags/France.gif"
+		},
 		"isProcessed": true
 	},
 	"127166": {
@@ -950,7 +945,8 @@
 		"name": "Elias Rudolph Camerarius, Sr.",
 		"students": [128938],
 		"advisors": [123974],
-		"wikiUrl": "https://en.wikipedia.org/wiki/elias_rudolph_camerarius_sr.",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Elias_Rudolph_Camerarius_Sr.",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Elias%20Rudolf%20Camerarius.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Eberhard-Karls-Universität Tübingen 1663": "img/flags/Germany.gif"
 		},
@@ -1021,7 +1017,8 @@
 		"name": "Jakob Milich",
 		"students": [126736],
 		"advisors": [125938, 126659],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Jakob_Milich",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jacob_Milich",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacob%20Milich.%20Line%20engraving%20by%20T.%20de%20Bry%2C%201650.%20Wellcome%20V0004012.jpg",
 		"degreeLists": {
 			"Med. Dr. Universität Wien 1524": "img/flags/Austria.gif",
 			"Liberalium Artium Magister Albert-Ludwigs-Universität Freiburg im Breisgau 1520": "img/flags/Germany.gif"
@@ -1042,9 +1039,9 @@
 	"127181": {
 		"id": 127181,
 		"name": "Girolamo Aleandro",
-		"students": [126571],
+		"students": [126571, 131235],
 		"advisors": [131446, 131447],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Hieronymus_Aleander",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Girolamo_Aleandro",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Aleander%2C_Hieronymus.jpg",
 		"degreeLists": {
 			"Magister artium 1499": "img/flags/Italy.gif",
@@ -1058,7 +1055,7 @@
 		"students": [146365],
 		"advisors": [184631],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Gregory_Palamas",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gregorio_Palamas_-_%28Propriet%C3%A0_Pietro_Chiaranz%29.jpg",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9%20%D0%9F%D0%B0%D0%BB%D0%B0%D0%BC%D0%B0%2014%D0%B2.jpg",
 		"degreeLists": {
 			"Theologian 1350": "img/flags/Constantinople.gif",
 			"Canonized 1368": "img/flags/Constantinople.gif"
@@ -1083,7 +1080,7 @@
 		"name": "Nicolas Clénard",
 		"students": [125665],
 		"advisors": [125681, 125682],
-		"wikiUrl": "https://fr.wikipedia.org/wiki/Nicolaus_Clenardus",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Nicolas_Cleynaerts",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cleynaerts3.jpg",
 		"degreeLists": {
 			"Magister artium 1515": "img/flags/Belgium.gif",
@@ -1094,8 +1091,8 @@
 	"134873": {
 		"id": 134873,
 		"name": "Vittorino da Feltre",
-		"students": [149192, 131584],
-		"advisors": [134931],
+		"students": [149192, 131584, 298288],
+		"advisors": [134931, 298290, 298304],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Vittorino_da_Feltre",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Giusto_di_gand_e_pedro_berruguete%2C_vittorino_da_feltre.jpg",
 		"degreeLists": {
@@ -1108,7 +1105,8 @@
 		"name": "Theodor Zwinger",
 		"students": [128305, 125048],
 		"advisors": [125047, 152906, 152905],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Theodor_Zwinger_III",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Theodor_Zwinger",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Bildnis%20des%20Theodor%20Zwinger.jpg",
 		"degreeLists": {
 			"Magister artium Collège de France 1553": "img/flags/France.gif",
 			"Medicinae Dr. Università degli Studi di Padova 1559": "img/flags/Italy.gif"
@@ -1132,7 +1130,7 @@
 		"name": "Nicolaus Copernicus",
 		"students": [126827],
 		"advisors": [126113, 126112],
-		"wikiUrl": "https://en.wikipedia.org/wiki/nicolaus_copernicus",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nikolaus_Kopernikus.jpg",
 		"degreeLists": {
 			"Juris utriusque Doctor Università di Bologna 1499": "img/flags/Italy.gif",
@@ -1145,7 +1143,7 @@
 	"125665": {
 		"id": 125665,
 		"name": "Johannes Sturmius",
-		"students": [125047],
+		"students": [125047, 127020, 127039],
 		"advisors": [125658, 119159],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_Sturm",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Johannes_Sturm_by_Jacob_van_der_Heyden.jpg",
@@ -1160,7 +1158,7 @@
 		"students": [182089, 125488],
 		"advisors": [125006, 126111],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Werner_Rolfinck",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/WernerRolfinck.jpg/1200px-WernerRolfinck.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/WernerRolfinck.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1625": "img/flags/Germany.gif",
 			"Università degli Studi di Padova 1625": "img/flags/Italy.gif"
@@ -1173,7 +1171,7 @@
 		"students": [125181],
 		"advisors": [141571],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Immanuel_Tremellius",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/31/Immanuel_Tremellius.png",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Immanuel%20Tremellius.PNG",
 		"degreeLists": {
 			"D. theol. Ruprecht-Karls-Universität Heidelberg 1561": "img/flags/Germany.gif",
 			"Dr. theol. University of Cambridge 1549": "img/flags/UnitedKingdom.gif"
@@ -1185,6 +1183,8 @@
 		"name": "Sebastian Beck",
 		"students": [143083],
 		"advisors": [143045],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Sebastian_Beck",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/UBH%20Portr%20BS%20Beck%20S%201583%202%20%28cropped%29.jpg",
 		"degreeLists": {
 			"Theol. Dr. Universität Basel 1610": "img/flags/Switzerland.gif"
 		},
@@ -1195,7 +1195,7 @@
 		"name": "Theodor Zwinger, Jr.",
 		"students": [143084],
 		"advisors": [143082],
-		"wikiUrl": "https://de.wikipedia.org/wiki/theodor_zwinger_der_jüngere",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Theodor_Zwinger_der_Jüngere",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/6/68/Zwinger%2C_Theodor_%281597-1654%29.gif",
 		"degreeLists": {
 			"Theol. Dr. Universität Basel 1630": "img/flags/Switzerland.gif"
@@ -1218,10 +1218,12 @@
 		"id": 108266,
 		"name": "Jean Le Rond d\u0027Alembert",
 		"students": [108295],
-		"advisors": [],
-		"wikiUrl": "https://en.wikipedia.org/wiki/jean_le_rond_d%27alembert",
+		"advisors": [294942],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jean_Le_Rond_d\u0027Alembert",
 		"wikiImage": "https://en.wikipedia.org/wiki/jean_le_rond_d%27alembert#/media/alembert.jpg",
-		"degreeLists": {},
+		"degreeLists": {
+			"Maitre-es-arts Collège Mazarin 1735": "img/flags/France.gif"
+		},
 		"isProcessed": true
 	},
 	"127724": {
@@ -1242,7 +1244,8 @@
 		"name": "Peter Werenfels",
 		"students": [54440],
 		"advisors": [143083],
-		"wikiUrl": "https://en.wikipedia.org/wiki/peter_werenfels",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Peter_Werenfels",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Werenfels.png",
 		"degreeLists": {
 			"Theol. Dr. Universität Basel 1649": "img/flags/Switzerland.gif"
 		},
@@ -1278,7 +1281,7 @@
 		"students": [72669],
 		"advisors": [137705],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Otto_Mencke",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/en/5/5e/Otto_Mencke.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Otto_Mencke.jpg",
 		"degreeLists": {
 			"Ph.D. Universität Leipzig 1665": "img/flags/Germany.gif"
 		},
@@ -1289,7 +1292,7 @@
 		"name": "Jan van Campen",
 		"students": [125658],
 		"advisors": [125760, 125794],
-		"wikiUrl": "https://en.wikipedia.org/wiki/john_van_campen",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_Campensis",
 		"degreeLists": {
 			"Magister artium Université Catholique de Louvain 1519": "img/flags/Belgium.gif",
 			"Theol. Dr. Universität Ingolstadt 1521": "img/flags/Germany.gif"
@@ -1302,7 +1305,7 @@
 		"students": [12541],
 		"advisors": [223716],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Joseph_Johann_von_Littrow",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Joseph_Johann_von_Littrow.jpg/1200px-Joseph_Johann_von_Littrow.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Joseph_Johann_von_Littrow.jpg",
 		"degreeLists": {
 			"Ph.D. Charles University 1802": "img/flags/CzechRepublic.gif"
 		},
@@ -1313,7 +1316,7 @@
 		"name": "Rudolph Snellius",
 		"students": [126489, 125302],
 		"advisors": [125160, 125159],
-		"wikiUrl": "https://nl.wikipedia.org/wiki/Rudolph_Snel_van_Royen",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Rudolph_Snellius",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rudolph_Snellius.gif",
 		"degreeLists": {
 			"Artium Liberalium Magister Ruprecht-Karls-Universität Heidelberg 1572": "img/flags/Germany.gif",
@@ -1325,7 +1328,7 @@
 		"id": 12541,
 		"name": "Nikolai Dmitrievich Brashman",
 		"students": [12542],
-		"advisors": [12540, 146776],
+		"advisors": [12540, 146776, 259973],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nikolai_Brashman",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/0/04/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%91%D1%80%D0%B0%D1%88%D0%BC%D0%B0%D0%BD.jpg",
 		"degreeLists": {
@@ -1375,7 +1378,7 @@
 		"name": "Wacław Sierpiński",
 		"students": [12547],
 		"advisors": [12546, 12544],
-		"wikiUrl": "https://en.wikipedia.org/wiki/wacław_sierpiński",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Wacław_Sierpiński",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Wac%C5%82aw_Sierpi%C5%84ski.jpg",
 		"degreeLists": {
 			"Ph.D. Uniwersytet Jagielloński 1906": "img/flags/Poland.gif"
@@ -1388,7 +1391,7 @@
 		"students": [125159],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Thomas_Cranmer",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Thomas_Cranmer_by_Gerlach_Flicke.jpg/1200px-Thomas_Cranmer_by_Gerlach_Flicke.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Thomas_Cranmer_by_Gerlach_Flicke.jpg",
 		"degreeLists": {
 			"Doctorate of Divinity University of Cambridge 1526": "img/flags/UnitedKingdom.gif",
 			"Master of Arts University of Cambridge 1515": "img/flags/UnitedKingdom.gif"
@@ -1400,7 +1403,7 @@
 		"name": "Stanislaw Zaremba",
 		"students": [12545],
 		"advisors": [34254, 34266],
-		"wikiUrl": "https://en.wikipedia.org/wiki/stanisław_zaremba_(mathematician)",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Stanisław_Zaremba_(mathematician)",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Stanislaw_Zareba_Polish_mathematician.jpg",
 		"degreeLists": {
 			"Ph.D. Université Paris IV-Sorbonne 1889": "img/flags/France.gif"
@@ -1445,7 +1448,7 @@
 		"students": [17865],
 		"advisors": [108266],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Pierre-Simon_Laplace",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pierre-Simon-Laplace.jpg",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Simon%2C%20marquis%20de%20Laplace%20%281745-1827%29%20-%20Gu%C3%A9rin.jpg",
 		"degreeLists": {
 			"Mathematics, Statistics, Physics and Astronomy 1799": "img/flags/France.gif"
 		},
@@ -1467,8 +1470,8 @@
 		"name": "Friedrich Leibniz",
 		"students": [137705],
 		"advisors": [],
-		"wikiUrl": "https://en.wikipedia.org/wiki/friedrich_leibniz#/media/file:friedrich_leibnütz.jpg",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg/1200px-Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Friedrich_Leibniz",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg",
 		"degreeLists": {
 			"Magister der Philosophie Universität Leipzig 1622": "img/flags/Germany.gif"
 		},
@@ -1489,9 +1492,10 @@
 	"126736": {
 		"id": 126736,
 		"name": "Erasmus Reinhold",
-		"students": [125160, 126957, 126875, 127011],
+		"students": [125160, 126957, 126875, 127011, 127110],
 		"advisors": [126667],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Erasmus_Reinhold",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Prutenic%20Tables.png",
 		"degreeLists": {
 			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1535": "img/flags/Germany.gif"
 		},
@@ -1501,7 +1505,7 @@
 		"id": 134931,
 		"name": "Guarino da Verona",
 		"students": [134873],
-		"advisors": [135185],
+		"advisors": [135185, 298304],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Guarino_da_Verona",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Guarino_da_Verona_-_Imagines_philologorum.jpg",
 		"degreeLists": {
@@ -1514,7 +1518,7 @@
 		"name": "Salomon Alberti",
 		"students": [127461, 127275],
 		"advisors": [126875, 125109],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Salomon_Alberti",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Salomon_Alberti",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/de/b/b0/Salomon-Alberti.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Università degli Studi di Padova 1574": "img/flags/Italy.gif",
@@ -1527,16 +1531,17 @@
 		"name": "Ignatz Mühlwenzel",
 		"students": [143129],
 		"advisors": [],
-		"wikiUrl": "https://en.wikipedia.org/wiki/ignatz_mühlwenzel",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Ignatz_Mühlwenzel",
 		"degreeLists": {},
 		"isProcessed": true
 	},
 	"143129": {
 		"id": 143129,
 		"name": "Joseph Stepling",
-		"students": [143091],
+		"students": [143091, 96327],
 		"advisors": [143130],
-		"wikiUrl": "https://cs.wikipedia.org/wiki/Joseph_Stepling",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Joseph_Stepling",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/JosephSteplingBalzer.jpg",
 		"degreeLists": {
 			"Universitas Carolina Prague 1743": "img/flags/CzechRepublic.gif"
 		},
@@ -1547,7 +1552,7 @@
 		"name": "Simon Grynaeus",
 		"students": [182092],
 		"advisors": [125760, 126956],
-		"wikiUrl": "https://en.wikipedia.org/wiki/simon_grynaeus",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Simon_Grynaeus",
 		"wikiImage": "https://academictree.org/photo/008/cache.080357.Simon_Grynaeus.jpg",
 		"degreeLists": {
 			"Magister Artium Eberhard-Karls-Universität Tübingen 1511": "img/flags/Germany.gif",
@@ -1560,7 +1565,7 @@
 		"name": "Heinrich von Langenstein",
 		"students": [126887],
 		"advisors": [199357],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Heinrich_von_Langenstein",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Henry_of_Langenstein",
 		"degreeLists": {
 			"Magister artium Université de Paris 1363": "img/flags/France.gif",
 			"Theol. Dr. Université de Paris 1375": "img/flags/France.gif"
@@ -1584,7 +1589,7 @@
 		"name": "Andreas Schato",
 		"students": [127459, 127461],
 		"advisors": [126957, 127252],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Andreas_Schato",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Andreas_Schato",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Andreas-Schato.jpg",
 		"degreeLists": {
 			"Magister artium 1562": "img/flags/Germany.gif",
@@ -1605,9 +1610,9 @@
 	"127790": {
 		"id": 127790,
 		"name": "Moritz Valentin Steinmetz",
-		"students": [144220],
+		"students": [144220, 127898],
 		"advisors": [126827, 184935],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Valentin_Steinmetz",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Moritz_Steinmetz",
 		"degreeLists": {
 			"Magister artium 1550": "img/flags/Germany.gif",
 			"Medicinae Dr. Universität Leipzig 1567": "img/flags/Germany.gif"
@@ -1632,6 +1637,8 @@
 		"name": "John Craig",
 		"students": [128122],
 		"advisors": [125148],
+		"wikiUrl": "https://en.wikipedia.org/wiki/John_Craig_(physician)",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/John-craig-d-1655-physician-to-james-vi-and-charle.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Universität Basel 1580": "img/flags/Switzerland.gif"
 		},
@@ -1667,7 +1674,7 @@
 		"students": [176844],
 		"advisors": [184632],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Theodore_Metochites",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chora_Church_interior_March_2008.JPG/1200px-Chora_Church_interior_March_2008.JPG",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/97/Chora_Church_interior_March_2008.JPG",
 		"degreeLists": {
 			"Mathematics 1315": "img/flags/Constantinople.gif"
 		},
@@ -1691,7 +1698,7 @@
 		"students": [119178],
 		"advisors": [125892],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Gemma_Frisius",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Reinerus_Frisius_Gemma%2C_by_Maarten_van_Heemskerck.jpg/1200px-Reinerus_Frisius_Gemma%2C_by_Maarten_van_Heemskerck.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Reinerus_Frisius_Gemma%2C_by_Maarten_van_Heemskerck.jpg",
 		"degreeLists": {
 			"Magister Philosophiae 1529": "img/flags/Belgium.gif",
 			"Medicinae Doctor Université Catholique de Louvain 1536": "img/flags/Belgium.gif"
@@ -1715,7 +1722,7 @@
 		"name": "Jacob ben Jehiel Loans",
 		"students": [125760],
 		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Jacob_ben_Jechiel_Loans",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jacob_ben_Jehiel_Loans",
 		"degreeLists": {},
 		"isProcessed": true
 	},
@@ -1747,8 +1754,8 @@
 		"id": 152902,
 		"name": "Nicoletto Vernia",
 		"students": [152903],
-		"advisors": [148882],
-		"wikiUrl": "https://it.wikipedia.org/wiki/Nicoletto_Vernia",
+		"advisors": [148882, 232228],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Nicoletto_Vernia",
 		"degreeLists": {
 			"Magister artium Università degli Studi di Padova 1458": "img/flags/Italy.gif"
 		},
@@ -1757,10 +1764,10 @@
 	"131399": {
 		"id": 131399,
 		"name": "Wolfgang Fabricius Capito",
-		"students": [182092],
+		"students": [182092, 131236],
 		"advisors": [126659, 125938],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Wolfgang_Capito",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Wolfgang_Capito.PNG/1200px-Wolfgang_Capito.PNG",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Wolfgang_Capito.PNG",
 		"degreeLists": {
 			"Magister artium Universität Ingolstadt 1506": "img/flags/Germany.gif",
 			"Theol. Dr. Albert-Ludwigs-Universität Freiburg im Breisgau 1515": "img/flags/Germany.gif"
@@ -1771,8 +1778,10 @@
 		"id": 200006,
 		"name": "Albert Clampius",
 		"students": [128105],
-		"advisors": [],
-		"degreeLists": {},
+		"advisors": [224249],
+		"degreeLists": {
+			"Dr. jur. Ruprecht-Karls-Universität Heidelberg": "img/flags/Germany.gif"
+		},
 		"isProcessed": true
 	},
 	"35141": {
@@ -1780,7 +1789,8 @@
 		"name": "Karl Reinhold",
 		"students": [60803],
 		"advisors": [106921],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Karl_Reinhold",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Karl_Leonhard_Reinhold",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Leonhard%20Reinhold.jpg",
 		"degreeLists": {
 			"Ph.D. Friedrich-Schiller-Universität Jena 1787": "img/flags/Germany.gif"
 		},
@@ -1815,7 +1825,7 @@
 		"name": "Marco Musuro",
 		"students": [152904],
 		"advisors": [131541],
-		"wikiUrl": "https://vec.wikipedia.org/wiki/Marco_Musuro",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Marcus_Musurus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Marcus_Musurus.jpg",
 		"degreeLists": {
 			"Magister artium Università degli Studi di Firenze 1486": "img/flags/Italy.gif"
@@ -1839,7 +1849,7 @@
 		"name": "Felix Plater",
 		"students": [130248],
 		"advisors": [158329],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Felix_Plater",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Felix_Platter",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Felix_Plater.jpg",
 		"degreeLists": {
 			"Medicinae Doctor Université de Montpellier 1557": "img/flags/France.gif"
@@ -1851,7 +1861,6 @@
 		"name": "Bassiano Landi",
 		"students": [125148],
 		"advisors": [152904, 152905],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_Baptista_Montanus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/54/Johannes_Baptista_Montanus.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Università degli Studi di Padova 1542": "img/flags/Italy.gif"
@@ -1863,7 +1872,7 @@
 		"name": "Johann Jakob von Brunn",
 		"students": [123974],
 		"advisors": [125048],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Conrad_Brunner",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Johann_Jakob_von_Brunn",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/1/11/Portrait_of_Johann_Conrad_Brunner.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Universität Basel 1615": "img/flags/Switzerland.gif"
@@ -1888,7 +1897,7 @@
 		"name": "Gottfried Möbius",
 		"students": [123974],
 		"advisors": [125154],
-		"wikiUrl": "https://de.wikipedia.org/wiki/gottfried_möbius",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Gottfried_Möbius",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/8/84/Gottfried_Moebius_2.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Friedrich-Schiller-Universität Jena 1640": "img/flags/Germany.gif"
@@ -1925,7 +1934,7 @@
 		"id": 146776,
 		"name": "Nikolai Ivanovich Lobachevsky",
 		"students": [12541],
-		"advisors": [151180],
+		"advisors": [151180, 122737],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nikolai_Lobachevsky",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lobachevsky.jpg",
 		"degreeLists": {
@@ -1938,7 +1947,7 @@
 		"name": "Paul Wittich",
 		"students": [128122],
 		"advisors": [127092],
-		"wikiUrl": "https://en.wikipedia.org/wiki/paul_wittich",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Paul_Wittich",
 		"degreeLists": {
 			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1566": "img/flags/Germany.gif",
 			"Universität Leipzig 1566": "img/flags/Germany.gif"
@@ -1950,6 +1959,7 @@
 		"name": "Christoph Meurer",
 		"students": [144221],
 		"advisors": [127790],
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Christoph%20Meurer.%20Line%20engraving%20by%20%28J.%20G.%20M.%29.%20Wellcome%20V0003997.jpg",
 		"degreeLists": {
 			"Magister artium Universität Leipzig 1582": "img/flags/Germany.gif"
 		},
@@ -1960,6 +1970,7 @@
 		"name": "Philipp Müller",
 		"students": [60984],
 		"advisors": [144220],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Philipp_Müller_(Physiker)",
 		"degreeLists": {
 			"Magister artium Universität Leipzig 1604": "img/flags/Germany.gif"
 		},
@@ -1971,15 +1982,17 @@
 		"students": [125682],
 		"advisors": [],
 		"wikiUrl": "https://de.wikipedia.org/wiki/Matth%C3%A4us_Adriani",
-		"degreeLists": {},
+		"degreeLists": {
+			"dr. med.": ""
+		},
 		"isProcessed": true
 	},
 	"127848": {
 		"id": 127848,
 		"name": "Jacobus Martini",
-		"students": [126111],
+		"students": [126111, 127734],
 		"advisors": [128105],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Jakob_Martini",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jakob_Martini",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jakob-Martini.jpg",
 		"degreeLists": {
 			"Magister artium Universität Helmstedt 1596": "img/flags/Germany.gif"
@@ -1992,6 +2005,7 @@
 		"students": [127790, 127061, 126957, 126875],
 		"advisors": [126730, 126177],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Georg_Joachim_Rheticus",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Narratio%20prima.jpg",
 		"degreeLists": {
 			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1535": "img/flags/Germany.gif"
 		},
@@ -2013,7 +2027,7 @@
 	"131443": {
 		"id": 131443,
 		"name": "Georgius Hermonymus",
-		"students": [131517],
+		"students": [131517, 131398],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/George_Hermonymus",
 		"degreeLists": {},
@@ -2044,7 +2058,8 @@
 		"name": "Scipione Fortiguerra",
 		"students": [127181],
 		"advisors": [131535],
-		"wikiUrl": "https://it.wikipedia.org/wiki/Carteromaco",
+		"wikiUrl": "https://it.wikipedia.org/wiki/Scipione_Forteguerri",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Scipio%20Dominicus%20Forteguerri%2C%20PA00967.jpg",
 		"degreeLists": {
 			"Magister artium Università degli Studi di Firenze 1493": "img/flags/Italy.gif"
 		},
@@ -2053,7 +2068,7 @@
 	"131444": {
 		"id": 131444,
 		"name": "Johannes Argyropoulos",
-		"students": [125760, 131539],
+		"students": [125760, 131539, 131398],
 		"advisors": [131561],
 		"wikiUrl": "https://en.wikipedia.org/wiki/John_Argyropoulos",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Argyropoulos_%28detail%29_Calling_of_the_Apostles.JPG",
@@ -2080,7 +2095,7 @@
 		"students": [158329, 119178, 125665],
 		"advisors": [126571, 125422],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Winter_von_Andernach",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/en/6/66/Winter_von_Andernach.jpg",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Winter%20von%20Andernach%20%281505-1574%29.jpg",
 		"degreeLists": {
 			"Magister artium Université Catholique de Louvain 1527": "img/flags/Belgium.gif",
 			"Med. Dr. Collège de Tréguier 1532": "img/flags/France.gif"
@@ -2103,7 +2118,7 @@
 		"id": 208259,
 		"name": "Siegmund Jakob Baumgarten",
 		"students": [127668],
-		"advisors": [],
+		"advisors": [146035],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Siegmund_Jakob_Baumgarten",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Siegmund_Jakob_Baumgarten.jpg",
 		"degreeLists": {
@@ -2116,9 +2131,11 @@
 		"name": "Gerardus Leonardus Blasius",
 		"students": [124000],
 		"advisors": [],
-		"wikiUrl": "https://nl.wikipedia.org/wiki/Gerardus_Leonardus_Blasius",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Gerardus_Leonardus_Blasius_%281625-1695%29.jpg/1200px-Gerardus_Leonardus_Blasius_%281625-1695%29.jpg",
-		"degreeLists": {},
+		"wikiUrl": "https://en.wikipedia.org/wiki/Gerard_Blasius",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/57/Gerardus_Leonardus_Blasius_%281625-1695%29.jpg",
+		"degreeLists": {
+			"Dr. med. Universiteit Leiden 1648": "img/flags/Netherlands.gif"
+		},
 		"isProcessed": true
 	},
 	"60803": {
@@ -2150,10 +2167,12 @@
 		"id": 148882,
 		"name": "Gaetano da Thiene",
 		"students": [136726, 152902],
-		"advisors": [],
-		"wikiUrl": "https://it.wikipedia.org/wiki/Gaetano_Thiene",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tiepolo_-_S%C3%A3o_Caetano_de_Tiene.jpg/1200px-Tiepolo_-_S%C3%A3o_Caetano_de_Tiene.jpg",
-		"degreeLists": {},
+		"advisors": [232227],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Gaetano_da_Thiene_(philosopher)",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tiepolo_-_S%C3%A3o_Caetano_de_Tiene.jpg",
+		"degreeLists": {
+			"Università degli Studi di Padova": "img/flags/Italy.gif"
+		},
 		"isProcessed": true
 	},
 	"125846": {
@@ -2161,8 +2180,8 @@
 		"name": "Johann Adolph Wedel",
 		"students": [125886],
 		"advisors": [125488],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Johann_Adolph_Wedel",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Johann-Adolph-Wedel.jpg/1200px-Johann-Adolph-Wedel.jpg",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Adolph_Wedel",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Johann-Adolph-Wedel.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Friedrich-Schiller-Universität Jena 1694": "img/flags/Germany.gif"
 		},
@@ -2185,13 +2204,17 @@
 		"name": "Jean Tagault",
 		"students": [125422],
 		"advisors": [],
-		"degreeLists": {},
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jean_Tagault",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Les%20Institutions%20chirurgiques%20de%20Iean%20Tagault%20...%20Nouuellement%20traduictes%20de%20Latin%20en%20Francoys%20par%20ung%20scauant%20Medecin%2C%20etc.%20-With%20woodcuts.-%20-Lyon%20-%20Chez%20G.%20Rouille%3B%20-printed%20by%20P.%20Rollet%20%26%20-%20Upper%20cover%20%28c97bb28%29.jpg",
+		"degreeLists": {
+			"dr. med. Sorbonne Université 1524": "img/flags/France.gif"
+		},
 		"isProcessed": true
 	},
 	"126875": {
 		"id": 126875,
 		"name": "Caspar Peucer",
-		"students": [127252],
+		"students": [127252, 125379],
 		"advisors": [126736, 126827],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Caspar_Peucer",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/6/6a/CPeucer.jpg",
@@ -2200,22 +2223,12 @@
 		},
 		"isProcessed": true
 	},
-	"127911": {
-		"id": 127911,
-		"name": "Andreas Kunad",
-		"students": [127923],
-		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Andreas_Kunad",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Andreas_Kunad.jpg/1200px-Andreas_Kunad.jpg",
-		"degreeLists": {},
-		"isProcessed": true
-	},
 	"126887": {
 		"id": 126887,
 		"name": "Johannes von Gmunden",
 		"students": [126087],
 		"advisors": [127264],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Johannes_von_Gmunden",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_von_Gmunden",
 		"degreeLists": {
 			"Magister artium Universität Wien 1406": "img/flags/Austria.gif"
 		},
@@ -2225,7 +2238,7 @@
 		"id": 217509,
 		"name": "Nasir al-Din al-Tusi",
 		"students": [204293],
-		"advisors": [223724],
+		"advisors": [223724, 287480],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nasir_al-Din_Tusi.jpg",
 		"degreeLists": {
@@ -2239,7 +2252,7 @@
 		"students": [35141],
 		"advisors": [106922],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Immanuel_Kant",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Kant_gemaelde_3.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/7/79/Immanuel_Kant_-_Gemaelde_1.jpg",
 		"degreeLists": {
 			"Ph.D. Universität Königsberg 1770": "img/flags/Germany.gif"
 		},
@@ -2251,7 +2264,7 @@
 		"students": [126112],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Luca_Pacioli",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pacioli.jpg/1200px-Pacioli.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pacioli.jpg",
 		"degreeLists": {},
 		"isProcessed": true
 	},
@@ -2295,7 +2308,8 @@
 		"name": "Christian Wilhelm Küstner",
 		"students": [126120],
 		"advisors": [126119],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Christian_Wilhelm_Niedner",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Christian_Wilhelm_Küstner",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Christian%20Wilhelm%20K%C3%BCstner.jpg",
 		"degreeLists": {
 			"Magister philosophiae Universität Leipzig 1742": "img/flags/Germany.gif"
 		},
@@ -2306,23 +2320,10 @@
 		"name": "Georg Ludwig König",
 		"students": [60803],
 		"advisors": [126124],
-		"wikiUrl": "https://de.wikipedia.org/wiki/georg_ludwig_könig",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Georg_Ludwig_König",
 		"degreeLists": {
 			"Artium Liberalium Magister Georg-August-Universität Göttingen 1790": "img/flags/Germany.gif",
 			"Dr. phil. hc. Christian-Albrechts-Universität zu Kiel 1817": "img/flags/Germany.gif"
-		},
-		"isProcessed": true
-	},
-	"127923": {
-		"id": 127923,
-		"name": "Aegidius Strauch",
-		"students": [127962],
-		"advisors": [74384, 127911],
-		"wikiUrl": "https://de.wikipedia.org/wiki/aegidius_strauch_ii.",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/47/Aegidius-Srauch.jpg",
-		"degreeLists": {
-			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1651": "img/flags/Germany.gif",
-			"Dr. theol. Martin-Luther-Universität Halle-Wittenberg 1657": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
 	},
@@ -2331,7 +2332,7 @@
 		"name": "Georg Erhard Hamberger",
 		"students": [60782],
 		"advisors": [191279, 125846],
-		"wikiUrl": "https://en.wikipedia.org/wiki/georg_erhard_hamberger",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Georg_Erhard_Hamberger",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Georg_Erhard_Hamberger._Line_engraving_by_M._Bernigeroth._Wellcome_V0002540.jpg",
 		"degreeLists": {
 			"Dr. phil. Friedrich-Schiller-Universität Jena 1716": "img/flags/Germany.gif",
@@ -2344,7 +2345,7 @@
 		"name": "Guillaume Budé",
 		"students": [131546],
 		"advisors": [131443, 131541],
-		"wikiUrl": "https://fr.wikipedia.org/wiki/Guillaume_Bud%C3%A9",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Guillaume_Budé",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Guillaume_Budé_by_Jean_Clouet.jpg",
 		"degreeLists": {
 			"Magister artium Université d\u0027Orléans 1486": "img/flags/France.gif",
@@ -2382,7 +2383,7 @@
 		"students": [125408],
 		"advisors": [131577],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Thomas_van_Erpe",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Thomas_Erpenius.jpg/1200px-Thomas_Erpenius.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/6/69/Thomas_Erpenius.jpg",
 		"degreeLists": {
 			"Artium Liberalium Magister Universiteit Leiden 1608": "img/flags/Netherlands.gif"
 		},
@@ -2394,7 +2395,7 @@
 		"students": [119097],
 		"advisors": [125894],
 		"wikiUrl": "https://nl.wikipedia.org/wiki/Pieter_de_Corte",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Pieter_De_Corte.jpg/1200px-Pieter_De_Corte.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Pieter_De_Corte.jpg",
 		"degreeLists": {
 			"Magister artium 1513": "img/flags/Belgium.gif",
 			"Theol. Dr. Université Catholique de Louvain 1513": "img/flags/Belgium.gif"
@@ -2406,7 +2407,7 @@
 		"name": "Maarten van Dorp",
 		"students": [125892],
 		"advisors": [125897],
-		"wikiUrl": "https://nl.wikipedia.org/wiki/Martinus_Dorpius",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Martinus_Dorpius",
 		"degreeLists": {
 			"Magister artium 1504": "img/flags/Belgium.gif",
 			"Theol. Dr. Université Catholique de Louvain 1515": "img/flags/Belgium.gif"
@@ -2431,7 +2432,7 @@
 		"students": [127803],
 		"advisors": [],
 		"wikiUrl": "https://de.wikipedia.org/wiki/Samuel_Stryk",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/SamuelStryckACFleischmann1697.jpg/1200px-SamuelStryckACFleischmann1697.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/3/39/SamuelStryckACFleischmann1697.jpg",
 		"degreeLists": {},
 		"isProcessed": true
 	},
@@ -2448,7 +2449,7 @@
 	"17865": {
 		"id": 17865,
 		"name": "Siméon Denis Poisson",
-		"students": [26995],
+		"students": [26995, 259973],
 		"advisors": [17864, 108295],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson",
 		"wikiImage": "https://en.wikipedia.org/wiki/Siméon_Denis_Poisson#/media/Simeon_Poisson.jpg",
@@ -2463,7 +2464,7 @@
 		"students": [127803],
 		"advisors": [137717, 137705, 177440],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Christian_Thomasius",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Christian_Thomasius.jpg/1200px-Christian_Thomasius.jpg",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Christian_Thomasius.jpg",
 		"degreeLists": {
 			"M. Phil. Universität Leipzig 1672": "img/flags/Germany.gif",
 			"Dr. jur. Europa-Universität Viadrina Frankfurt an der Oder 1679": "img/flags/Germany.gif"
@@ -2475,7 +2476,8 @@
 		"name": "Alexander Hegius",
 		"students": [125938],
 		"advisors": [128012, 140181],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Alexander_Hegius",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Alexander_Hegius_von_Heek",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Fantasieportret%20Alexander%20Hegius.jpg",
 		"degreeLists": {
 			"German Humanist 1474": "img/flags/Germany.gif"
 		},
@@ -2534,7 +2536,7 @@
 		"id": 131540,
 		"name": "Cristoforo Landino",
 		"students": [131535],
-		"advisors": [],
+		"advisors": [298288],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Cristoforo_Landino",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cristoforo_Landino_-_Angel_Appearing_to_Zacharias_%28detail%29.jpg",
 		"degreeLists": {},
@@ -2569,6 +2571,8 @@
 		"name": "Jacques Toussain",
 		"students": [131606, 125047],
 		"advisors": [131517],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Jacques_Toussaint",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20de%20Jacques%20Thouzat.jpg",
 		"degreeLists": {
 			"Magister artium Université de Paris 1521": "img/flags/France.gif"
 		},
@@ -2579,7 +2583,7 @@
 		"name": "C. Émile (Charles) Picard",
 		"students": [12546],
 		"advisors": [34254],
-		"wikiUrl": "https://en.wikipedia.org/wiki/émile_picard",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Émile_Picard",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/en/1/1a/Charles_Émile_Picard.jpg",
 		"degreeLists": {
 			"Ph.D. École Normale Supérieure Paris 1877": "img/flags/France.gif"
@@ -2600,8 +2604,8 @@
 		"id": 127962,
 		"name": "Michael Walther, Jr.",
 		"students": [127646, 128046],
-		"advisors": [127923, 127956],
-		"wikiUrl": "https://de.wikipedia.org/wiki/michael_walther_der_jüngere",
+		"advisors": [127956, 127801, 230796],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Michael_Walther_der_Jüngere",
 		"degreeLists": {
 			"Magister artium 1661": "img/flags/Germany.gif",
 			"Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1687": "img/flags/Germany.gif"
@@ -2635,7 +2639,7 @@
 	"125408": {
 		"id": 125408,
 		"name": "Jacobus Golius",
-		"students": [125450],
+		"students": [125450, 145708],
 		"advisors": [125302, 125378],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Jacobus_Golius",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jacob-Golius.jpg",
@@ -2662,7 +2666,7 @@
 		"name": "Melchior Jöstel",
 		"students": [127606],
 		"advisors": [127061, 127275],
-		"wikiUrl": "https://de.wikipedia.org/wiki/melchior_jöstel",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Melchior_Jöstel",
 		"degreeLists": {
 			"Magister artium 1583": "img/flags/Germany.gif",
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1600": "img/flags/Germany.gif"
@@ -2700,7 +2704,7 @@
 		"name": "August Gottlieb Meissner",
 		"students": [12540],
 		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/August_Gottlieb_Mei%C3%9Fner",
+		"wikiUrl": "https://en.wikipedia.org/wiki/August_Gottlieb_Meißner",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/August_Gottlieb_Meißner.jpg",
 		"degreeLists": {},
 		"isProcessed": true
@@ -2710,7 +2714,7 @@
 		"name": "Jan Jansz Stampioen, Jr.",
 		"students": [125561],
 		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/jan_jansz_de_jonge_stampioen",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jan_Jansz_de_Jonge_Stampioen",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/XII-3806_stampioenfrontalg1639portret.gif",
 		"degreeLists": {},
 		"isProcessed": true
@@ -2734,7 +2738,7 @@
 		"name": "Andrzej Mostowski",
 		"students": [22583],
 		"advisors": [24546, 13347],
-		"wikiUrl": "https://pl.wikipedia.org/wiki/Andrzej_Stanis%C5%82aw_Mostowski",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Andrzej_Mostowski",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/AndrzejMostowski73.jpg",
 		"degreeLists": {
 			"Ph.D. Uniwersytet Warszawski 1938": "img/flags/Poland.gif"
@@ -2758,7 +2762,7 @@
 		"name": "Basilios Bessarion",
 		"students": [131444, 126109, 131541],
 		"advisors": [131575],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Basilios_Bessarion",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Bessarion",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/1/11/Johannes_Bessarion_aport012.png",
 		"degreeLists": {
 			"Mystras 1436": "img/flags/Greece.gif"
@@ -2770,7 +2774,7 @@
 		"name": "Sebastian Dietrich",
 		"students": [127275],
 		"advisors": [126736, 126827],
-		"wikiUrl": "https://de.wikipedia.org/wiki/sebastian_theodoricus",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Sebastian_Theodoricus",
 		"degreeLists": {
 			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1544": "img/flags/Germany.gif"
 		},
@@ -2779,10 +2783,10 @@
 	"126956": {
 		"id": 126956,
 		"name": "Philipp Melanchthon",
-		"students": [128104, 182045, 127011],
+		"students": [128104, 182045, 127011, 127110],
 		"advisors": [127107, 125760],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Philip_Melanchthon",
-		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Philipp-Melanchthon-1537.jpg/1200px-Philipp-Melanchthon-1537.jpg",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Philipp_Melanchthon",
+		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/af/Philipp-Melanchthon-1537.jpg",
 		"degreeLists": {
 			"Magister artium Eberhard-Karls-Universität Tübingen 1514": "img/flags/Germany.gif",
 			"Baccalaureus artium Ruprecht-Karls-Universität Heidelberg 1511": "img/flags/Germany.gif"
@@ -2794,7 +2798,7 @@
 		"name": "Jacobus Sylvius",
 		"students": [119159],
 		"advisors": [128921, 128987],
-		"wikiUrl": "https://en.wikipedia.org/wiki/jacques_dubois",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jacques_Dubois",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/0/09/Jacobus_Sylvius_1478-1555.jpg",
 		"degreeLists": {
 			"Medicinae Dr. Université de Montpellier 1534": "img/flags/France.gif",
@@ -2807,7 +2811,7 @@
 		"name": "Sharaf al-Dīn al-Ṭūsī",
 		"students": [223724],
 		"advisors": [],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Sharaf_al-D%C4%ABn_al-%E1%B9%AC%C5%ABs%C4%AB",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Sharaf_al-Din_al-Tusi",
 		"degreeLists": {
 			"Astronomy and Mathematics 1155": "img/flags/Iran.gif"
 		},
@@ -2816,9 +2820,9 @@
 	"223724": {
 		"id": 223724,
 		"name": "Kamal al Din Ibn Yunus",
-		"students": [217509],
-		"advisors": [230926],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Sharaf_al-D%C4%ABn_al-%E1%B9%AC%C5%ABs%C4%AB",
+		"students": [217509, 287480],
+		"advisors": [230926, 287466],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Kamal_al-Din_ibn_Yunus",
 		"degreeLists": {
 			"Astronomy and Mathematics 1185": "img/flags/Iraq.gif"
 		},
@@ -2830,7 +2834,10 @@
 		"students": [136726],
 		"advisors": [],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Sigismondo_Polcastro",
-		"degreeLists": {},
+		"degreeLists": {
+			"B.A. Università degli Studi di Padova 1412": "img/flags/Italy.gif",
+			"M.D. Università degli Studi di Padova 1424": "img/flags/Italy.gif"
+		},
 		"isProcessed": true
 	},
 	"143859": {
@@ -2838,7 +2845,8 @@
 		"name": "Bartholomäus Leonhard Schwendendörffer",
 		"students": [60985],
 		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/bartholomäus_leonhard_von_schwendendörffer",
+		"wikiUrl": "https://de.wikipedia.org/wiki/Bartholomäus_Leonhard_von_Schwendendörffer",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Allegorisch%20portret%20van%20Bartholom%C3%A4us%20Leonhard%20Schwendend%C3%B6rffer%2C%20RP-P-1914-1773.jpg",
 		"degreeLists": {
 			"Dr. jur. Universität Leipzig 1656": "img/flags/Germany.gif"
 		},
@@ -2862,7 +2870,7 @@
 		"name": "Georgios Plethon Gemistos",
 		"students": [131561],
 		"advisors": [134780, 134781],
-		"wikiUrl": "https://en.wikipedia.org/wiki/Gemistus_Pletho",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Gemistos_Plethon",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Benozzo_Gozzoli%2C_Pletone%2C_Cappella_dei_Magi.jpg",
 		"degreeLists": {
 			"Byzantine Philosopher 1380": "img/flags/Constantinople.gif"
@@ -2874,7 +2882,7 @@
 		"name": "Valentin Alberti",
 		"students": [127946],
 		"advisors": [],
-		"wikiUrl": "https://de.wikipedia.org/wiki/Valentin_Alberti",
+		"wikiUrl": "https://en.wikipedia.org/wiki/Valentin_Alberti",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Valentin-Alberti.jpg",
 		"degreeLists": {
 			"Dr. theol. Universität Leipzig 1678": "img/flags/Germany.gif"
@@ -2929,6 +2937,618 @@
 			"Philosophiae Doctor Université Catholique de Louvain 1646": "img/flags/Belgium.gif",
 			"Medicinae Doctor Universiteit Leiden 1658": "img/flags/Netherlands.gif"
 		},
+		"isProcessed": true
+	},
+	"2": {
+		"id": 2,
+		"name": "Mahmut Selman Gokmen",
+		"students": [],
+		"advisors": [1],
+		"degreeLists": {
+			"Ph.D. University of Kentucky 2026": "img/flags/UnitedStates.gif"
+		},
+		"isProcessed": true
+	},
+	"55177": {
+		"id": 55177,
+		"name": "Augustin Louis Cauchy",
+		"students": [259973],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/French%20School%20-%20Portrait%20of%20Augustin-Louis%20Cauchy%20%281789-1857%29.jpg",
+		"degreeLists": {
+			"École Nationale des Ponts et Chaussées 1810": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"112689": {
+		"id": 112689,
+		"name": "Pierre Varignon",
+		"students": [294942],
+		"advisors": [143011],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Pierre_Varignon",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Varignon.%20Line%20engraving%20by%20E.%20Desrochers.%20Wellcome%20V0005993.jpg",
+		"degreeLists": {
+			"Académie royale des sciences de Paris 1687": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"122737": {
+		"id": 122737,
+		"name": "Stepan Rumovsky",
+		"students": [146776],
+		"advisors": [38586, 260114],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Stepan_Rumovsky",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Rumovsky.jpg",
+		"degreeLists": {
+			"Königliche Akademie der Wissenschaften zu Berlin": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"125379": {
+		"id": 125379,
+		"name": "Tycho (Tyge Ottesen) Brahe",
+		"students": [127098, 127606],
+		"advisors": [126875, 127092],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Tycho_Brahe",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Portr%C3%A4tt%20av%20Tycho%20Brahe%20-%20Skoklosters%20slott%20-%2090153.tif",
+		"degreeLists": {
+			"Københavns Universitet and Martin-Luther-Universität Halle-Wittenberg and Universität Leipzig 1562, 1565": "img/flags/Denmark.gif"
+		},
+		"isProcessed": true
+	},
+	"127020": {
+		"id": 127020,
+		"name": "Samuel Heyland",
+		"students": [127049],
+		"advisors": [125665],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Samuel_Heiland",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Heiland%2C%20Gem%C3%A4lde%20von%20H.U.%20Alt%201590.png",
+		"degreeLists": {
+			"Magister artium Collège Saint-Guillaume à Strasbourg 1554": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"127039": {
+		"id": 127039,
+		"name": "Philipp Apian",
+		"students": [127049],
+		"advisors": [125665, 127110],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Philipp_Apian",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/JU%20Alt%20-%20Philipp%20Apian%201590%20%28ATUSi2%29.jpg",
+		"degreeLists": {
+			"Magister artium Université Paris IV-Sorbonne and Universität Ingolstadt and Collège Saint-Guillaume à Strasbourg 1549, 1551": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"127049": {
+		"id": 127049,
+		"name": "Michael Maestlin",
+		"students": [127098],
+		"advisors": [127020, 127039],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Michael_Maestlin",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Maestlin.jpg",
+		"degreeLists": {
+			"Magister artium, Theol. Dr. Evangelischen Stift Tübingen 1571, 1576": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127098": {
+		"id": 127098,
+		"name": "Johannes Kepler",
+		"students": [127606],
+		"advisors": [125379, 127049],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20Kepler%20by%20Hans%20von%20Aachen.jpg",
+		"degreeLists": {
+			"Magister artium Evangelischen Stift Tübingen 1591": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127110": {
+		"id": 127110,
+		"name": "Michael Beuther",
+		"students": [127039],
+		"advisors": [126736, 126956],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Michael_Beuther",
+		"degreeLists": {
+			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1542": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127424": {
+		"id": 127424,
+		"name": "Erasmus Schmidt",
+		"students": [127734],
+		"advisors": [127898, 127942],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Erasmus_Schmidt_(Philologe)",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Erasmus%20Schmidt.jpg",
+		"degreeLists": {
+			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1592": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127734": {
+		"id": 127734,
+		"name": "Nicolaus Zapf",
+		"students": [127801],
+		"advisors": [127424, 127848, 189659],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Nicolaus_Zapf",
+		"degreeLists": {
+			"Magister artium Friedrich-Schiller-Universität Jena 1622": "img/flags/Germany.gif",
+			"Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1625": "img/flags/Germany.gif",
+			"Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1629": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127801": {
+		"id": 127801,
+		"name": "Aegidius Strauch",
+		"students": [127962],
+		"advisors": [127734],
+		"degreeLists": {
+			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1633": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127864": {
+		"id": 127864,
+		"name": "Nikolaus Selnecker",
+		"students": [127898],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Nikolaus_Selnecker",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Nikolaus-Selnecker.jpg",
+		"degreeLists": {
+			"Dr. theol. Martin-Luther-Universität Halle-Wittenberg 1570": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127898": {
+		"id": 127898,
+		"name": "Sethus Calvisius",
+		"students": [127424],
+		"advisors": [127790, 127864],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Sethus_Calvisius",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/SethusCalvisius.jpg",
+		"degreeLists": {
+			"Magister artium Universität Leipzig 1582": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"127942": {
+		"id": 127942,
+		"name": "Petrus Otto",
+		"students": [127424],
+		"advisors": [],
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"130913": {
+		"id": 130913,
+		"name": "Johannes (van den Driesche) Drusius",
+		"students": [145707],
+		"advisors": [130995],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johannes_van_den_Driesche",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20van%20den%20Driesche.png",
+		"degreeLists": {
+			"M.A. University of Cambridge 1572": "img/flags/UnitedKingdom.gif"
+		},
+		"isProcessed": true
+	},
+	"130995": {
+		"id": 130995,
+		"name": "Raoul (Rodolphus Cavellerius) le Chevalier",
+		"students": [130913],
+		"advisors": [131235, 131236],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Antoine_Rodolphe_Chevallier",
+		"degreeLists": {
+			"M.A. Collège de France and University of Oxford": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"131235": {
+		"id": 131235,
+		"name": "François Vatable",
+		"students": [130995],
+		"advisors": [127181, 131398],
+		"wikiUrl": "https://en.wikipedia.org/wiki/François_Vatable",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Vatable%20Francois%20Paris%20College%20de%20France%20Rue%20Saint-Jacques.JPG",
+		"degreeLists": {
+			"Magister artium Université de Paris 1511, 1513": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"131236": {
+		"id": 131236,
+		"name": "Paul (Paul Büchlein) Fagius",
+		"students": [130995],
+		"advisors": [131399, 131400],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Paul_Fagius",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Paul%20Fagius%2C%20RP-P-1915-1321.jpg",
+		"degreeLists": {
+			"Magister artium Ruprecht-Karls-Universität Heidelberg 1527": "img/flags/Germany.gif",
+			"Theologiae Doctor Collège Saint-Guillaume à Strasbourg 1537": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"131398": {
+		"id": 131398,
+		"name": "Jacques (Jacobus Faber) Lefèvre d\u0027Étaples",
+		"students": [131235],
+		"advisors": [131443, 131444],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Jacques_Lefèvre_d\u0027Étaples",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/FaberStapulensis.jpg",
+		"degreeLists": {
+			"Magister artium Université de Paris and Accademia Romana 1480": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"131400": {
+		"id": 131400,
+		"name": "Elijah ben Asher Levita",
+		"students": [131236],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Elia_Levita",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"145707": {
+		"id": 145707,
+		"name": "Constantijn l’Empereur van Oppyck",
+		"students": [145708],
+		"advisors": [130913],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Constantijn_l\u0027Empereur",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/L%27Empereur%20Constantin.jpg",
+		"degreeLists": {
+			"Theologiae Doctor Universiteit Franeker 1617": "img/flags/Netherlands.gif"
+		},
+		"isProcessed": true
+	},
+	"145708": {
+		"id": 145708,
+		"name": "Hiob Ludolf",
+		"students": [145770],
+		"advisors": [125408, 145707, 146374],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Hiob_Ludolf",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Hiob%20Ludolf%20%288166013%29.jpg",
+		"degreeLists": {
+			"Juris Dr. Universität Erfurt 1645": "img/flags/Germany.gif",
+			"M.A. Universiteit Leiden 1646": "img/flags/Netherlands.gif"
+		},
+		"isProcessed": true
+	},
+	"145770": {
+		"id": 145770,
+		"name": "Johann Heinrich Michaelis",
+		"students": [146035],
+		"advisors": [145708, 146034],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Johann_Heinrich_Michaelis",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann-Heinrich-Michaelis.jpg",
+		"degreeLists": {
+			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1694": "img/flags/Germany.gif",
+			"Europa-Universität Viadrina Frankfurt an der Oder 1699": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"146034": {
+		"id": 146034,
+		"name": "August Hermann Francke",
+		"students": [145770],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/August_Hermann_Francke",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/FranckescheStiftungen%201.jpg",
+		"degreeLists": {
+			"M.Phil. Universität Leipzig 1685": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"146035": {
+		"id": 146035,
+		"name": "Christian Benedict Michaelis",
+		"students": [208259],
+		"advisors": [145770],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Christian_Benedikt_Michaelis",
+		"degreeLists": {
+			"Magister artium Martin-Luther-Universität Halle-Wittenberg 1706": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"146374": {
+		"id": 146374,
+		"name": "Johann Möller",
+		"students": [145708],
+		"advisors": [],
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"157307": {
+		"id": 157307,
+		"name": "Erhard Pfautz",
+		"students": [157308],
+		"advisors": [230794],
+		"degreeLists": {
+			"Dr. phil. Universität Augsburg 1659": "img/flags/Germany.gif",
+			"Dr. phil. Universität Leipzig 1662": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"157308": {
+		"id": 157308,
+		"name": "Christoph Pfautz",
+		"students": [47793],
+		"advisors": [157307],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Christoph_Pfautz",
+		"degreeLists": {
+			"Dr. phil. Universität Leipzig 1663": "img/flags/Germany.gif",
+			"Dr. phil. Universität Leipzig 1668": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"189659": {
+		"id": 189659,
+		"name": "Abraham Heinecke",
+		"students": [127734],
+		"advisors": [],
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"221100": {
+		"id": 221100,
+		"name": "Leonhard Etzler",
+		"students": [221101],
+		"advisors": [],
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"221101": {
+		"id": 221101,
+		"name": "Anton Euonymus",
+		"students": [127606],
+		"advisors": [221100],
+		"degreeLists": {
+			"Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1583": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"224249": {
+		"id": 224249,
+		"name": "Reinhard Bachoff von Echt",
+		"students": [200006],
+		"advisors": [],
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Bachoff%20von%20Echt%2C%20Reiner%20%E2%80%93%20In%20institutionum%20iuris%20divi%20Iustiniani%20libros%20quatuor%20commentarii%20theorici%20et%20practici%2C%201643%20%E2%80%93%20BEIC%2013672106.jpg",
+		"degreeLists": {
+			"Dr. jur. Ruprecht-Karls-Universität Heidelberg 1598": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"228334": {
+		"id": 228334,
+		"name": "Johann Wilhelm Baier",
+		"students": [127646],
+		"advisors": [232627],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Johann_Wilhelm_Baier",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Joh%20Wilhelm%20Baier%20theol..jpg",
+		"degreeLists": {
+			"Dr. theol. Friedrich-Schiller-Universität Jena 1673": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"230794": {
+		"id": 230794,
+		"name": "Johann Daniel Arcularius",
+		"students": [157307],
+		"advisors": [],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Johann_Daniel_Arcularius",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"230796": {
+		"id": 230796,
+		"name": "Constantin Ziegra",
+		"students": [127962],
+		"advisors": [],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Konstantin_Ziegra",
+		"degreeLists": {
+			"M.A. Martin-Luther-Universität Halle-Wittenberg 1640": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"232227": {
+		"id": 232227,
+		"name": "Paolo (Nicoletti) da Venezia",
+		"students": [148882, 232228],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Paul_of_Venice",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg%20Chronicles%20f%20237r%202%20Paulus%20venetus.jpg",
+		"degreeLists": {
+			"Università degli Studi di Padova 1405": "img/flags/Italy.gif"
+		},
+		"isProcessed": true
+	},
+	"232228": {
+		"id": 232228,
+		"name": "Paolo da Pergola",
+		"students": [152902],
+		"advisors": [232227],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Paolo_della_Pergola",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"232627": {
+		"id": 232627,
+		"name": "Sebastian Niemann",
+		"students": [228334],
+		"advisors": [],
+		"wikiUrl": "https://de.wikipedia.org/wiki/Sebastian_Niemann_(Theologe)",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"259973": {
+		"id": 259973,
+		"name": "Mikhail Vasilyevich Ostrogradsky",
+		"students": [12541],
+		"advisors": [17865, 55177],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Mikhail_Ostrogradsky",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/PGRS%202%20069%20Ostrogradski%20-%20crop.jpg",
+		"degreeLists": {
+			"Ph.D. Université de Paris 1823": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"260114": {
+		"id": 260114,
+		"name": "Mikhail Vasilyevich Lomonosov",
+		"students": [122737],
+		"advisors": [47793],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Mikhail_Lomonosov",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/M.V.%20Lomonosov%20by%20L.Miropolskiy%20after%20G.C.Prenner%20%281787%2C%20RAN%29.jpg",
+		"degreeLists": {
+			"Ph.D. Philipps-Universität Marburg 1739": "img/flags/Germany.gif"
+		},
+		"isProcessed": true
+	},
+	"287466": {
+		"id": 287466,
+		"name": "Saraf al-Dīn Muhammad al-Masʿūdī al-Marwazī",
+		"students": [223724, 287478],
+		"advisors": [295739],
+		"degreeLists": {
+			"Polymath": ""
+		},
+		"isProcessed": true
+	},
+	"287468": {
+		"id": 287468,
+		"name": "Bahmanyār ibn al-Marzubān",
+		"students": [295739],
+		"advisors": [298616],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Bahmanyar",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0smailiyye%20palace%20Bust%20of%20Bahmanyar%20Al-Azerbaijani.JPG",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"287478": {
+		"id": 287478,
+		"name": "Fakhr al-Dīn Muhammad al-Rēzī",
+		"students": [287479],
+		"advisors": [287466],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Fakhr_al-Din_al-Razi",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"287479": {
+		"id": 287479,
+		"name": "Qutb al-Dīn Ibrāhīm al-Mīṣrī",
+		"students": [287480],
+		"advisors": [287478],
+		"degreeLists": {
+			"1222": ""
+		},
+		"isProcessed": true
+	},
+	"287480": {
+		"id": 287480,
+		"name": "Athīr al-Dīn al-Mufaḍḍal al-Abharī",
+		"students": [217509],
+		"advisors": [223724, 287479],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Athir_al-Din_al-Abhari",
+		"degreeLists": {
+			"1264": ""
+		},
+		"isProcessed": true
+	},
+	"294942": {
+		"id": 294942,
+		"name": "Léonor Caron",
+		"students": [108266],
+		"advisors": [112689],
+		"degreeLists": {
+			"Maitre-es-arts Collège Mazarin 1710": "img/flags/France.gif"
+		},
+		"isProcessed": true
+	},
+	"295739": {
+		"id": 295739,
+		"name": "Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī",
+		"students": [287466],
+		"advisors": [287468],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Omar_Khayyam",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Omar%20Khayyam2.JPG",
+		"degreeLists": {
+			"1068": ""
+		},
+		"isProcessed": true
+	},
+	"298288": {
+		"id": 298288,
+		"name": "George of Trebizond",
+		"students": [131540],
+		"advisors": [134873],
+		"wikiUrl": "https://en.wikipedia.org/wiki/George_of_Trebizond",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Georg%20Trapezuntius%2C%20RP-P-1909-4357.jpg",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"298290": {
+		"id": 298290,
+		"name": "Gasparino da Barzizza",
+		"students": [134873],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Gasparino_Barzizza",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Barzizza-gasparino-salvioni-anton-fritz-1723.jpg",
+		"degreeLists": {
+			"Università degli Studi di Padova 1413": "img/flags/Italy.gif"
+		},
+		"isProcessed": true
+	},
+	"298304": {
+		"id": 298304,
+		"name": "Giovanni Conversini",
+		"students": [134873, 134931],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Giovanni_Conversini",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Laurentius%20de%20Voltolina%20001.jpg",
+		"degreeLists": {
+			"Università di Bologna 1363": "img/flags/Italy.gif"
+		},
+		"isProcessed": true
+	},
+	"298616": {
+		"id": 298616,
+		"name": "Abu ʿAli al-Husayn (Avicenna) ibn Sina",
+		"students": [287468],
+		"advisors": [310782, 316872, 316873],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Avicenna",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Pursina.jpg",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"310782": {
+		"id": 310782,
+		"name": "Abu Sahl \u0027Isa ibn Yahya al-Masihi",
+		"students": [298616],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Abu_Sahl_\u0027Isa_ibn_Yahya_al-Masihi",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"316872": {
+		"id": 316872,
+		"name": "Abu Abdallah Al-Husayn ibn Ibrahim al-Natili",
+		"students": [298616],
+		"advisors": [],
+		"wikiUrl": "https://fa.wikipedia.org/wiki/ابو_عبدالله_ناتلی",
+		"degreeLists": {},
+		"isProcessed": true
+	},
+	"316873": {
+		"id": 316873,
+		"name": "Abu Mansur al-Hasan ibn Nuh al-Qumri",
+		"students": [298616],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Qumri",
+		"wikiImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Colophon%2C%20MS%20Arabe%202220.png",
+		"degreeLists": {},
 		"isProcessed": true
 	}
 }

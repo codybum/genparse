@@ -1,0 +1,6539 @@
+{
+ "fetched": "2026-11-25",
+ "source": "Mathematics Genealogy Project",
+ "records": {
+  "489": {
+   "name": "Andrzej Mostowski",
+   "degrees": [
+    {
+     "text": "Ph.D. Uniwersytet Warszawski 1938",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 24546,
+     "name": "Kazimierz Kuratowski",
+     "relation": "Advisor"
+    },
+    {
+     "id": 13347,
+     "name": "Alfred Tarski",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 19,
+   "url": "https://www.mathgenealogy.org/id.php?id=489"
+  },
+  "12540": {
+   "name": "Joseph Johann von Littrow",
+   "degrees": [
+    {
+     "text": "Dr. phil. h.c. Universität Wien 1838",
+     "flags": [
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=12540"
+  },
+  "12541": {
+   "name": "Nikolai Dmitrievich Brashman",
+   "degrees": [
+    {
+     "text": "Ph.D. Kazan State University and Lomonosov Moscow State University 1834",
+     "flags": [
+      "img/flags/Russia.gif",
+      "img/flags/Russia.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12540,
+     "name": "Joseph Johann von Littrow",
+     "relation": "Advisor"
+    },
+    {
+     "id": 146776,
+     "name": "Nikolai Ivanovich Lobachevsky",
+     "relation": "Advisor"
+    },
+    {
+     "id": 259973,
+     "name": "Mikhail Vasilyevich Ostrogradsky",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=12541"
+  },
+  "12542": {
+   "name": "Pafnuty Lvovich Chebyshev",
+   "degrees": [
+    {
+     "text": "Ph.D. St. Petersburg State University 1849",
+     "flags": [
+      "img/flags/Russia.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12541,
+     "name": "Nikolai Dmitrievich Brashman",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 8,
+   "url": "https://www.mathgenealogy.org/id.php?id=12542"
+  },
+  "12543": {
+   "name": "Andrei Andreyevich Markov",
+   "degrees": [
+    {
+     "text": "Ph.D. St. Petersburg State University 1884",
+     "flags": [
+      "img/flags/Russia.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12542,
+     "name": "Pafnuty Lvovich Chebyshev",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 7,
+   "url": "https://www.mathgenealogy.org/id.php?id=12543"
+  },
+  "12544": {
+   "name": "Georgy Fedoseevich Voronoy",
+   "degrees": [
+    {
+     "text": "Ph.D. St. Petersburg State University 1896",
+     "flags": [
+      "img/flags/Russia.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12543,
+     "name": "Andrei Andreyevich Markov",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=12544"
+  },
+  "12545": {
+   "name": "Wacław Franciszek Sierpiński",
+   "degrees": [
+    {
+     "text": "Ph.D. Uniwersytet Jagielloński 1906",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12546,
+     "name": "Stanislaw Zaremba",
+     "relation": "Advisor"
+    },
+    {
+     "id": 12544,
+     "name": "Georgy Fedoseevich Voronoy",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 11,
+   "url": "https://www.mathgenealogy.org/id.php?id=12545"
+  },
+  "12546": {
+   "name": "Stanislaw Zaremba",
+   "degrees": [
+    {
+     "text": "Ph.D. Université Paris IV-Sorbonne 1889",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 34254,
+     "name": "Gaston Darboux",
+     "relation": "Advisor"
+    },
+    {
+     "id": 34266,
+     "name": "C. Émile (Charles) Picard",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 9,
+   "url": "https://www.mathgenealogy.org/id.php?id=12546"
+  },
+  "12547": {
+   "name": "Stefan Mazurkiewicz",
+   "degrees": [
+    {
+     "text": "Ph.D. University of Lwów 1913",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12545,
+     "name": "Wacław Franciszek Sierpiński",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 8,
+   "url": "https://www.mathgenealogy.org/id.php?id=12547"
+  },
+  "13344": {
+   "name": "Kazimierz Twardowski",
+   "degrees": [
+    {
+     "text": "Ph.D. Universität Wien 1891",
+     "flags": [
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 15176,
+     "name": "Franz Clemens Brentano",
+     "relation": "Mentor"
+    },
+    {
+     "id": 141831,
+     "name": "Robert Zimmermann",
+     "relation": "Official Advisor"
+    }
+   ],
+   "students_listed": 8,
+   "url": "https://www.mathgenealogy.org/id.php?id=13344"
+  },
+  "13345": {
+   "name": "Stanislaw Lesniewski",
+   "degrees": [
+    {
+     "text": "Ph.D. University of Lwów 1912",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 13344,
+     "name": "Kazimierz Twardowski",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=13345"
+  },
+  "13347": {
+   "name": "Alfred Tarski",
+   "degrees": [
+    {
+     "text": "Ph.D. Uniwersytet Warszawski 1924",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 13345,
+     "name": "Stanislaw Lesniewski",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 27,
+   "url": "https://www.mathgenealogy.org/id.php?id=13347"
+  },
+  "15176": {
+   "name": "Franz Clemens Brentano",
+   "degrees": [
+    {
+     "text": "Ph.D. Eberhard-Karls-Universität Tübingen 1862",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 28227,
+     "name": "Franz Jakob Clemens",
+     "relation": "Advisor"
+    },
+    {
+     "id": 60803,
+     "name": "Friedrich Adolf Trendelenburg",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=15176"
+  },
+  "17864": {
+   "name": "Joseph Louis Lagrange",
+   "degrees": [
+    {
+     "text": "no degree",
+     "flags": []
+    },
+    {
+     "text": "B.A. Università di Torino 1754",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 38586,
+     "name": "Leonhard Euler",
+     "relation": "Advisor"
+    },
+    {
+     "id": 146036,
+     "name": "Giovanni Battista (Giambattista) Beccaria",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=17864"
+  },
+  "17865": {
+   "name": "Siméon Denis Poisson",
+   "degrees": [
+    {
+     "text": "Ph.D. École Polytechnique 1800",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 17864,
+     "name": "Joseph Louis Lagrange",
+     "relation": "Advisor"
+    },
+    {
+     "id": 108295,
+     "name": "Pierre-Simon Laplace",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=17865"
+  },
+  "18230": {
+   "name": "Johann Friedrich Pfaff",
+   "degrees": [
+    {
+     "text": "Dr. phil. Georg-August-Universität Göttingen 1786",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 66476,
+     "name": "Abraham Gotthelf Kästner",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127710,
+     "name": "Johann Elert Bode",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 6,
+   "url": "https://www.mathgenealogy.org/id.php?id=18230"
+  },
+  "21235": {
+   "name": "Otto Mencke",
+   "degrees": [
+    {
+     "text": "Ph.D. Universität Leipzig 1665",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 137705,
+     "name": "Jakob Thomasius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=21235"
+  },
+  "22583": {
+   "name": "Wiktor Marek",
+   "degrees": [
+    {
+     "text": "Ph.D. Uniwersytet Warszawski 1968",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 489,
+     "name": "Andrzej Mostowski",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 8,
+   "url": "https://www.mathgenealogy.org/id.php?id=22583"
+  },
+  "24546": {
+   "name": "Kazimierz Kuratowski",
+   "degrees": [
+    {
+     "text": "Ph.D. Uniwersytet Warszawski 1921",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 12547,
+     "name": "Stefan Mazurkiewicz",
+     "relation": "Advisor"
+    },
+    {
+     "id": 86692,
+     "name": "Zygmunt Janiszewski",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 8,
+   "url": "https://www.mathgenealogy.org/id.php?id=24546"
+  },
+  "26995": {
+   "name": "Michel Chasles",
+   "degrees": [
+    {
+     "text": "Ph.D. École Polytechnique 1814",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 17865,
+     "name": "Siméon Denis Poisson",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=26995"
+  },
+  "28227": {
+   "name": "Franz Jakob Clemens",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Berlin 1839",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=28227"
+  },
+  "34254": {
+   "name": "Gaston Darboux",
+   "degrees": [
+    {
+     "text": "Ph.D. Université de Paris 1866",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 26995,
+     "name": "Michel Chasles",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 12,
+   "url": "https://www.mathgenealogy.org/id.php?id=34254"
+  },
+  "34266": {
+   "name": "C. Émile (Charles) Picard",
+   "degrees": [
+    {
+     "text": "Ph.D. Université de Paris 1877",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 34254,
+     "name": "Gaston Darboux",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 27,
+   "url": "https://www.mathgenealogy.org/id.php?id=34266"
+  },
+  "35141": {
+   "name": "Karl Reinhold",
+   "degrees": [
+    {
+     "text": "Ph.D. Friedrich-Schiller-Universität Jena 1787",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 106921,
+     "name": "Immanuel Kant",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=35141"
+  },
+  "38586": {
+   "name": "Leonhard Euler",
+   "degrees": [
+    {
+     "text": "Universität Basel 1726",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 53410,
+     "name": "Johann Bernoulli",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 6,
+   "url": "https://www.mathgenealogy.org/id.php?id=38586"
+  },
+  "39071": {
+   "name": "Émile Borel",
+   "degrees": [
+    {
+     "text": "Ph.D. École Normale Supérieure Paris 1893",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 34254,
+     "name": "Gaston Darboux",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 16,
+   "url": "https://www.mathgenealogy.org/id.php?id=39071"
+  },
+  "47793": {
+   "name": "Christian M. von Wolff",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Leipzig 1703",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 113719,
+     "name": "Ehrenfried Walter von Tschirnhaus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 60985,
+     "name": "Gottfried Wilhelm Leibniz",
+     "relation": "Advisor"
+    },
+    {
+     "id": 157308,
+     "name": "Christoph Pfautz",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=47793"
+  },
+  "53410": {
+   "name": "Johann Bernoulli",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1690, 1694",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 54440,
+     "name": "Jacob Bernoulli",
+     "relation": "Advisor"
+    },
+    {
+     "id": 129628,
+     "name": "Nikolaus Eglinger",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=53410"
+  },
+  "54440": {
+   "name": "Jacob Bernoulli",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Universität Basel 1676",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    },
+    {
+     "text": "Dr. hab. Sci. Universität Basel 1684",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143084,
+     "name": "Peter Werenfels",
+     "relation": "Advisor"
+    },
+    {
+     "id": 143011,
+     "name": "Nicolas Malebranche",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=54440"
+  },
+  "55177": {
+   "name": "Augustin Louis Cauchy",
+   "degrees": [
+    {
+     "text": "École Nationale des Ponts et Chaussées 1810",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=55177"
+  },
+  "57670": {
+   "name": "Christian August Hausen",
+   "degrees": [
+    {
+     "text": "Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1713",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 72669,
+     "name": "Johann Christoph Wichmannshausen",
+     "relation": "Advisor"
+    },
+    {
+     "id": 128986,
+     "name": "Johann Andreas Planer",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=57670"
+  },
+  "60782": {
+   "name": "Johann Andreas Segner",
+   "degrees": [
+    {
+     "text": "D.Phil. Friedrich-Schiller-Universität Jena 1725",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1726",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1730",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1734",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125886,
+     "name": "Georg Erhard Hamberger",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125971,
+     "name": "Simon Paul Hilscher",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=60782"
+  },
+  "60803": {
+   "name": "Friedrich Adolf Trendelenburg",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Berlin 1826",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126894,
+     "name": "Georg Ludwig König",
+     "relation": "Advisor"
+    },
+    {
+     "id": 35141,
+     "name": "Karl Reinhold",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 8,
+   "url": "https://www.mathgenealogy.org/id.php?id=60803"
+  },
+  "60984": {
+   "name": "Erhard Weigel",
+   "degrees": [
+    {
+     "text": "Ph.D. Universität Leipzig 1650",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 144221,
+     "name": "Philipp Müller",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 15,
+   "url": "https://www.mathgenealogy.org/id.php?id=60984"
+  },
+  "60985": {
+   "name": "Gottfried Wilhelm Leibniz",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Leipzig 1666",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. jur. Universität Altdorf 1667",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Académie royale des sciences de Paris 1676",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 137705,
+     "name": "Jakob Thomasius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 60984,
+     "name": "Erhard Weigel",
+     "relation": "Advisor"
+    },
+    {
+     "id": 143859,
+     "name": "Bartholomäus Leonhard Schwendendörffer",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125561,
+     "name": "Christiaan Huygens",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=60985"
+  },
+  "65161": {
+   "name": "Georg Christoph Lichtenberg",
+   "degrees": [
+    {
+     "text": "Dr. phil. Georg-August-Universität Göttingen 1765",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 66476,
+     "name": "Abraham Gotthelf Kästner",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 7,
+   "url": "https://www.mathgenealogy.org/id.php?id=65161"
+  },
+  "66476": {
+   "name": "Abraham Gotthelf Kästner",
+   "degrees": [
+    {
+     "text": "Ph.D. Universität Leipzig 1739",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 57670,
+     "name": "Christian August Hausen",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 12,
+   "url": "https://www.mathgenealogy.org/id.php?id=66476"
+  },
+  "72669": {
+   "name": "Johann Christoph Wichmannshausen",
+   "degrees": [
+    {
+     "text": "M.A. Universität Leipzig 1685",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 21235,
+     "name": "Otto Mencke",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=72669"
+  },
+  "74384": {
+   "name": "Abraham Klein (Calovius)",
+   "degrees": [
+    {
+     "text": "Dr. theol. Universität Rostock 1632",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=74384"
+  },
+  "76481": {
+   "name": "Elias Rudolph Camerarius, Sr.",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Eberhard-Karls-Universität Tübingen 1663",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 123974,
+     "name": "Georg Balthasar Metzger",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=76481"
+  },
+  "86692": {
+   "name": "Zygmunt Janiszewski",
+   "degrees": [
+    {
+     "text": "Ph.D. 1911",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 86693,
+     "name": "Henri Léon Lebesgue",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=86692"
+  },
+  "86693": {
+   "name": "Henri Léon Lebesgue",
+   "degrees": [
+    {
+     "text": "D.Sc. Faculté des Sciences, Paris 1902",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 39071,
+     "name": "Émile Borel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 7,
+   "url": "https://www.mathgenealogy.org/id.php?id=86693"
+  },
+  "96327": {
+   "name": "Franz Josef Ritter von Gerstner",
+   "degrees": [
+    {
+     "text": "Mag. astr. Karl-Ferdinand-Universität Prag 1776",
+     "flags": [
+      "img/flags/CzechRepublic.gif"
+     ]
+    },
+    {
+     "text": "Mag. phil. Karl-Ferdinand-Universität Prag 1777",
+     "flags": [
+      "img/flags/CzechRepublic.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143129,
+     "name": "Joseph Stepling",
+     "relation": "Advisor"
+    },
+    {
+     "id": 143091,
+     "name": "Jan Tesánek",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=96327"
+  },
+  "96330": {
+   "name": "Bernard(us) Placidus Johann Nepomuk Bolzano",
+   "degrees": [
+    {
+     "text": "Dr. phil. University of Prague 1805",
+     "flags": [
+      "img/flags/CzechRepublic.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 96327,
+     "name": "Franz Josef Ritter von Gerstner",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=96330"
+  },
+  "101860": {
+   "name": "Franciscus de le Boë Sylvius",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universiteit Leiden and Universität Basel 1634, 1637",
+     "flags": [
+      "img/flags/Netherlands.gif",
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125023,
+     "name": "Adolph Vorstius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125125,
+     "name": "Emmanuel Stupanus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 11,
+   "url": "https://www.mathgenealogy.org/id.php?id=101860"
+  },
+  "106921": {
+   "name": "Immanuel Kant",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Königsberg 1770",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 106922,
+     "name": "Martin Knutzen",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=106921"
+  },
+  "106922": {
+   "name": "Martin Knutzen",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Königsberg 1732",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 47793,
+     "name": "Christian M. von Wolff",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=106922"
+  },
+  "108266": {
+   "name": "Jean Le Rond d'Alembert",
+   "degrees": [
+    {
+     "text": "Maitre-es-arts Collège Mazarin 1735",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 294942,
+     "name": "Léonor Caron",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=108266"
+  },
+  "108295": {
+   "name": "Pierre-Simon Laplace",
+   "degrees": [
+    {
+     "text": "Maitrise es arts Université de Caen Normandie 1769",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 108266,
+     "name": "Jean Le Rond d'Alembert",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=108295"
+  },
+  "112689": {
+   "name": "Pierre Varignon",
+   "degrees": [
+    {
+     "text": "Académie royale des sciences de Paris 1687",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143011,
+     "name": "Nicolas Malebranche",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=112689"
+  },
+  "113719": {
+   "name": "Ehrenfried Walter von Tschirnhaus",
+   "degrees": [
+    {
+     "text": "Magister philosophiae, Medicinae Doctor Universiteit Leiden 1669, 1674",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 119293,
+     "name": "Arnold Geulincx",
+     "relation": "Advisor"
+    },
+    {
+     "id": 101860,
+     "name": "Franciscus de le Boë Sylvius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 132725,
+     "name": "Pieter van Schooten",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=113719"
+  },
+  "114992": {
+   "name": "Gilbert Jacchaeus",
+   "degrees": [
+    {
+     "text": "Phil. Dr University of St. Andrews 1601",
+     "flags": [
+      "img/flags/UnitedKingdom.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr Universität Helmstedt 1603",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Med. D. Universiteit Leiden 1611",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128122,
+     "name": "Duncan Liddel",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126489,
+     "name": "Jacobus (Jacob Harmensz.) Arminius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=114992"
+  },
+  "119097": {
+   "name": "Gemma (Jemme Reinerszoon) Frisius",
+   "degrees": [
+    {
+     "text": "Magister Philosophiae, Medicinae Doctor Université Catholique de Louvain 1529, 1536",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125892,
+     "name": "Petrus (Pieter de Corte) Curtius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=119097"
+  },
+  "119159": {
+   "name": "Johannes Winter von Andernach",
+   "degrees": [
+    {
+     "text": "Magister artium Université Catholique de Louvain 1527",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    },
+    {
+     "text": "Med. Dr. Collège de Tréguier 1532",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126571,
+     "name": "Rutger Rescius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125422,
+     "name": "Jacobus (Jacques Dubois) Sylvius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=119159"
+  },
+  "119178": {
+   "name": "Andreas (Andries van Wesel) Vesalius",
+   "degrees": [
+    {
+     "text": "Medicinae Doctor Università degli Studi di Padova and Université Catholique de Louvain 1537",
+     "flags": [
+      "img/flags/Italy.gif",
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 119159,
+     "name": "Johannes Winter von Andernach",
+     "relation": "Advisor"
+    },
+    {
+     "id": 119097,
+     "name": "Gemma (Jemme Reinerszoon) Frisius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 152904,
+     "name": "Giovanni Battista della Monte",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=119178"
+  },
+  "119254": {
+   "name": "Justus (Joost Lips) Lipsius",
+   "degrees": [
+    {
+     "text": "Magister Philosophiae Université Catholique de Louvain 1569",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=119254"
+  },
+  "119272": {
+   "name": "Erycius (Henrick van den Putte) Puteanus",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister, Juris utriusque Doctor Universität zu Köln and Université Catholique de Louvain 1595",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 119254,
+     "name": "Justus (Joost Lips) Lipsius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=119272"
+  },
+  "119293": {
+   "name": "Arnold Geulincx",
+   "degrees": [
+    {
+     "text": "Philosophiae Doctor Université Catholique de Louvain 1646",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Doctor Universiteit Leiden 1658",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 119272,
+     "name": "Erycius (Henrick van den Putte) Puteanus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=119293"
+  },
+  "122737": {
+   "name": "Stepan Rumovsky",
+   "degrees": [
+    {
+     "text": "Königliche Akademie der Wissenschaften zu Berlin",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 38586,
+     "name": "Leonhard Euler",
+     "relation": "Advisor"
+    },
+    {
+     "id": 260114,
+     "name": "Mikhail Vasilyevich Lomonosov",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=122737"
+  },
+  "123974": {
+   "name": "Georg Balthasar Metzger",
+   "degrees": [
+    {
+     "text": "Magister Artium Friedrich-Schiller-Universität Jena 1646",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Doctor Universität Basel 1650",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 182089,
+     "name": "Gottfried Möbius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 182088,
+     "name": "Johann Jakob von Brunn",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=123974"
+  },
+  "124000": {
+   "name": "Rudolf Wilhelm Krause",
+   "degrees": [
+    {
+     "text": "Med. D. Athenaeum Illustre Amsterdam 1667",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Universiteit Leiden 1671",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 208258,
+     "name": "Gerardus Leonardus Blasius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 101860,
+     "name": "Franciscus de le Boë Sylvius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=124000"
+  },
+  "125006": {
+   "name": "Adriaan van den Spieghel",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova and Université Catholique de Louvain 1603",
+     "flags": [
+      "img/flags/Italy.gif",
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125109,
+     "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125006"
+  },
+  "125023": {
+   "name": "Adolph Vorstius",
+   "degrees": [
+    {
+     "text": "Philosophiae Dr. Universiteit Leiden 1619",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1622",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 114992,
+     "name": "Gilbert Jacchaeus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125006,
+     "name": "Adriaan van den Spieghel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=125023"
+  },
+  "125047": {
+   "name": "Petrus (Pierre de La Ramée) Ramus",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Collège de Navarre 1536",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125665,
+     "name": "Johannes (Johann Sturm) Sturmius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131546,
+     "name": "Jacques Toussain",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125047"
+  },
+  "125048": {
+   "name": "Johannes Nicolaus Stupanus",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1569",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125148,
+     "name": "Theodor Zwinger",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125048"
+  },
+  "125109": {
+   "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1559",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125142,
+     "name": "Gabriele Falloppio",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=125109"
+  },
+  "125125": {
+   "name": "Emmanuel Stupanus",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1613",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 130248,
+     "name": "Petrus Ryff",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125125"
+  },
+  "125142": {
+   "name": "Gabriele Falloppio",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova and Università degli Studi di Ferrara 1547",
+     "flags": [
+      "img/flags/Italy.gif",
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127245,
+     "name": "Antonio Musa Brasavola",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125303,
+     "name": "Matteo Realdo (Renaldus Columbus) Colombo",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125142"
+  },
+  "125148": {
+   "name": "Theodor Zwinger",
+   "degrees": [
+    {
+     "text": "Magister artium Collège de France 1553",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1559",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125047,
+     "name": "Petrus (Pierre de La Ramée) Ramus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 152906,
+     "name": "Bassiano Landi",
+     "relation": "Advisor"
+    },
+    {
+     "id": 152905,
+     "name": "Vittore Trincavelli",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=125148"
+  },
+  "125154": {
+   "name": "Werner Rolfinck",
+   "degrees": [
+    {
+     "text": "Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1618",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1625",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126111,
+     "name": "Daniel Sennert",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125006,
+     "name": "Adriaan van den Spieghel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=125154"
+  },
+  "125159": {
+   "name": "Immanuel Tremellius",
+   "degrees": [
+    {
+     "text": "Dr. theol. University of Cambridge 1549",
+     "flags": [
+      "img/flags/UnitedKingdom.gif"
+     ]
+    },
+    {
+     "text": "D. theol. Ruprecht-Karls-Universität Heidelberg 1561",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 141571,
+     "name": "Thomas Cranmer",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125159"
+  },
+  "125160": {
+   "name": "Valentine Naibod",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg and Universität Erfurt",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126736,
+     "name": "Erasmus Reinhold",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125160"
+  },
+  "125181": {
+   "name": "Rudolph (Snel van Royen) Snellius",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Ruprecht-Karls-Universität Heidelberg and Universität zu Köln 1572",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125160,
+     "name": "Valentine Naibod",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125159,
+     "name": "Immanuel Tremellius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=125181"
+  },
+  "125232": {
+   "name": "Ludolph van Ceulen",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=125232"
+  },
+  "125302": {
+   "name": "Willebrord (Snel van Royen) Snellius",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Universiteit Leiden 1607",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125232,
+     "name": "Ludolph van Ceulen",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125181,
+     "name": "Rudolph (Snel van Royen) Snellius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125302"
+  },
+  "125303": {
+   "name": "Matteo Realdo (Renaldus Columbus) Colombo",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1544",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 119178,
+     "name": "Andreas (Andries van Wesel) Vesalius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125303"
+  },
+  "125378": {
+   "name": "Thomas Erpenius",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Universiteit Leiden 1608",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131577,
+     "name": "Joseph Justus Scaliger",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125378"
+  },
+  "125379": {
+   "name": "Tycho (Tyge Ottesen) Brahe",
+   "degrees": [
+    {
+     "text": "Københavns Universitet and Martin-Luther-Universität Halle-Wittenberg and Universität Leipzig 1562, 1565",
+     "flags": [
+      "img/flags/Denmark.gif",
+      "img/flags/Germany.gif",
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127092,
+     "name": "Valentin Thau",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126875,
+     "name": "Caspar Peucer",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125379"
+  },
+  "125408": {
+   "name": "Jacobus Golius",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister, Philosophiae Doctor Universiteit Leiden 1612, 1621",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125302,
+     "name": "Willebrord (Snel van Royen) Snellius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125378,
+     "name": "Thomas Erpenius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125408"
+  },
+  "125416": {
+   "name": "Jan Jansz Stampioen, Jr.",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125416"
+  },
+  "125422": {
+   "name": "Jacobus (Jacques Dubois) Sylvius",
+   "degrees": [
+    {
+     "text": "M.B. Université de Paris 1529",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Université de Montpellier 1530",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128987,
+     "name": "François Dubois",
+     "relation": "Advisor"
+    },
+    {
+     "id": 128921,
+     "name": "Jean Tagault",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125422"
+  },
+  "125434": {
+   "name": "Marin Mersenne",
+   "degrees": [
+    {
+     "text": "Magister artium Philosophae Université de Paris 1611",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125434"
+  },
+  "125450": {
+   "name": "Frans van Schooten, Jr.",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Universiteit Leiden 1635",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125408,
+     "name": "Jacobus Golius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125434,
+     "name": "Marin Mersenne",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=125450"
+  },
+  "125488": {
+   "name": "Georg Wolffgang Wedel",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena and Universiteit Leiden 1667",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125154,
+     "name": "Werner Rolfinck",
+     "relation": "Advisor"
+    },
+    {
+     "id": 101860,
+     "name": "Franciscus de le Boë Sylvius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=125488"
+  },
+  "125561": {
+   "name": "Christiaan Huygens",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Universiteit Leiden 1647",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    },
+    {
+     "text": "Juris utriusque Doctor Université d'Angers 1655",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125450,
+     "name": "Frans van Schooten, Jr.",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125416,
+     "name": "Jan Jansz Stampioen, Jr.",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125561"
+  },
+  "125658": {
+   "name": "Nicolas (Nicolaes Cleynaerts) Clénard",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Université Catholique de Louvain 1515, 1521",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125681,
+     "name": "Jacobus (Jacques Masson) Latomus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125682,
+     "name": "Jan (Johannes Campensis) van Campen",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125658"
+  },
+  "125665": {
+   "name": "Johannes (Johann Sturm) Sturmius",
+   "degrees": [
+    {
+     "text": "Magister artium Université Catholique de Louvain 1527",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125658,
+     "name": "Nicolas (Nicolaes Cleynaerts) Clénard",
+     "relation": "Advisor"
+    },
+    {
+     "id": 119159,
+     "name": "Johannes Winter von Andernach",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=125665"
+  },
+  "125681": {
+   "name": "Jacobus (Jacques Masson) Latomus",
+   "degrees": [
+    {
+     "text": "Magister artium Collège de Montaigu 1502",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Dr. theol. Katholieke Universiteit Leuven 1519",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125888,
+     "name": "Jan Standonck",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125681"
+  },
+  "125682": {
+   "name": "Jan (Johannes Campensis) van Campen",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Universität Ingolstadt",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Magister artium Université Catholique de Louvain 1519",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125760,
+     "name": "Johann (Johannes Kapnion) Reuchlin",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125794,
+     "name": "Matthaeus Adrianus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125682"
+  },
+  "125755": {
+   "name": "Jacob ben Jehiel Loans",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125755"
+  },
+  "125760": {
+   "name": "Johann (Johannes Kapnion) Reuchlin",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Basel 1477",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    },
+    {
+     "text": "Juris utriusque Doctor Université de Poitiers 1481",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131444,
+     "name": "Johannes Argyropoulos",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125755,
+     "name": "Jacob ben Jehiel Loans",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=125760"
+  },
+  "125794": {
+   "name": "Matthaeus Adrianus",
+   "degrees": [
+    {
+     "text": "dr. med.",
+     "flags": []
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125794"
+  },
+  "125846": {
+   "name": "Johann Adolph Wedel",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1694",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125488,
+     "name": "Georg Wolffgang Wedel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125846"
+  },
+  "125886": {
+   "name": "Georg Erhard Hamberger",
+   "degrees": [
+    {
+     "text": "Mag. phil. Friedrich-Schiller-Universität Jena 1684",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. phil. Friedrich-Schiller-Universität Jena 1716",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1721",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 191279,
+     "name": "Anton Bernhard Lauterbach",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125846,
+     "name": "Johann Adolph Wedel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 7,
+   "url": "https://www.mathgenealogy.org/id.php?id=125886"
+  },
+  "125888": {
+   "name": "Jan Standonck",
+   "degrees": [
+    {
+     "text": "Magister artium Collège Sainte-Barbe 1474",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Collège de Montaigu 1490",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=125888"
+  },
+  "125892": {
+   "name": "Petrus (Pieter de Corte) Curtius",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Université Catholique de Louvain 1513, 1530",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125894,
+     "name": "Maarten (Martinus Dorpius) van Dorp",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125892"
+  },
+  "125894": {
+   "name": "Maarten (Martinus Dorpius) van Dorp",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Université Catholique de Louvain 1504, 1515",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125897,
+     "name": "Leo Outers",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125894"
+  },
+  "125897": {
+   "name": "Leo Outers",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Université Catholique de Louvain 1485",
+     "flags": [
+      "img/flags/Belgium.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125897"
+  },
+  "125898": {
+   "name": "Alexander Hegius",
+   "degrees": [
+    {
+     "text": "M.A. Universität Rostock 1463",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128012,
+     "name": "Rudolf Agricola",
+     "relation": "Advisor"
+    },
+    {
+     "id": 140181,
+     "name": "Thomas von Kempen à Kempis",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=125898"
+  },
+  "125938": {
+   "name": "Desiderius Erasmus",
+   "degrees": [
+    {
+     "text": "Theologiae Baccalaureus Collège de Montaigu 1497 /1506",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Divinitatis Doctor University of Turin 1506",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125888,
+     "name": "Jan Standonck",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125898,
+     "name": "Alexander Hegius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=125938"
+  },
+  "125971": {
+   "name": "Simon Paul Hilscher",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1704",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 124000,
+     "name": "Rudolf Wilhelm Krause",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=125971"
+  },
+  "126087": {
+   "name": "Georg von Peuerbach",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Wien 1440",
+     "flags": [
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126887,
+     "name": "Johannes von Gmunden",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126087"
+  },
+  "126109": {
+   "name": "Johannes Müller Regiomontanus",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Leipzig and Universität Wien 1457",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126087,
+     "name": "Georg von Peuerbach",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131561,
+     "name": "Basilios Bessarion",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126109"
+  },
+  "126111": {
+   "name": "Daniel Sennert",
+   "degrees": [
+    {
+     "text": "Magister artium, Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1594, 1599",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127848,
+     "name": "Jacobus Martini",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127278,
+     "name": "Jan Jessenius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126111"
+  },
+  "126112": {
+   "name": "Domenico Maria Novara da Ferrara",
+   "degrees": [
+    {
+     "text": "Università degli Studi di Firenze 1483",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126109,
+     "name": "Johannes Müller Regiomontanus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126888,
+     "name": "Luca Pacioli",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126112"
+  },
+  "126113": {
+   "name": "Leonhard (Leonard Vitreatoris z Dobczyc) von Dobschütz",
+   "degrees": [
+    {
+     "text": "Magister artium Uniwersytet Jagielloński 1489",
+     "flags": [
+      "img/flags/Poland.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126113"
+  },
+  "126119": {
+   "name": "Johann August Ernesti",
+   "degrees": [
+    {
+     "text": "Magister philosophiae Universität Leipzig 1730",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. theol. 1756",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127647,
+     "name": "Johann Matthias Gesner",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=126119"
+  },
+  "126120": {
+   "name": "Johann August Bach",
+   "degrees": [
+    {
+     "text": "Magister philosophiae Universität Leipzig 1744",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126895,
+     "name": "Christian Wilhelm Küstner",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127636,
+     "name": "Johann Friedrich Christ",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126120"
+  },
+  "126124": {
+   "name": "Christian Gottlob Heyne",
+   "degrees": [
+    {
+     "text": "Magister Juris Universität Leipzig 1752",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126120,
+     "name": "Johann August Bach",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126119,
+     "name": "Johann August Ernesti",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=126124"
+  },
+  "126177": {
+   "name": "Nicolaus (Mikołaj Kopernik) Copernicus",
+   "degrees": [
+    {
+     "text": "Juris utriusque Doctor Università di Bologna and Università degli Studi di Padova and Uniwersytet Jagielloński and Università degli Studi di Ferrara 1499",
+     "flags": [
+      "img/flags/Italy.gif",
+      "img/flags/Italy.gif",
+      "img/flags/Poland.gif",
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126113,
+     "name": "Leonhard (Leonard Vitreatoris z Dobczyc) von Dobschütz",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126112,
+     "name": "Domenico Maria Novara da Ferrara",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126177"
+  },
+  "126489": {
+   "name": "Jacobus (Jacob Harmensz.) Arminius",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Philipps-Universität Marburg and Universiteit Leiden 1582",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125181,
+     "name": "Rudolph (Snel van Royen) Snellius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126489"
+  },
+  "126571": {
+   "name": "Rutger Rescius",
+   "degrees": [
+    {
+     "text": "Artium Baccalaureus Université de Paris 1513",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127181,
+     "name": "Girolamo (Hieronymus Aleander) Aleandro",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126571"
+  },
+  "126659": {
+   "name": "Ulrich Zasius",
+   "degrees": [
+    {
+     "text": "Doctor legum Albert-Ludwigs-Universität Freiburg im Breisgau 1501",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=126659"
+  },
+  "126667": {
+   "name": "Jakob Milich",
+   "degrees": [
+    {
+     "text": "Liberalium Artium Magister Albert-Ludwigs-Universität Freiburg im Breisgau 1520",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Med. Dr. Universität Wien 1524",
+     "flags": [
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125938,
+     "name": "Desiderius Erasmus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126659,
+     "name": "Ulrich Zasius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126667"
+  },
+  "126724": {
+   "name": "Bonifazius Erasmi",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1509",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126724"
+  },
+  "126730": {
+   "name": "Johannes Volmar",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1515",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126724,
+     "name": "Bonifazius Erasmi",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126730"
+  },
+  "126736": {
+   "name": "Erasmus Reinhold",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1535",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126667,
+     "name": "Jakob Milich",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 7,
+   "url": "https://www.mathgenealogy.org/id.php?id=126736"
+  },
+  "126827": {
+   "name": "Georg Joachim von Leuchen Rheticus",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1535",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126730,
+     "name": "Johannes Volmar",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126177,
+     "name": "Nicolaus (Mikołaj Kopernik) Copernicus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=126827"
+  },
+  "126875": {
+   "name": "Caspar Peucer",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1545",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126736,
+     "name": "Erasmus Reinhold",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126827,
+     "name": "Georg Joachim von Leuchen Rheticus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=126875"
+  },
+  "126887": {
+   "name": "Johannes von Gmunden",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Wien 1406",
+     "flags": [
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127264,
+     "name": "Heinrich von Langenstein",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126887"
+  },
+  "126888": {
+   "name": "Luca Pacioli",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126888"
+  },
+  "126894": {
+   "name": "Georg Ludwig König",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Georg-August-Universität Göttingen 1790",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. phil. hc. Christian-Albrechts-Universität zu Kiel 1817",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126124,
+     "name": "Christian Gottlob Heyne",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126894"
+  },
+  "126895": {
+   "name": "Christian Wilhelm Küstner",
+   "degrees": [
+    {
+     "text": "Magister philosophiae Universität Leipzig 1742",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126119,
+     "name": "Johann August Ernesti",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=126895"
+  },
+  "126956": {
+   "name": "Philipp Melanchthon",
+   "degrees": [
+    {
+     "text": "Baccalaureus artium Ruprecht-Karls-Universität Heidelberg 1511",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Magister artium Eberhard-Karls-Universität Tübingen 1514",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127107,
+     "name": "Johannes Stöffler",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125760,
+     "name": "Johann (Johannes Kapnion) Reuchlin",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=126956"
+  },
+  "126957": {
+   "name": "Sebastian (Theodoricus) Dietrich",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1544",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126736,
+     "name": "Erasmus Reinhold",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126827,
+     "name": "Georg Joachim von Leuchen Rheticus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=126957"
+  },
+  "127011": {
+   "name": "Johannes Hommel",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1543",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126736,
+     "name": "Erasmus Reinhold",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126956,
+     "name": "Philipp Melanchthon",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127011"
+  },
+  "127020": {
+   "name": "Samuel Heyland",
+   "degrees": [
+    {
+     "text": "Magister artium Collège Saint-Guillaume à Strasbourg 1554",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125665,
+     "name": "Johannes (Johann Sturm) Sturmius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127020"
+  },
+  "127039": {
+   "name": "Philipp Apian",
+   "degrees": [
+    {
+     "text": "Magister artium Université Paris IV-Sorbonne and Universität Ingolstadt and Collège Saint-Guillaume à Strasbourg 1549, 1551",
+     "flags": [
+      "img/flags/France.gif",
+      "img/flags/Germany.gif",
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125665,
+     "name": "Johannes (Johann Sturm) Sturmius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127110,
+     "name": "Michael Beuther",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127039"
+  },
+  "127049": {
+   "name": "Michael Maestlin",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Evangelischen Stift Tübingen 1571, 1576",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127020,
+     "name": "Samuel Heyland",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127039,
+     "name": "Philipp Apian",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127049"
+  },
+  "127061": {
+   "name": "Valentin (Valentinus Otho) Otto",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1570",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126827,
+     "name": "Georg Joachim von Leuchen Rheticus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127061"
+  },
+  "127092": {
+   "name": "Valentin Thau",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Leipzig 1555",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127011,
+     "name": "Johannes Hommel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127092"
+  },
+  "127098": {
+   "name": "Johannes Kepler",
+   "degrees": [
+    {
+     "text": "Magister artium Evangelischen Stift Tübingen 1591",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127049,
+     "name": "Michael Maestlin",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125379,
+     "name": "Tycho (Tyge Ottesen) Brahe",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=127098"
+  },
+  "127107": {
+   "name": "Johannes Stöffler",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Ingolstadt 1476",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127107"
+  },
+  "127110": {
+   "name": "Michael Beuther",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1542",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126956,
+     "name": "Philipp Melanchthon",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126736,
+     "name": "Erasmus Reinhold",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127110"
+  },
+  "127144": {
+   "name": "Pelope",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127144"
+  },
+  "127166": {
+   "name": "Niccolò Leoniceno",
+   "degrees": [
+    {
+     "text": "B.A. Scuola Pubblica di Vicenza 1446",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1453",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 149192,
+     "name": "Ognibene (Omnibonus Leonicenus) Bonisoli da Lonigo",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127144,
+     "name": "Pelope",
+     "relation": "Advisor"
+    },
+    {
+     "id": 136726,
+     "name": "Pietro Roccabonella",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127166"
+  },
+  "127181": {
+   "name": "Girolamo (Hieronymus Aleander) Aleandro",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Università degli Studi di Padova 1499, 1508",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131446,
+     "name": "Moses Perez",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131447,
+     "name": "Scipione Fortiguerra",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127181"
+  },
+  "127245": {
+   "name": "Antonio Musa Brasavola",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Ferrara 1520",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127166,
+     "name": "Niccolò Leoniceno",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127245"
+  },
+  "127252": {
+   "name": "Salomon Alberti",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1564",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1574",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126875,
+     "name": "Caspar Peucer",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125109,
+     "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127252"
+  },
+  "127264": {
+   "name": "Heinrich von Langenstein",
+   "degrees": [
+    {
+     "text": "Magister artium Université de Paris 1363",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Université de Paris 1375",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 199357,
+     "name": "Nicole Oresme",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127264"
+  },
+  "127275": {
+   "name": "Andreas Schato",
+   "degrees": [
+    {
+     "text": "Magister artium, Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1562, 1578",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126957,
+     "name": "Sebastian (Theodoricus) Dietrich",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127252,
+     "name": "Salomon Alberti",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127275"
+  },
+  "127278": {
+   "name": "Jan Jessenius",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Leipzig 1588",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1591",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125109,
+     "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127278"
+  },
+  "127424": {
+   "name": "Erasmus Schmidt",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1592",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127898,
+     "name": "Sethus Calvisius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127942,
+     "name": "Petrus Otto",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127424"
+  },
+  "127459": {
+   "name": "Melchior Jöstel",
+   "degrees": [
+    {
+     "text": "Magister artium, Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1583, 1600",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127061,
+     "name": "Valentin (Valentinus Otho) Otto",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127275,
+     "name": "Andreas Schato",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127459"
+  },
+  "127461": {
+   "name": "Ernestus Hettenbach",
+   "degrees": [
+    {
+     "text": "Magister artium, Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1576, 1591",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127275,
+     "name": "Andreas Schato",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127252,
+     "name": "Salomon Alberti",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127461"
+  },
+  "127606": {
+   "name": "Ambrosius Rhodius",
+   "degrees": [
+    {
+     "text": "Magister Martin-Luther-Universität Halle-Wittenberg 1599",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Magister artium, Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1600, 1610",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 221101,
+     "name": "Anton Euonymus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127459,
+     "name": "Melchior Jöstel",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127461,
+     "name": "Ernestus Hettenbach",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127098,
+     "name": "Johannes Kepler",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125379,
+     "name": "Tycho (Tyge Ottesen) Brahe",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=127606"
+  },
+  "127636": {
+   "name": "Johann Friedrich Christ",
+   "degrees": [
+    {
+     "text": "Juris doctor Martin-Luther-Universität Halle-Wittenberg 1727",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127671,
+     "name": "Karl Gottlieb Knorre",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127636"
+  },
+  "127646": {
+   "name": "Johann Franz Buddeus",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1687",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. theol. Martin-Luther-Universität Halle-Wittenberg 1695",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127962,
+     "name": "Michael d. J. Walther",
+     "relation": "Advisor"
+    },
+    {
+     "id": 228334,
+     "name": "Johann Wilhelm Baier",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127646"
+  },
+  "127647": {
+   "name": "Johann Matthias Gesner",
+   "degrees": [
+    {
+     "text": "Magister artium Friedrich-Schiller-Universität Jena 1715",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127646,
+     "name": "Johann Franz Buddeus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127647"
+  },
+  "127668": {
+   "name": "Johann Georg Büsch",
+   "degrees": [
+    {
+     "text": "Magister Georg-August-Universität Göttingen 1752",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theolog. Doct. Martin-Luther-Universität Halle-Wittenberg 1753",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 60782,
+     "name": "Johann Andreas Segner",
+     "relation": "Advisor"
+    },
+    {
+     "id": 208259,
+     "name": "Siegmund Jakob Baumgarten",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127668"
+  },
+  "127671": {
+   "name": "Karl Gottlieb Knorre",
+   "degrees": [
+    {
+     "text": "Juris doctor Martin-Luther-Universität Halle-Wittenberg 1721",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127803,
+     "name": "Johann Peter von Ludewig",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127671"
+  },
+  "127710": {
+   "name": "Johann Elert Bode",
+   "degrees": [
+    {
+     "text": "Handelsakademie Hamburg",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127668,
+     "name": "Johann Georg Büsch",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127710"
+  },
+  "127724": {
+   "name": "Christoph Nottnagel",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1630",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Magister legens Martin-Luther-Universität Halle-Wittenberg 1632",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Adjunkt phil. Martin-Luther-Universität Halle-Wittenberg 1634",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127606,
+     "name": "Ambrosius Rhodius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 12,
+   "url": "https://www.mathgenealogy.org/id.php?id=127724"
+  },
+  "127734": {
+   "name": "Nicolaus Zapf",
+   "degrees": [
+    {
+     "text": "Magister artium Friedrich-Schiller-Universität Jena 1622",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1625",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1629",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127424,
+     "name": "Erasmus Schmidt",
+     "relation": "Advisor"
+    },
+    {
+     "id": 189659,
+     "name": "Abraham Heinecke",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127848,
+     "name": "Jacobus Martini",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127734"
+  },
+  "127790": {
+   "name": "Moritz Valentin Steinmetz",
+   "degrees": [
+    {
+     "text": "Magister artium, Medicinae Dr. Universität Leipzig 1550, 1567",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126827,
+     "name": "Georg Joachim von Leuchen Rheticus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 184935,
+     "name": "Johann Hoffmann",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127790"
+  },
+  "127801": {
+   "name": "Aegidius Strauch",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1633",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127734,
+     "name": "Nicolaus Zapf",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127801"
+  },
+  "127803": {
+   "name": "Johann Peter von Ludewig",
+   "degrees": [
+    {
+     "text": "Magister phil. Martin-Luther-Universität Halle-Wittenberg 1690",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127945,
+     "name": "Samuel Stryk",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127946,
+     "name": "Christian Thomasius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127803"
+  },
+  "127848": {
+   "name": "Jacobus Martini",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Helmstedt 1596",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128105,
+     "name": "Cornelius Martini",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=127848"
+  },
+  "127864": {
+   "name": "Nikolaus Selnecker",
+   "degrees": [
+    {
+     "text": "Dr. theol. Martin-Luther-Universität Halle-Wittenberg 1570",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127864"
+  },
+  "127898": {
+   "name": "Sethus Calvisius",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Leipzig 1582",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127864,
+     "name": "Nikolaus Selnecker",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127790,
+     "name": "Moritz Valentin Steinmetz",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127898"
+  },
+  "127911": {
+   "name": "Andreas Kunad",
+   "degrees": [
+    {
+     "text": "M.A. Universität Leipzig 1628",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Lic. theol. 1635",
+     "flags": []
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127911"
+  },
+  "127923": {
+   "name": "Aegidius Strauch",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1651",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. theol. Martin-Luther-Universität Halle-Wittenberg 1657",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 74384,
+     "name": "Abraham Klein (Calovius)",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127911,
+     "name": "Andreas Kunad",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 0,
+   "url": "https://www.mathgenealogy.org/id.php?id=127923"
+  },
+  "127942": {
+   "name": "Petrus Otto",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127942"
+  },
+  "127945": {
+   "name": "Samuel Stryk",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127945"
+  },
+  "127946": {
+   "name": "Christian Thomasius",
+   "degrees": [
+    {
+     "text": "M. Phil. Universität Leipzig 1672",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. jur. Europa-Universität Viadrina Frankfurt an der Oder 1679",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 137717,
+     "name": "Valentin Alberti",
+     "relation": "Advisor"
+    },
+    {
+     "id": 137705,
+     "name": "Jakob Thomasius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 177440,
+     "name": "Johann Friedrich Rhetius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=127946"
+  },
+  "127956": {
+   "name": "Johann Andreas Quenstedt",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Helmstedt 1643",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1644",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128097,
+     "name": "Georg Calixt",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127724,
+     "name": "Christoph Nottnagel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=127956"
+  },
+  "127962": {
+   "name": "Michael d. J. Walther",
+   "degrees": [
+    {
+     "text": "Magister Martin-Luther-Universität Halle-Wittenberg 1656",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1660",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1687",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127801,
+     "name": "Aegidius Strauch",
+     "relation": "Advisor"
+    },
+    {
+     "id": 230796,
+     "name": "Constantin Ziegra",
+     "relation": "Advisor"
+    },
+    {
+     "id": 127956,
+     "name": "Johann Andreas Quenstedt",
+     "relation": "Doctoral advisor"
+    }
+   ],
+   "students_listed": 12,
+   "url": "https://www.mathgenealogy.org/id.php?id=127962"
+  },
+  "128012": {
+   "name": "Rudolf Agricola",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Ferrara 1478",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131584,
+     "name": "Theodoros Gazes",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=128012"
+  },
+  "128046": {
+   "name": "Johann Pasch",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1683",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127962,
+     "name": "Michael d. J. Walther",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128046"
+  },
+  "128097": {
+   "name": "Georg Calixt",
+   "degrees": [
+    {
+     "text": "Magister artium, Theol. Dr. Universität Helmstedt 1607",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128104,
+     "name": "Johannes Caselius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 128105,
+     "name": "Cornelius Martini",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=128097"
+  },
+  "128104": {
+   "name": "Johannes Caselius",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1560",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Juris doctor Universität Leipzig 1566",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126956,
+     "name": "Philipp Melanchthon",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128104"
+  },
+  "128105": {
+   "name": "Cornelius Martini",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Helmstedt 1591",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Magister artium Universität Helmstedt 1592",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 200006,
+     "name": "Albert Clampius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 128122,
+     "name": "Duncan Liddel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=128105"
+  },
+  "128122": {
+   "name": "Duncan Liddel",
+   "degrees": [
+    {
+     "text": "Magister artium Europa-Universität Viadrina Frankfurt an der Oder and Universität Breslau 1582",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Universität Helmstedt 1596",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128305,
+     "name": "John Craig",
+     "relation": "Advisor"
+    },
+    {
+     "id": 128348,
+     "name": "Paul Wittich",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=128122"
+  },
+  "128305": {
+   "name": "John Craig",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1580",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125148,
+     "name": "Theodor Zwinger",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128305"
+  },
+  "128348": {
+   "name": "Paul Wittich",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg and Universität Leipzig 1566",
+     "flags": [
+      "img/flags/Germany.gif",
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127092,
+     "name": "Valentin Thau",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128348"
+  },
+  "128921": {
+   "name": "Jean Tagault",
+   "degrees": [
+    {
+     "text": "dr. med. Sorbonne Université 1524",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128921"
+  },
+  "128938": {
+   "name": "Rudolf Jakob Camerarius",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Eberhard-Karls-Universität Tübingen 1684, 1686",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 123974,
+     "name": "Georg Balthasar Metzger",
+     "relation": "Advisor"
+    },
+    {
+     "id": 76481,
+     "name": "Elias Rudolph Camerarius, Sr.",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128938"
+  },
+  "128986": {
+   "name": "Johann Andreas Planer",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1686",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Dr. Eberhard-Karls-Universität Tübingen 1709",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 128046,
+     "name": "Johann Pasch",
+     "relation": "Advisor"
+    },
+    {
+     "id": 128938,
+     "name": "Rudolf Jakob Camerarius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=128986"
+  },
+  "128987": {
+   "name": "François Dubois",
+   "degrees": [
+    {
+     "text": "Magister artium Université de Paris 1516",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=128987"
+  },
+  "129628": {
+   "name": "Nikolaus Eglinger",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1660, 1661",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125125,
+     "name": "Emmanuel Stupanus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 129708,
+     "name": "Johann Caspar Bauhin",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=129628"
+  },
+  "129708": {
+   "name": "Johann Caspar Bauhin",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1649",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125125,
+     "name": "Emmanuel Stupanus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=129708"
+  },
+  "130248": {
+   "name": "Petrus Ryff",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1584",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 182090,
+     "name": "Felix Plater",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=130248"
+  },
+  "130913": {
+   "name": "Johannes (van den Driesche) Drusius",
+   "degrees": [
+    {
+     "text": "M.A. University of Cambridge 1572",
+     "flags": [
+      "img/flags/UnitedKingdom.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 130995,
+     "name": "Raoul (Rodolphus Cavellerius) le Chevalier",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=130913"
+  },
+  "130995": {
+   "name": "Raoul (Rodolphus Cavellerius) le Chevalier",
+   "degrees": [
+    {
+     "text": "M.A. Collège de France and University of Oxford",
+     "flags": [
+      "img/flags/France.gif",
+      "img/flags/UnitedKingdom.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131235,
+     "name": "François Vatable",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131236,
+     "name": "Paul (Paul Büchlein) Fagius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=130995"
+  },
+  "131235": {
+   "name": "François Vatable",
+   "degrees": [
+    {
+     "text": "Magister artium Université de Paris 1511, 1513",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127181,
+     "name": "Girolamo (Hieronymus Aleander) Aleandro",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131398,
+     "name": "Jacques (Jacobus Faber) Lefèvre d'Étaples",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131235"
+  },
+  "131236": {
+   "name": "Paul (Paul Büchlein) Fagius",
+   "degrees": [
+    {
+     "text": "Magister artium Ruprecht-Karls-Universität Heidelberg 1527",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theologiae Doctor Collège Saint-Guillaume à Strasbourg 1537",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131399,
+     "name": "Wolfgang Fabricius Capito",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131400,
+     "name": "Elijah ben Asher Levita",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131236"
+  },
+  "131398": {
+   "name": "Jacques (Jacobus Faber) Lefèvre d'Étaples",
+   "degrees": [
+    {
+     "text": "Magister artium Université de Paris and Accademia Romana 1480",
+     "flags": [
+      "img/flags/France.gif",
+      "img/flags/Greece.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131443,
+     "name": "Georgius Hermonymus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131444,
+     "name": "Johannes Argyropoulos",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131398"
+  },
+  "131399": {
+   "name": "Wolfgang Fabricius Capito",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Ingolstadt 1506",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Albert-Ludwigs-Universität Freiburg im Breisgau 1515",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 126659,
+     "name": "Ulrich Zasius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125938,
+     "name": "Desiderius Erasmus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131399"
+  },
+  "131400": {
+   "name": "Elijah ben Asher Levita",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131400"
+  },
+  "131443": {
+   "name": "Georgius Hermonymus",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131443"
+  },
+  "131444": {
+   "name": "Johannes Argyropoulos",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Università degli Studi di Padova 1444",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131561,
+     "name": "Basilios Bessarion",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=131444"
+  },
+  "131446": {
+   "name": "Moses Perez",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131446"
+  },
+  "131447": {
+   "name": "Scipione Fortiguerra",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Firenze 1493",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131535,
+     "name": "Angelo Poliziano",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131447"
+  },
+  "131517": {
+   "name": "Guillaume Budé",
+   "degrees": [
+    {
+     "text": "Magister artium Université d'Orléans and Université de Paris 1486, 1491",
+     "flags": [
+      "img/flags/France.gif",
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131443,
+     "name": "Georgius Hermonymus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131541,
+     "name": "Janus Lascaris",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131517"
+  },
+  "131535": {
+   "name": "Angelo Poliziano",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Firenze 1477",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131539,
+     "name": "Marsilio Ficino",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131540,
+     "name": "Cristoforo Landino",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131535"
+  },
+  "131539": {
+   "name": "Marsilio Ficino",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Firenze 1462",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131444,
+     "name": "Johannes Argyropoulos",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131539"
+  },
+  "131540": {
+   "name": "Cristoforo Landino",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 298288,
+     "name": "George of Trebizond",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131540"
+  },
+  "131541": {
+   "name": "Janus Lascaris",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Padova 1472",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131561,
+     "name": "Basilios Bessarion",
+     "relation": "Advisor"
+    },
+    {
+     "id": 131576,
+     "name": "Demetrios Chalcocondyles",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131541"
+  },
+  "131546": {
+   "name": "Jacques Toussain",
+   "degrees": [
+    {
+     "text": "Magister artium Université de Paris 1521",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131517,
+     "name": "Guillaume Budé",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131546"
+  },
+  "131561": {
+   "name": "Basilios Bessarion",
+   "degrees": [
+    {
+     "text": "Mystras 1436",
+     "flags": [
+      "img/flags/Greece.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131575,
+     "name": "Georgios Plethon Gemistos",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=131561"
+  },
+  "131575": {
+   "name": "Georgios Plethon Gemistos",
+   "degrees": [
+    {
+     "text": "1380, 1393",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 134780,
+     "name": "Demetrios Kydones",
+     "relation": "Advisor"
+    },
+    {
+     "id": 134781,
+     "name": "Elissaeus Judaeus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=131575"
+  },
+  "131576": {
+   "name": "Demetrios Chalcocondyles",
+   "degrees": [
+    {
+     "text": "Magister artium Mystras and Accademia Romana 1452",
+     "flags": [
+      "img/flags/Greece.gif",
+      "img/flags/Greece.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131584,
+     "name": "Theodoros Gazes",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131576"
+  },
+  "131577": {
+   "name": "Joseph Justus Scaliger",
+   "degrees": [
+    {
+     "text": "Magister artium Collège de France 1563",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131606,
+     "name": "Adrien Turnèbe",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=131577"
+  },
+  "131584": {
+   "name": "Theodoros Gazes",
+   "degrees": [
+    {
+     "text": "Magister artium Università di Mantova and Imperial University of Constantinople 1433",
+     "flags": [
+      "img/flags/Italy.gif",
+      "img/flags/Turkey.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 134873,
+     "name": "Vittorino da Feltre",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131584"
+  },
+  "131606": {
+   "name": "Adrien Turnèbe",
+   "degrees": [
+    {
+     "text": "Magister artium Collège de France 1532",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131546,
+     "name": "Jacques Toussain",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=131606"
+  },
+  "132725": {
+   "name": "Pieter van Schooten",
+   "degrees": [
+    {
+     "text": "Artium Liberalium Magister Universiteit Leiden 1655",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125450,
+     "name": "Frans van Schooten, Jr.",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=132725"
+  },
+  "134780": {
+   "name": "Demetrios Kydones",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 146365,
+     "name": "Nilos Kabasilas",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=134780"
+  },
+  "134781": {
+   "name": "Elissaeus Judaeus",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=134781"
+  },
+  "134873": {
+   "name": "Vittorino da Feltre",
+   "degrees": [
+    {
+     "text": "Università degli Studi di Padova 1416",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 298290,
+     "name": "Gasparino da Barzizza",
+     "relation": "Advisor"
+    },
+    {
+     "id": 298304,
+     "name": "Giovanni Conversini",
+     "relation": "Advisor"
+    },
+    {
+     "id": 134931,
+     "name": "Guarino da Verona",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=134873"
+  },
+  "134931": {
+   "name": "Guarino da Verona",
+   "degrees": [
+    {
+     "text": "Imperial University of Constantinople 1408",
+     "flags": [
+      "img/flags/Turkey.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 135185,
+     "name": "Manuel Chrysoloras",
+     "relation": "Advisor"
+    },
+    {
+     "id": 298304,
+     "name": "Giovanni Conversini",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=134931"
+  },
+  "135185": {
+   "name": "Manuel Chrysoloras",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 134780,
+     "name": "Demetrios Kydones",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=135185"
+  },
+  "136726": {
+   "name": "Pietro Roccabonella",
+   "degrees": [
+    {
+     "text": "M.D. Università degli Studi di Padova 1459",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 148882,
+     "name": "Gaetano da Thiene",
+     "relation": "Advisor"
+    },
+    {
+     "id": 164338,
+     "name": "Sigismondo Polcastro",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=136726"
+  },
+  "137705": {
+   "name": "Jakob Thomasius",
+   "degrees": [
+    {
+     "text": "Magister der Philosophie Universität Leipzig 1643",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143630,
+     "name": "Friedrich Leibniz",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=137705"
+  },
+  "137717": {
+   "name": "Valentin Alberti",
+   "degrees": [
+    {
+     "text": "Dr. theol. Universität Leipzig 1678",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 3,
+   "url": "https://www.mathgenealogy.org/id.php?id=137717"
+  },
+  "140181": {
+   "name": "Thomas von Kempen à Kempis",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 179836,
+     "name": "Geert (Gerardus Magnus) Groote",
+     "relation": "Advisor"
+    },
+    {
+     "id": 179837,
+     "name": "Florens (Florentius Radwyn) Radewyns",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=140181"
+  },
+  "141571": {
+   "name": "Thomas Cranmer",
+   "degrees": [
+    {
+     "text": "Master of Arts University of Cambridge 1515",
+     "flags": [
+      "img/flags/UnitedKingdom.gif"
+     ]
+    },
+    {
+     "text": "Doctorate of Divinity University of Cambridge 1526",
+     "flags": [
+      "img/flags/UnitedKingdom.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=141571"
+  },
+  "141831": {
+   "name": "Robert Zimmermann",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Wien 1846",
+     "flags": [
+      "img/flags/Austria.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 96330,
+     "name": "Bernard(us) Placidus Johann Nepomuk Bolzano",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=141831"
+  },
+  "143011": {
+   "name": "Nicolas Malebranche",
+   "degrees": [
+    {
+     "text": "no degree",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 60985,
+     "name": "Gottfried Wilhelm Leibniz",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=143011"
+  },
+  "143044": {
+   "name": "Jacob Andreae",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Eberhard-Karls-Universität Tübingen 1553",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 152648,
+     "name": "Jakob Beuerlin",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143044"
+  },
+  "143045": {
+   "name": "Johann Jacob Grynaeus",
+   "degrees": [
+    {
+     "text": "Magister Artium Universität Basel 1559",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Eberhard-Karls-Universität Tübingen 1564",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 182092,
+     "name": "Simon Sulzer",
+     "relation": "Advisor"
+    },
+    {
+     "id": 143044,
+     "name": "Jacob Andreae",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143045"
+  },
+  "143082": {
+   "name": "Sebastian Beck",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Universität Basel 1610",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143045,
+     "name": "Johann Jacob Grynaeus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143082"
+  },
+  "143083": {
+   "name": "Theodor Zwinger, Jr.",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Universität Basel 1630",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143082,
+     "name": "Sebastian Beck",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143083"
+  },
+  "143084": {
+   "name": "Peter Werenfels",
+   "degrees": [
+    {
+     "text": "Theol. Dr. Universität Basel 1649",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143083,
+     "name": "Theodor Zwinger, Jr.",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143084"
+  },
+  "143091": {
+   "name": "Jan Tesánek",
+   "degrees": [
+    {
+     "text": "1748",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143129,
+     "name": "Joseph Stepling",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143091"
+  },
+  "143129": {
+   "name": "Joseph Stepling",
+   "degrees": [
+    {
+     "text": "Universitas Carolina Prague 1743",
+     "flags": [
+      "img/flags/CzechRepublic.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 143130,
+     "name": "Ignatz Mühlwenzel",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=143129"
+  },
+  "143130": {
+   "name": "Ignatz Mühlwenzel",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143130"
+  },
+  "143630": {
+   "name": "Friedrich Leibniz",
+   "degrees": [
+    {
+     "text": "Magister der Philosophie Universität Leipzig 1622",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143630"
+  },
+  "143859": {
+   "name": "Bartholomäus Leonhard Schwendendörffer",
+   "degrees": [
+    {
+     "text": "Dr. jur. Universität Leipzig 1656",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=143859"
+  },
+  "144220": {
+   "name": "Christoph Meurer",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Leipzig 1582",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127790,
+     "name": "Moritz Valentin Steinmetz",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=144220"
+  },
+  "144221": {
+   "name": "Philipp Müller",
+   "degrees": [
+    {
+     "text": "Magister artium Universität Leipzig 1604",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 144220,
+     "name": "Christoph Meurer",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=144221"
+  },
+  "145707": {
+   "name": "Constantijn l’Empereur van Oppyck",
+   "degrees": [
+    {
+     "text": "Theologiae Doctor Universiteit Franeker 1617",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 130913,
+     "name": "Johannes (van den Driesche) Drusius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=145707"
+  },
+  "145708": {
+   "name": "Hiob Ludolf",
+   "degrees": [
+    {
+     "text": "Juris Dr. Universität Erfurt 1645",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "M.A. Universiteit Leiden 1646",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 146374,
+     "name": "Johann Möller",
+     "relation": "Advisor"
+    },
+    {
+     "id": 125408,
+     "name": "Jacobus Golius",
+     "relation": "Advisor"
+    },
+    {
+     "id": 145707,
+     "name": "Constantijn l’Empereur van Oppyck",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=145708"
+  },
+  "145770": {
+   "name": "Johann Heinrich Michaelis",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1694",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Europa-Universität Viadrina Frankfurt an der Oder 1699",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 146034,
+     "name": "August Hermann Francke",
+     "relation": "Advisor"
+    },
+    {
+     "id": 145708,
+     "name": "Hiob Ludolf",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=145770"
+  },
+  "146034": {
+   "name": "August Hermann Francke",
+   "degrees": [
+    {
+     "text": "M.Phil. Universität Leipzig 1685",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=146034"
+  },
+  "146035": {
+   "name": "Christian Benedict Michaelis",
+   "degrees": [
+    {
+     "text": "Magister artium Martin-Luther-Universität Halle-Wittenberg 1706",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 145770,
+     "name": "Johann Heinrich Michaelis",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=146035"
+  },
+  "146036": {
+   "name": "Giovanni Battista (Giambattista) Beccaria",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=146036"
+  },
+  "146365": {
+   "name": "Nilos Kabasilas",
+   "degrees": [
+    {
+     "text": "1363",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 176844,
+     "name": "Gregory Palamas",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=146365"
+  },
+  "146374": {
+   "name": "Johann Möller",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=146374"
+  },
+  "146776": {
+   "name": "Nikolai Ivanovich Lobachevsky",
+   "degrees": [
+    {
+     "text": "Kazan State University",
+     "flags": [
+      "img/flags/Russia.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 151180,
+     "name": "Johann Martin Christian Bartels",
+     "relation": "Advisor"
+    },
+    {
+     "id": 122737,
+     "name": "Stepan Rumovsky",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=146776"
+  },
+  "148882": {
+   "name": "Gaetano da Thiene",
+   "degrees": [
+    {
+     "text": "Università degli Studi di Padova",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 232227,
+     "name": "Paolo (Nicoletti) da Venezia",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=148882"
+  },
+  "149192": {
+   "name": "Ognibene (Omnibonus Leonicenus) Bonisoli da Lonigo",
+   "degrees": [
+    {
+     "text": "Università di Mantova 1433",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 134873,
+     "name": "Vittorino da Feltre",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=149192"
+  },
+  "151180": {
+   "name": "Johann Martin Christian Bartels",
+   "degrees": [
+    {
+     "text": "Ph.D. Friedrich-Schiller-Universität Jena 1799",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 18230,
+     "name": "Johann Friedrich Pfaff",
+     "relation": "Advisor"
+    },
+    {
+     "id": 66476,
+     "name": "Abraham Gotthelf Kästner",
+     "relation": "Advisor"
+    },
+    {
+     "id": 65161,
+     "name": "Georg Christoph Lichtenberg",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=151180"
+  },
+  "152647": {
+   "name": "Balthasar Kaeuffelin",
+   "degrees": [
+    {
+     "text": "Dr. theol. Eberhard-Karls-Universität Tübingen 1521",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=152647"
+  },
+  "152648": {
+   "name": "Jakob Beuerlin",
+   "degrees": [
+    {
+     "text": "Dr. theol. Eberhard-Karls-Universität Tübingen 1551",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 152647,
+     "name": "Balthasar Kaeuffelin",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=152648"
+  },
+  "152901": {
+   "name": "Marco Musuro",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Firenze 1486",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131541,
+     "name": "Janus Lascaris",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=152901"
+  },
+  "152902": {
+   "name": "Nicoletto Vernia",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Padova 1458",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 148882,
+     "name": "Gaetano da Thiene",
+     "relation": "Advisor"
+    },
+    {
+     "id": 232228,
+     "name": "Paolo da Pergola",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=152902"
+  },
+  "152903": {
+   "name": "Pietro Pomponazzi",
+   "degrees": [
+    {
+     "text": "Magister artium Università degli Studi di Padova 1487",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 152902,
+     "name": "Nicoletto Vernia",
+     "relation": "Advisor"
+    },
+    {
+     "id": 136726,
+     "name": "Pietro Roccabonella",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=152903"
+  },
+  "152904": {
+   "name": "Giovanni Battista della Monte",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Ferrara",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    },
+    {
+     "text": "Magister artium Università degli Studi di Padova 1520",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 127166,
+     "name": "Niccolò Leoniceno",
+     "relation": "Advisor"
+    },
+    {
+     "id": 152901,
+     "name": "Marco Musuro",
+     "relation": "Advisor"
+    },
+    {
+     "id": 152903,
+     "name": "Pietro Pomponazzi",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=152904"
+  },
+  "152905": {
+   "name": "Vittore Trincavelli",
+   "degrees": [
+    {
+     "text": "Magister artium, Medicinae Dr. Università degli Studi di Padova",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 152903,
+     "name": "Pietro Pomponazzi",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=152905"
+  },
+  "152906": {
+   "name": "Bassiano Landi",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Università degli Studi di Padova 1542",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 152904,
+     "name": "Giovanni Battista della Monte",
+     "relation": "Advisor"
+    },
+    {
+     "id": 152905,
+     "name": "Vittore Trincavelli",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=152906"
+  },
+  "157307": {
+   "name": "Erhard Pfautz",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Augsburg 1659",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. phil. Universität Leipzig 1662",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 230794,
+     "name": "Johann Daniel Arcularius",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=157307"
+  },
+  "157308": {
+   "name": "Christoph Pfautz",
+   "degrees": [
+    {
+     "text": "Dr. phil. Universität Leipzig 1663",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Dr. phil. Universität Leipzig 1668",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 157307,
+     "name": "Erhard Pfautz",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=157308"
+  },
+  "158329": {
+   "name": "Guillaume Rondelet",
+   "degrees": [
+    {
+     "text": "Université de Paris 1529",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Medicinae Doctor Université de Montpellier 1537",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 119159,
+     "name": "Johannes Winter von Andernach",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=158329"
+  },
+  "164338": {
+   "name": "Sigismondo Polcastro",
+   "degrees": [
+    {
+     "text": "B.A. Università degli Studi di Padova 1412",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    },
+    {
+     "text": "M.D. Università degli Studi di Padova 1424",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=164338"
+  },
+  "176844": {
+   "name": "Gregory Palamas",
+   "degrees": [
+    {
+     "text": "Imperial University of Constantinople 1316",
+     "flags": [
+      "img/flags/Turkey.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 184631,
+     "name": "Theodore Metochites",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=176844"
+  },
+  "177440": {
+   "name": "Johann Friedrich Rhetius",
+   "degrees": [
+    {
+     "text": "Dr. theol. Martin-Luther-Universität Halle-Wittenberg 1652",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 194305,
+     "name": "Josias Christoph Neander",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=177440"
+  },
+  "179836": {
+   "name": "Geert (Gerardus Magnus) Groote",
+   "degrees": [
+    {
+     "text": "Magister artium Université de Paris 1358",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=179836"
+  },
+  "179837": {
+   "name": "Florens (Florentius Radwyn) Radewyns",
+   "degrees": [
+    {
+     "text": "M.A. Charles University 1378",
+     "flags": [
+      "img/flags/CzechRepublic.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=179837"
+  },
+  "182045": {
+   "name": "Simon Grynaeus",
+   "degrees": [
+    {
+     "text": "Magister Artium Eberhard-Karls-Universität Tübingen 1511",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    },
+    {
+     "text": "Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1523",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125760,
+     "name": "Johann (Johannes Kapnion) Reuchlin",
+     "relation": "Advisor"
+    },
+    {
+     "id": 126956,
+     "name": "Philipp Melanchthon",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=182045"
+  },
+  "182088": {
+   "name": "Johann Jakob von Brunn",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Universität Basel 1615",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125048,
+     "name": "Johannes Nicolaus Stupanus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=182088"
+  },
+  "182089": {
+   "name": "Gottfried Möbius",
+   "degrees": [
+    {
+     "text": "Medicinae Dr. Friedrich-Schiller-Universität Jena 1640",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 125154,
+     "name": "Werner Rolfinck",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=182089"
+  },
+  "182090": {
+   "name": "Felix Plater",
+   "degrees": [
+    {
+     "text": "Medicinae Doctor Université de Montpellier 1557",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 158329,
+     "name": "Guillaume Rondelet",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=182090"
+  },
+  "182092": {
+   "name": "Simon Sulzer",
+   "degrees": [
+    {
+     "text": "Magister Artium Collège Saint-Guillaume à Strasbourg 1531",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    },
+    {
+     "text": "Magister Artium Universität Basel 1532",
+     "flags": [
+      "img/flags/Switzerland.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 131399,
+     "name": "Wolfgang Fabricius Capito",
+     "relation": "Advisor"
+    },
+    {
+     "id": 182045,
+     "name": "Simon Grynaeus",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=182092"
+  },
+  "184631": {
+   "name": "Theodore Metochites",
+   "degrees": [
+    {
+     "text": "Imperial University of Constantinople 1315",
+     "flags": [
+      "img/flags/Turkey.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 184632,
+     "name": "Manuel Bryennios",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=184631"
+  },
+  "184632": {
+   "name": "Manuel Bryennios",
+   "degrees": [
+    {
+     "text": "Imperial University of Constantinople 1300",
+     "flags": [
+      "img/flags/Turkey.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 201288,
+     "name": "Gregory Chioniadis",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=184632"
+  },
+  "184935": {
+   "name": "Johann Hoffmann",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=184935"
+  },
+  "189659": {
+   "name": "Abraham Heinecke",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 4,
+   "url": "https://www.mathgenealogy.org/id.php?id=189659"
+  },
+  "191279": {
+   "name": "Anton Bernhard Lauterbach",
+   "degrees": [
+    {
+     "text": "Ph.D. Friedrich-Schiller-Universität Jena 1716",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=191279"
+  },
+  "194305": {
+   "name": "Josias Christoph Neander",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=194305"
+  },
+  "199357": {
+   "name": "Nicole Oresme",
+   "degrees": [
+    {
+     "text": "Université de Paris 1356",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=199357"
+  },
+  "200006": {
+   "name": "Albert Clampius",
+   "degrees": [
+    {
+     "text": "Dr. jur. Ruprecht-Karls-Universität Heidelberg",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 224249,
+     "name": "Reinhard Bachoff von Echt",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=200006"
+  },
+  "201288": {
+   "name": "Gregory Chioniadis",
+   "degrees": [
+    {
+     "text": "Ilkhans Court at Tabriz 1296",
+     "flags": [
+      "img/flags/Iran.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 204293,
+     "name": "Shams al‐Dīn al‐Bukhārī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=201288"
+  },
+  "204293": {
+   "name": "Shams al‐Dīn al‐Bukhārī",
+   "degrees": [
+    {
+     "text": "Maragheh Observatory",
+     "flags": [
+      "img/flags/Iran.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 217509,
+     "name": "Nasir al-Dīn al-Ṭūsī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=204293"
+  },
+  "208258": {
+   "name": "Gerardus Leonardus Blasius",
+   "degrees": [
+    {
+     "text": "Dr. med. Universiteit Leiden 1648",
+     "flags": [
+      "img/flags/Netherlands.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=208258"
+  },
+  "208259": {
+   "name": "Siegmund Jakob Baumgarten",
+   "degrees": [
+    {
+     "text": "Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1726",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 146035,
+     "name": "Christian Benedict Michaelis",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=208259"
+  },
+  "217509": {
+   "name": "Nasir al-Dīn al-Ṭūsī",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 223724,
+     "name": "Kamāl al-Dīn Ibn Yūnus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 287480,
+     "name": "Athīr al-Dīn al-Mufaḍḍal al-Abharī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=217509"
+  },
+  "221100": {
+   "name": "Leonhard Etzler",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=221100"
+  },
+  "221101": {
+   "name": "Anton Euonymus",
+   "degrees": [
+    {
+     "text": "Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1583",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 221100,
+     "name": "Leonhard Etzler",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 5,
+   "url": "https://www.mathgenealogy.org/id.php?id=221101"
+  },
+  "223716": {
+   "name": "August Gottlieb Meissner",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 0,
+   "url": "https://www.mathgenealogy.org/id.php?id=223716"
+  },
+  "223724": {
+   "name": "Kamāl al-Dīn Ibn Yūnus",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 230926,
+     "name": "Sharaf al-Dīn al-Ṭūsī",
+     "relation": "Advisor"
+    },
+    {
+     "id": 287466,
+     "name": "Saraf al-Dīn Muhammad al-Masʿūdī al-Marwazī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=223724"
+  },
+  "224249": {
+   "name": "Reinhard Bachoff von Echt",
+   "degrees": [
+    {
+     "text": "Dr. jur. Ruprecht-Karls-Universität Heidelberg 1598",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=224249"
+  },
+  "228334": {
+   "name": "Johann Wilhelm Baier",
+   "degrees": [
+    {
+     "text": "Dr. theol. Friedrich-Schiller-Universität Jena 1673",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 232627,
+     "name": "Sebastian Niemann",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=228334"
+  },
+  "230794": {
+   "name": "Johann Daniel Arcularius",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=230794"
+  },
+  "230796": {
+   "name": "Constantin Ziegra",
+   "degrees": [
+    {
+     "text": "M.A. Martin-Luther-Universität Halle-Wittenberg 1640",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=230796"
+  },
+  "230926": {
+   "name": "Sharaf al-Dīn al-Ṭūsī",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=230926"
+  },
+  "232227": {
+   "name": "Paolo (Nicoletti) da Venezia",
+   "degrees": [
+    {
+     "text": "Università degli Studi di Padova 1405",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=232227"
+  },
+  "232228": {
+   "name": "Paolo da Pergola",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 232227,
+     "name": "Paolo (Nicoletti) da Venezia",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=232228"
+  },
+  "232627": {
+   "name": "Sebastian Niemann",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=232627"
+  },
+  "259973": {
+   "name": "Mikhail Vasilyevich Ostrogradsky",
+   "degrees": [
+    {
+     "text": "Ph.D. Université de Paris 1823",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 17865,
+     "name": "Siméon Denis Poisson",
+     "relation": "Advisor"
+    },
+    {
+     "id": 55177,
+     "name": "Augustin Louis Cauchy",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=259973"
+  },
+  "260114": {
+   "name": "Mikhail Vasilyevich Lomonosov",
+   "degrees": [
+    {
+     "text": "Ph.D. Philipps-Universität Marburg 1739",
+     "flags": [
+      "img/flags/Germany.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 47793,
+     "name": "Christian M. von Wolff",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=260114"
+  },
+  "287466": {
+   "name": "Saraf al-Dīn Muhammad al-Masʿūdī al-Marwazī",
+   "degrees": [
+    {
+     "text": "Polymath",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 295739,
+     "name": "Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=287466"
+  },
+  "287468": {
+   "name": "Bahmanyār ibn al-Marzubān",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 298616,
+     "name": "Abu ʿAli al-Husayn (Avicenna) ibn Sina",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=287468"
+  },
+  "287478": {
+   "name": "Fakhr al-Dīn Muhammad al-Rēzī",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 287466,
+     "name": "Saraf al-Dīn Muhammad al-Masʿūdī al-Marwazī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=287478"
+  },
+  "287479": {
+   "name": "Qutb al-Dīn Ibrāhīm al-Mīṣrī",
+   "degrees": [
+    {
+     "text": "1222",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 287478,
+     "name": "Fakhr al-Dīn Muhammad al-Rēzī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=287479"
+  },
+  "287480": {
+   "name": "Athīr al-Dīn al-Mufaḍḍal al-Abharī",
+   "degrees": [
+    {
+     "text": "1264",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 223724,
+     "name": "Kamāl al-Dīn Ibn Yūnus",
+     "relation": "Advisor"
+    },
+    {
+     "id": 287479,
+     "name": "Qutb al-Dīn Ibrāhīm al-Mīṣrī",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=287480"
+  },
+  "294942": {
+   "name": "Léonor Caron",
+   "degrees": [
+    {
+     "text": "Maitre-es-arts Collège Mazarin 1710",
+     "flags": [
+      "img/flags/France.gif"
+     ]
+    }
+   ],
+   "advisors": [
+    {
+     "id": 112689,
+     "name": "Pierre Varignon",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=294942"
+  },
+  "295739": {
+   "name": "Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī",
+   "degrees": [
+    {
+     "text": "1068",
+     "flags": []
+    }
+   ],
+   "advisors": [
+    {
+     "id": 287468,
+     "name": "Bahmanyār ibn al-Marzubān",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=295739"
+  },
+  "298288": {
+   "name": "George of Trebizond",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 134873,
+     "name": "Vittorino da Feltre",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=298288"
+  },
+  "298290": {
+   "name": "Gasparino da Barzizza",
+   "degrees": [
+    {
+     "text": "Università degli Studi di Padova 1413",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=298290"
+  },
+  "298304": {
+   "name": "Giovanni Conversini",
+   "degrees": [
+    {
+     "text": "Università di Bologna 1363",
+     "flags": [
+      "img/flags/Italy.gif"
+     ]
+    }
+   ],
+   "advisors": [],
+   "students_listed": 2,
+   "url": "https://www.mathgenealogy.org/id.php?id=298304"
+  },
+  "298616": {
+   "name": "Abu ʿAli al-Husayn (Avicenna) ibn Sina",
+   "degrees": [],
+   "advisors": [
+    {
+     "id": 316872,
+     "name": "Abu Abdallah Al-Husayn ibn Ibrahim al-Natili",
+     "relation": "Advisor"
+    },
+    {
+     "id": 310782,
+     "name": "Abu Sahl 'Isa ibn Yahya al-Masihi",
+     "relation": "Advisor"
+    },
+    {
+     "id": 316873,
+     "name": "Abu Mansur al-Hasan ibn Nuh al-Qumri",
+     "relation": "Advisor"
+    }
+   ],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=298616"
+  },
+  "310782": {
+   "name": "Abu Sahl 'Isa ibn Yahya al-Masihi",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=310782"
+  },
+  "316872": {
+   "name": "Abu Abdallah Al-Husayn ibn Ibrahim al-Natili",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=316872"
+  },
+  "316873": {
+   "name": "Abu Mansur al-Hasan ibn Nuh al-Qumri",
+   "degrees": [],
+   "advisors": [],
+   "students_listed": 1,
+   "url": "https://www.mathgenealogy.org/id.php?id=316873"
+  }
+ }
+}

@@ -12,6 +12,7 @@ Run audit/fetch_mgp.py --closure and audit/fetch_wikidata.py first.
 
 Files written to the output folder:
     connections.csv   one row per connection, in the file or at a source
+    source_records.json   what the project's record of each person said when fetched
     people.csv        one row per person, the file's values beside the source's
     changes.csv       every change --apply makes to master.json
     AUDIT.md          the summary and every finding
@@ -23,12 +24,16 @@ Status of a connection:
     local          one end is a person who is not in the project (mgplib.LOCAL_IDS)
     wikidata_only  an advisor Wikidata lists that neither the file nor the project has
 
+    withdrawn      in the first import, since dropped by the project, no second source
+
 --apply adds the new connections and the people they bring in, and fills fields
-that are empty in the file (degrees, Wikipedia page, portrait). It corrects a
+that are empty in the file (degrees, Wikipedia page, portrait). It removes a
+connection only when the project has withdrawn it, and a person only when that
+leaves them no longer an ancestor. It corrects a
 Wikipedia link only when the link does not lead to the person, when the address
 is malformed, or when an English page now exists and the file points to another
-language. Names, degree lines and connections already in the file are never
-changed or removed. Every change, with the old value, goes to changes.csv.
+language. Names and degree lines already in the file are never changed.
+Every change, with the old value, goes to changes.csv.
 """
 import csv
 import datetime
@@ -150,17 +155,21 @@ def main():
         for advisor in record["advisors"]:
             if advisor["id"] not in source:
                 frontier.add(advisor["id"])
-    source_names = {a["id"]: a["name"] for r in source.values() for a in r["advisors"]}
+    source_names = {a["id"]: a["name"] for r in source.values() for a in r["advisors"] if a["name"]}
+
+    wikidata_names = {a["mgp"]: a["name"] for e in wikidata.values()
+                      for a in e.get("advisors", []) if a.get("mgp")}
 
     def name_of(person_id):
         if str(person_id) in data:
             return data[str(person_id)]["name"]
         if person_id in source:
             return source[person_id]["name"]
-        return source_names.get(person_id, "")
+        return source_names.get(person_id, "") or wikidata_names.get(person_id, "")
 
     file_edges = {(a, int(k)) for k, r in data.items() for a in r.get("advisors", [])}
     source_edges = {(a["id"], s) for s, r in source.items() for a in r["advisors"]}
+    relation = {(a["id"], s): a["relation"] for s, r in source.items() for a in r["advisors"]}
     everyone = in_file | set(source) | set(added_local)
     edges_before = {e for e in file_edges if e[1] not in added_local}
 
@@ -170,6 +179,41 @@ def main():
 
     wikidata_edges = {(a["mgp"], int(s)) for s, e in wikidata.items() if int(s) in everyone
                       for a in e.get("advisors", []) if a.get("mgp")}
+
+    # ---- connections the source has withdrawn, and the graph that results --------
+    # In the first import, gone from the project's record of the student today,
+    # and not supported by Wikidata: the source has corrected itself.
+    withdrawn = set()
+    if first_import is not None:
+        withdrawn = {(a, s) for a, s in file_edges - source_edges
+                     if s in source and (a, s) in first_import and not wikidata_relations(a, s)}
+    # the owner can rule that a withdrawn connection stays: audit/keep_connections.csv
+    kept_by_ruling = {}
+    keep_path = os.path.join(here, "keep_connections.csv")
+    if os.path.exists(keep_path):
+        with open(keep_path, encoding="utf-8") as f:
+            kept_by_ruling = {(int(r["advisor_id"]), int(r["student_id"])): r["reason"]
+                              for r in csv.DictReader(f)}
+    withdrawn -= set(kept_by_ruling)
+    known = in_file | set(source) | set(added_local)
+    final_edges = {e for e in (file_edges | source_edges) - withdrawn if e[0] in known and e[1] in known}
+    root = min(mgplib.LOCAL_IDS)
+
+    def walk(start, step):
+        seen, stack = set(), [start]
+        while stack:
+            n = stack.pop()
+            if n not in seen:
+                seen.add(n)
+                stack.extend(step.get(n, ()))
+        return seen
+
+    up, down = {}, {}
+    for a, s in final_edges:
+        up.setdefault(s, set()).add(a)
+        down.setdefault(a, set()).add(s)
+    tied = walk(root, up) | walk(root, down)   # every ancestor and descendant of the root
+    final_edges = {e for e in final_edges if e[0] in tied and e[1] in tied}
 
     # ---- connections -------------------------------------------------------------
     rows = []
@@ -185,6 +229,8 @@ def main():
             status = "new"
         elif in_f and (student_id in not_fetched or student_id in not_at_source):
             status = "not_checked"
+        elif edge in withdrawn:
+            status = "withdrawn"
         elif in_f:
             status = "dataset_only"
         else:
@@ -202,7 +248,10 @@ def main():
             "student_id": student_id, "student": name_of(student_id),
             "status": status,
             "in_master_before_audit": "yes" if edge in edges_before else "no",
+            "in_master_after_audit": "yes" if edge in final_edges else "no",
             "in_math_genealogy": "yes" if in_s else "no",
+            "relation_at_source": relation.get(edge, ""),
+            "other_evidence": kept_by_ruling.get(edge, ""),
             "wikidata": "; ".join(wikidata_relations(advisor_id, student_id)),
             "origin_in_master": origin,
             "advisor_was_in_master": "yes" if advisor_id in in_file else "no",
@@ -231,7 +280,6 @@ def main():
                 findings.append("{} repeats an id in {}".format(k, field))
 
     # everyone must be tied to the root, as an ancestor or a descendant; and no cycles
-    root = min(mgplib.LOCAL_IDS)
     reached, stack = set(), [root]
     while stack:
         n = stack.pop()
@@ -302,7 +350,8 @@ def main():
                                     "suspect_item": kept.get("item", "")}
 
     # ---- people ------------------------------------------------------------------
-    new_people = sorted(set(source) - in_file)
+    new_people = sorted((set(source) - in_file) & tied)
+    removed_people = sorted((in_file | set(added_local)) - tied)
     people_rows, name_diffs, degree_diffs, year_diffs, wiki_diffs = [], [], [], [], []
     checks = {}
     for person_id in sorted(everyone):
@@ -310,7 +359,10 @@ def main():
         wd = wikidata.get(str(person_id), {})
         file_degrees = list(rec["degreeLists"]) if rec else []
         src_degrees = [d["text"] for d in src["degrees"]] if src else []
-        status = ("local" if person_id in mgplib.LOCAL_IDS else "new" if rec is None
+        status = ("local" if person_id in mgplib.LOCAL_IDS
+                  else "removed, no longer an ancestor" if person_id in removed_people
+                  else "not added, not an ancestor" if rec is None and person_id not in tied
+                  else "new" if rec is None
                   else "not at the project" if person_id in not_at_source
                   else "not fetched" if person_id in not_fetched else "existing")
         name_same = degrees_same = years_same = wiki_check = ""
@@ -381,37 +433,53 @@ def main():
     for person_id in new_people:
         src, wd = source[person_id], wikidata.get(str(person_id), {})
         record = {"id": person_id, "name": src["name"], "students": [], "advisors": []}
-        if wd.get("wikiUrl"):
+        decision = manual.get(person_id)
+        if decision and decision["decision"] == "set":
+            record["wikiUrl"] = decision["wikiUrl"]
+        elif wd.get("wikiUrl") and not (decision and decision["decision"] == "remove"):
             record["wikiUrl"] = wd["wikiUrl"]
         if wd.get("wikiImage"):
             record["wikiImage"] = wd["wikiImage"]
         record["degreeLists"] = {d["text"]: (d["flags"][0] if d["flags"] else "") for d in src["degrees"]}
         record["isProcessed"] = True
         set_field(record, "isProcessed", True)
-        if apply:
-            data[str(person_id)] = record
+        data[str(person_id)] = record
         changes.append({"change": "person added", "id": person_id, "name": src["name"], "field": "",
                         "old_value": "", "value": "", "source": mgplib.MGP_URL.format(person_id),
                         "date": today})
     for r in rows:
-        if r["status"] != "new" or (r["advisor_id"] not in in_file and r["advisor_id"] not in source):
-            continue
-        if apply:
+        edge = (r["advisor_id"], r["student_id"])
+        if r["status"] == "new" and edge in final_edges:
             student, advisor = data[str(r["student_id"])], data[str(r["advisor_id"])]
             if r["advisor_id"] not in student["advisors"]:
                 student["advisors"].append(r["advisor_id"])
             if r["student_id"] not in advisor["students"]:
                 advisor["students"].append(r["student_id"])
-        changes.append({"change": "connection added", "id": r["student_id"], "name": r["student"],
-                        "field": "advisors", "old_value": "",
-                        "value": "{} ({})".format(r["advisor"], r["advisor_id"]),
-                        "source": r["source"], "date": today})
-    for person_id in sorted(in_file - mgplib.LOCAL_IDS):
+            changes.append({"change": "connection added", "id": r["student_id"], "name": r["student"],
+                            "field": "advisors", "old_value": "",
+                            "value": "{} ({})".format(r["advisor"], r["advisor_id"]),
+                            "source": r["source"], "date": today})
+        elif r["status"] == "withdrawn":
+            data[str(r["student_id"])]["advisors"].remove(r["advisor_id"])
+            data[str(r["advisor_id"])]["students"].remove(r["student_id"])
+            changes.append({"change": "connection removed, the source no longer lists it",
+                            "id": r["student_id"], "name": r["student"], "field": "advisors",
+                            "old_value": "{} ({})".format(r["advisor"], r["advisor_id"]), "value": "",
+                            "source": r["source"], "date": today})
+    for person_id in removed_people:
+        gone = data.pop(str(person_id))
+        changes.append({"change": "person removed, no longer an ancestor of id {}".format(root),
+                        "id": person_id, "name": gone["name"], "field": "",
+                        "old_value": " | ".join(gone["degreeLists"]), "value": "",
+                        "source": mgplib.MGP_URL.format(person_id), "date": today})
+    for rec in data.values():
+        rec["advisors"] = [a for a in rec["advisors"] if str(a) in data]
+        rec["students"] = [x for x in rec["students"] if str(x) in data]
+    for person_id in sorted(in_file - mgplib.LOCAL_IDS - set(removed_people)):
         rec, src, wd = data[str(person_id)], source.get(person_id), wikidata.get(str(person_id), {})
         if src and not rec["degreeLists"] and src["degrees"]:
             filled = {d["text"]: (d["flags"][0] if d["flags"] else "") for d in src["degrees"]}
-            if apply:
-                rec["degreeLists"] = filled
+            rec["degreeLists"] = filled
             changes.append({"change": "empty field filled", "id": person_id, "name": rec["name"],
                             "field": "degreeLists", "old_value": "", "value": " | ".join(filled),
                             "source": mgplib.MGP_URL.format(person_id), "date": today})
@@ -445,8 +513,7 @@ def main():
             elif plain(current) != plain(page["leads_to"]):
                 new_url, why = page["leads_to"], "wikiUrl address corrected"
         if why:
-            if apply:
-                set_field(rec, "wikiUrl", new_url)
+            set_field(rec, "wikiUrl", new_url)
             log(why, "wikiUrl", current, new_url, wd.get("item", ""))
 
         # portrait: fill when empty, replace when the address is gone
@@ -461,19 +528,39 @@ def main():
         elif bad and bad["status"] in ("gone", "404", "410"):
             new_image, why = None, "wikiImage removed, address was {}".format(bad["status"])
         if why:
-            if apply:
-                set_field(rec, "wikiImage", new_image)
+            set_field(rec, "wikiImage", new_image)
             log(why, "wikiImage", image, new_image, wd.get("item", ""))
+
+    # ---- the file after the audit must pass every structural check -----------------
+    after = []
+    for k, r in data.items():
+        for a in r["advisors"]:
+            if str(a) not in data or int(k) not in data[str(a)]["students"]:
+                after.append("{} / advisor {}".format(k, a))
+        for x in r["students"]:
+            if str(x) not in data or int(k) not in data[str(x)]["advisors"]:
+                after.append("{} / student {}".format(k, x))
+    up_after = {int(k): set(r["advisors"]) for k, r in data.items()}
+    down_after = {int(k): set(r["students"]) for k, r in data.items()}
+    loose = {int(k) for k in data} - walk(root, up_after) - walk(root, down_after)
+    after.extend("{} is not tied to id {}".format(i, root) for i in sorted(loose))
+    edges_after = {(a, int(k)) for k, r in data.items() for a in r["advisors"]}
 
     # ---- write ---------------------------------------------------------------------
     os.makedirs(out_dir, exist_ok=True)
     write_csv(os.path.join(out_dir, "connections.csv"), rows, list(rows[0]))
     write_csv(os.path.join(out_dir, "people.csv"), people_rows, list(people_rows[0]))
+    snapshot = {str(i): {"name": r["name"], "degrees": r["degrees"], "advisors": r["advisors"],
+                         "students_listed": len(r["students"]), "url": mgplib.MGP_URL.format(i)}
+                for i, r in sorted(source.items())}
+    with open(os.path.join(out_dir, "source_records.json"), "w", encoding="utf-8") as f:
+        json.dump({"fetched": today, "source": "Mathematics Genealogy Project", "records": snapshot},
+                  f, ensure_ascii=False, indent=1)
     write_csv(os.path.join(out_dir, "changes.csv"), changes,
               ["change", "id", "name", "field", "old_value", "value", "source", "date"])
 
     count = {s: sum(1 for r in rows if r["status"] == s) for s in
-             ("confirmed", "new", "dataset_only", "local", "not_checked", "wikidata_only")}
+             ("confirmed", "new", "dataset_only", "withdrawn", "local", "not_checked", "wikidata_only")}
     only = [r for r in rows if r["status"] == "dataset_only"]
     md = [
         "# Network audit, {}".format(today), "",
@@ -485,11 +572,12 @@ def main():
         "- In `master.json` before the audit: {}".format(len(edges_before)),
         "- Confirmed by the project: {}".format(count["confirmed"]),
         "- New, at the project and not in the file: {}".format(count["new"]),
-        "- In the file but not at the project today: {} ({} of them supported by Wikidata)".format(
-            count["dataset_only"], sum(1 for r in only if r["wikidata"])),
+        "- In the file, not at the project today, kept on other evidence: {}".format(count["dataset_only"]),
+        "- Withdrawn by the project since the first import, removed: {}".format(count["withdrawn"]),
         "- Local, one end not in the project's database: {}".format(count["local"]),
         "- Not checked, record missing or not fetched: {}".format(count["not_checked"]),
         "- Listed by Wikidata only, not added: {}".format(count["wikidata_only"]),
+        "- In `master.json` after the audit: {}".format(len(edges_after)),
         "",
         "## People", "",
         "- In `master.json` before the audit: {}".format(len(in_file)),
@@ -497,6 +585,8 @@ def main():
         "- No such record at the project: {}".format(len(not_at_source)),
         "- Not fetched: {}".format(len(not_fetched)),
         "- New ancestors found: {}".format(len(new_people)),
+        "- Removed, no longer an ancestor once the withdrawn connections are gone: {}".format(len(removed_people)),
+        "- In `master.json` after the audit: {}".format(len(data)),
         "- Name differs from the project's: {}".format(len(name_diffs)),
         "- Degree lines differ from the project's: {} ({} of them differ in a year)".format(
             len(degree_diffs), len(year_diffs)),
@@ -510,6 +600,7 @@ def main():
         "- Names carried by more than one id: {}".format(len(same_name)),
         "- Wikidata items carried by more than one id: {}".format(len(same_item)),
         "- Connections where the advisor's first date follows the student's last: {}".format(len(out_of_order)),
+        "- Structural faults in the file after the audit: {}".format(len(after)),
         "",
     ]
     summary_end = len(md)
@@ -537,7 +628,15 @@ def main():
             ["{} ({}): {}".format(source[i]["name"], i,
                                   " | ".join(d["text"] for d in source[i]["degrees"]) or "no degree listed")
              for i in new_people])
-    listing("In the file but not at the project", "Kept in the file.", edge_lines("dataset_only"))
+    listing("Withdrawn by the project",
+            "In the first import of 2017, no longer on the student's record at the project, and not "
+            "supported by Wikidata. Removed from the file.", edge_lines("withdrawn"))
+    listing("People removed",
+            "They were ancestors only through a withdrawn connection.",
+            ["{} ({})".format(name_of(i), i) for i in removed_people])
+    listing("In the file but not at the project",
+            "Kept in the file on other evidence, which connections.csv gives in full.",
+            edge_lines("dataset_only"))
     listing("Local connections",
             "One end is a person who is not in the project's database. The source is the record named.",
             edge_lines("local"))
@@ -580,7 +679,9 @@ def main():
                                             r["wiki_pages"], r["description"]) for r in ranked])
     listing("Changes made to master.json" if apply else "Changes --apply would make",
             "The full list is in changes.csv.",
-            ["{} people added".format(sum(1 for c in changes if c["change"] == "person added")),
+            ["{} connections removed".format(sum(1 for c in changes if c["change"].startswith("connection removed"))),
+             "{} people removed".format(sum(1 for c in changes if c["change"].startswith("person removed"))),
+             "{} people added".format(sum(1 for c in changes if c["change"] == "person added")),
              "of them {} not in the project's database: {}".format(
                  len(added_local), ", ".join(mgplib.LOCAL_PEOPLE[i]["name"] for i in added_local) or "none"),
              "{} connections added".format(sum(1 for c in changes if c["change"] == "connection added")),
