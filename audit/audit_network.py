@@ -531,6 +531,16 @@ def main():
             set_field(rec, "wikiImage", new_image)
             log(why, "wikiImage", image, new_image, wd.get("item", ""))
 
+    # people outside the project: only a link settled by hand is acted on
+    for person_id in sorted(mgplib.LOCAL_IDS):
+        decision, rec = manual.get(person_id), data.get(str(person_id))
+        if decision and rec and decision["decision"] == "remove" and rec.get("wikiUrl"):
+            old_url = rec["wikiUrl"]
+            set_field(rec, "wikiUrl", None)
+            changes.append({"change": "wikiUrl removed, reviewed by hand: " + decision["note"],
+                            "id": person_id, "name": rec["name"], "field": "wikiUrl",
+                            "old_value": old_url, "value": "", "source": "", "date": today})
+
     # ---- the file after the audit must pass every structural check -----------------
     after = []
     for k, r in data.items():

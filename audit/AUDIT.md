@@ -515,5 +515,5 @@ The full list is in changes.csv.
 - of them 1 not in the project's database: Mahmut Selman Gokmen
 - 80 connections added
 - 36 empty fields filled
-- 77 Wikipedia links corrected, changed to English or removed
+- 78 Wikipedia links corrected, changed to English or removed
 - 32 portrait addresses corrected, replaced or removed
