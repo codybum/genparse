@@ -113,7 +113,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Jacobus_Arminius",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/1/1d/James_Arminius_2.jpg",
 		"degreeLists": {
-			"Theol. Dr. Philipps-Universität Marburg 1582":"img/flags/Germany.gif", 
+			"Theol. Dr. Philipps-Universität Marburg 1582": "img/flags/Germany.gif",
 			"Universiteit Leiden 1582": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -185,7 +185,7 @@
 		"wikiUrl": "https://de.wikipedia.org/wiki/Georg_Wolfgang_Wedel",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/GeorgWolfgangWedelGAWolfgang.jpg/1200px-GeorgWolfgangWedelGAWolfgang.jpg",
 		"degreeLists": {
-			"Medicinae Dr. Friedrich-Schiller-Universität Jena 1667": "img/flags/Germany.gif", 
+			"Medicinae Dr. Friedrich-Schiller-Universität Jena 1667": "img/flags/Germany.gif",
 			"Universiteit Leiden 1667": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -215,16 +215,16 @@
 		"isProcessed": true
 	},
 	"1": {
-                "id": 1,
-                "name": "V. K. Cody Bumgardner",
-                "students": [],
-                "advisors": [22583],
-                "wikiUrl": "https://pl.wikipedia.org/wiki/Victor_W._Marek",
-                "degreeLists": {
-                        "Ph.D. University of Kentucky 2017": "img/flags/UnitedStates.gif"
-                },
-                "isProcessed": true
-        },
+		"id": 1,
+		"name": "V. K. Cody Bumgardner",
+		"students": [],
+		"advisors": [22583],
+		"wikiUrl": "https://pl.wikipedia.org/wiki/Victor_W._Marek",
+		"degreeLists": {
+			"Ph.D. University of Kentucky 2017": "img/flags/UnitedStates.gif"
+		},
+		"isProcessed": true
+	},
 	"60984": {
 		"id": 60984,
 		"name": "Erhard Weigel",
@@ -329,8 +329,8 @@
 		"advisors": [204293],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Gregory_Choniades",
 		"degreeLists": {
-                        "Astronomy 1250": "img/flags/Constantinople.gif"
-                },
+			"Astronomy 1250": "img/flags/Constantinople.gif"
+		},
 		"isProcessed": true
 	},
 	"125006": {
@@ -488,7 +488,7 @@
 		"advisors": [127459, 127461],
 		"wikiUrl": "https://de.wikipedia.org/wiki/Ambrosius_Rhode",
 		"degreeLists": {
-			"Magister artium 1600" : "img/flags/Germany.gif", 
+			"Magister artium 1600": "img/flags/Germany.gif",
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1610": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -696,7 +696,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Daniel_Sennert",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/1/15/Daniel-Sennert.jpg",
 		"degreeLists": {
-			"Magister artium 1594" : "img/flags/Germany.gif", 
+			"Magister artium 1594": "img/flags/Germany.gif",
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1599": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -744,7 +744,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nicolas_Malebranche",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nicolas_Malebranche.jpg",
 		"degreeLists": {
-			"Philosopher and Priest 1672" : "img/flags/France.gif"
+			"Philosopher and Priest 1672": "img/flags/France.gif"
 		},
 		"isProcessed": true
 	},
@@ -1047,7 +1047,7 @@
 		"wikiUrl": "https://de.wikipedia.org/wiki/Hieronymus_Aleander",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Aleander%2C_Hieronymus.jpg",
 		"degreeLists": {
-			"Magister artium 1499": "img/flags/Italy.gif", 
+			"Magister artium 1499": "img/flags/Italy.gif",
 			"Theol. Dr. Università degli Studi di Padova 1508": "img/flags/Italy.gif"
 		},
 		"isProcessed": true
@@ -1061,7 +1061,7 @@
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gregorio_Palamas_-_%28Propriet%C3%A0_Pietro_Chiaranz%29.jpg",
 		"degreeLists": {
 			"Theologian 1350": "img/flags/Constantinople.gif",
-                        "Canonized 1368": "img/flags/Constantinople.gif"
+			"Canonized 1368": "img/flags/Constantinople.gif"
 		},
 		"isProcessed": true
 	},
@@ -1086,7 +1086,7 @@
 		"wikiUrl": "https://fr.wikipedia.org/wiki/Nicolaus_Clenardus",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cleynaerts3.jpg",
 		"degreeLists": {
-			"Magister artium 1515": "img/flags/Belgium.gif", 
+			"Magister artium 1515": "img/flags/Belgium.gif",
 			"Theol. Dr. Université Catholique de Louvain 1515": "img/flags/Belgium.gif"
 		},
 		"isProcessed": true
@@ -1137,7 +1137,7 @@
 		"degreeLists": {
 			"Juris utriusque Doctor Università di Bologna 1499": "img/flags/Italy.gif",
 			"Università degli Studi di Padova 1501": "img/flags/Italy.gif",
- 			"Uniwersytet Jagielloński 1503": "img/flags/Italy.gif",
+			"Uniwersytet Jagielloński 1503": "img/flags/Italy.gif",
 			"Università degli Studi di Ferrara 1499": "img/flags/Italy.gif"
 		},
 		"isProcessed": true
@@ -1329,7 +1329,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nikolai_Brashman",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/0/04/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%91%D1%80%D0%B0%D1%88%D0%BC%D0%B0%D0%BD.jpg",
 		"degreeLists": {
-			"Ph.D. Kazan State University 1834": "img/flags/Russia.gif", 
+			"Ph.D. Kazan State University 1834": "img/flags/Russia.gif",
 			"Lomonosov Moscow State University 1834": "img/flags/Russia.gif"
 		},
 		"isProcessed": true
@@ -1587,7 +1587,7 @@
 		"wikiUrl": "https://de.wikipedia.org/wiki/Andreas_Schato",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Andreas-Schato.jpg",
 		"degreeLists": {
-			"Magister artium 1562": "img/flags/Germany.gif", 
+			"Magister artium 1562": "img/flags/Germany.gif",
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1578": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -1609,7 +1609,7 @@
 		"advisors": [126827, 184935],
 		"wikiUrl": "https://de.wikipedia.org/wiki/Valentin_Steinmetz",
 		"degreeLists": {
-			"Magister artium 1550": "img/flags/Germany.gif", 
+			"Magister artium 1550": "img/flags/Germany.gif",
 			"Medicinae Dr. Universität Leipzig 1567": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -1693,7 +1693,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Gemma_Frisius",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Reinerus_Frisius_Gemma%2C_by_Maarten_van_Heemskerck.jpg/1200px-Reinerus_Frisius_Gemma%2C_by_Maarten_van_Heemskerck.jpg",
 		"degreeLists": {
-			"Magister Philosophiae 1529": "img/flags/Belgium.gif", 
+			"Magister Philosophiae 1529": "img/flags/Belgium.gif",
 			"Medicinae Doctor Université Catholique de Louvain 1536": "img/flags/Belgium.gif"
 		},
 		"isProcessed": true
@@ -1726,8 +1726,8 @@
 		"advisors": [201288],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Manuel_Bryennios",
 		"degreeLists": {
-                        "Astronomy and Mathematics 1300": "img/flags/Constantinople.gif"
-                },
+			"Astronomy and Mathematics 1300": "img/flags/Constantinople.gif"
+		},
 		"isProcessed": true
 	},
 	"125760": {
@@ -2108,7 +2108,7 @@
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Siegmund_Jakob_Baumgarten.jpg",
 		"degreeLists": {
 			"Dr. phil. Martin-Luther-Universität Halle-Wittenberg 1726": "img/flags/Germany.gif"
-	},
+		},
 		"isProcessed": true
 	},
 	"208258": {
@@ -2229,8 +2229,8 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nasir_al-Din_Tusi.jpg",
 		"degreeLists": {
-                        "Astronomy and Mathematics 1240": "img/flags/Iran.gif"
-                },
+			"Astronomy and Mathematics 1240": "img/flags/Iran.gif"
+		},
 		"isProcessed": true
 	},
 	"106921": {
@@ -2347,7 +2347,7 @@
 		"wikiUrl": "https://fr.wikipedia.org/wiki/Guillaume_Bud%C3%A9",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Guillaume_Budé_by_Jean_Clouet.jpg",
 		"degreeLists": {
-			"Magister artium Université d\u0027Orléans 1486": "img/flags/France.gif", 
+			"Magister artium Université d\u0027Orléans 1486": "img/flags/France.gif",
 			"Université de Paris 1491": "img/flags/France.gif"
 		},
 		"isProcessed": true
@@ -2396,7 +2396,7 @@
 		"wikiUrl": "https://nl.wikipedia.org/wiki/Pieter_de_Corte",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Pieter_De_Corte.jpg/1200px-Pieter_De_Corte.jpg",
 		"degreeLists": {
-			"Magister artium 1513": "img/flags/Belgium.gif", 
+			"Magister artium 1513": "img/flags/Belgium.gif",
 			"Theol. Dr. Université Catholique de Louvain 1513": "img/flags/Belgium.gif"
 		},
 		"isProcessed": true
@@ -2408,7 +2408,7 @@
 		"advisors": [125897],
 		"wikiUrl": "https://nl.wikipedia.org/wiki/Martinus_Dorpius",
 		"degreeLists": {
-			"Magister artium 1504": "img/flags/Belgium.gif", 
+			"Magister artium 1504": "img/flags/Belgium.gif",
 			"Theol. Dr. Université Catholique de Louvain 1515": "img/flags/Belgium.gif"
 		},
 		"isProcessed": true
@@ -2603,7 +2603,7 @@
 		"advisors": [127923, 127956],
 		"wikiUrl": "https://de.wikipedia.org/wiki/michael_walther_der_jüngere",
 		"degreeLists": {
-			"Magister artium 1661": "img/flags/Germany.gif", 
+			"Magister artium 1661": "img/flags/Germany.gif",
 			"Theol. Dr. Martin-Luther-Universität Halle-Wittenberg 1687": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -2640,7 +2640,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Jacobus_Golius",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jacob-Golius.jpg",
 		"degreeLists": {
-			"Artium Liberalium Magister 1612": "img/flags/Netherlands.gif", 
+			"Artium Liberalium Magister 1612": "img/flags/Netherlands.gif",
 			"Philosophiae Doctor Universiteit Leiden 1621": "img/flags/Netherlands.gif"
 		},
 		"isProcessed": true
@@ -2664,7 +2664,7 @@
 		"advisors": [127061, 127275],
 		"wikiUrl": "https://de.wikipedia.org/wiki/melchior_jöstel",
 		"degreeLists": {
-			"Magister artium 1583": "img/flags/Germany.gif", 
+			"Magister artium 1583": "img/flags/Germany.gif",
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1600": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -2677,7 +2677,7 @@
 		"wikiUrl": "https://de.wikipedia.org/wiki/Ernestus_Hettenbach",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ernst-Hettenbach.jpg",
 		"degreeLists": {
-			"Magister artium 1576": "img/flags/Germany.gif", 
+			"Magister artium 1576": "img/flags/Germany.gif",
 			"Medicinae Dr. Martin-Luther-Universität Halle-Wittenberg 1591": "img/flags/Germany.gif"
 		},
 		"isProcessed": true
@@ -2803,16 +2803,16 @@
 		"isProcessed": true
 	},
 	"230926": {
-	"id": 230926,
-                "name": "Sharaf al-Dīn al-Ṭūsī",
-                "students": [223724],
-                "advisors": [],
-                "wikiUrl": "https://en.wikipedia.org/wiki/Sharaf_al-D%C4%ABn_al-%E1%B9%AC%C5%ABs%C4%AB",
-                "degreeLists": {
-                        "Astronomy and Mathematics 1155": "img/flags/Iran.gif"
-                },
-                "isProcessed": true
-        },
+		"id": 230926,
+		"name": "Sharaf al-Dīn al-Ṭūsī",
+		"students": [223724],
+		"advisors": [],
+		"wikiUrl": "https://en.wikipedia.org/wiki/Sharaf_al-D%C4%ABn_al-%E1%B9%AC%C5%ABs%C4%AB",
+		"degreeLists": {
+			"Astronomy and Mathematics 1155": "img/flags/Iran.gif"
+		},
+		"isProcessed": true
+	},
 	"223724": {
 		"id": 223724,
 		"name": "Kamal al Din Ibn Yunus",
@@ -2820,8 +2820,8 @@
 		"advisors": [230926],
 		"wikiUrl": "https://en.wikipedia.org/wiki/Sharaf_al-D%C4%ABn_al-%E1%B9%AC%C5%ABs%C4%AB",
 		"degreeLists": {
-                        "Astronomy and Mathematics 1185": "img/flags/Iraq.gif"
-                },
+			"Astronomy and Mathematics 1185": "img/flags/Iraq.gif"
+		},
 		"isProcessed": true
 	},
 	"164338": {
@@ -2865,7 +2865,7 @@
 		"wikiUrl": "https://en.wikipedia.org/wiki/Gemistus_Pletho",
 		"wikiImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Benozzo_Gozzoli%2C_Pletone%2C_Cappella_dei_Magi.jpg",
 		"degreeLists": {
-			"Byzantine Philosopher 1380" : "img/flags/Constantinople.gif"
+			"Byzantine Philosopher 1380": "img/flags/Constantinople.gif"
 		},
 		"isProcessed": true
 	},
