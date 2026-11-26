@@ -1,0 +1,8 @@
+id,name,decision,wikiUrl,note
+204293,Shams ad-Din Al-Bukhari,set,https://ar.wikipedia.org/wiki/شمس_الدين_البخاري,"the file linked Sayyid Ajjal Shams al-Din Omar, a governor of Yunnan (1211-1279). The Arabic page is the astronomer's and its Wikidata item (Q102076298) carries this project id"
+136726,Pietro Roccabonella,remove,,"the file linked Gaetano da Thiene the philosopher, a different person. No English or Italian page exists for Roccabonella"
+128046,Johann Pasch,remove,,"the file linked Johan Pasch, a Swedish artist (1706-1769). This person took an M.A. at Wittenberg in 1683. No page was found"
+129708,Johann Caspar Bauhin,remove,,"the file linked Caspar Bauhin (1560-1624), who died before the 1649 degree. Wikidata puts this project id on Johann Bauhin (1541-1612), also too early. No page could be confirmed"
+152906,Bassiano Landi,remove,,"the file linked Johannes Baptista Montanus, a different person. No English or Italian page exists for Landi"
+127945,Samuel Stryk,keep,https://de.wikipedia.org/wiki/Samuel_Stryk,"the German page is Samuel Stryk the jurist (1640-1710, Q85289). Wikidata holds this project id on a second, empty item of the same name. There is no English page"
+223716,August Gottlieb Meissner,set,https://en.wikipedia.org/wiki/August_Gottlieb_Meißner,"the file's German page is the right person (1753-1807, Q214593) and an English page exists. Wikidata holds this project id on a second, empty item of the same name"

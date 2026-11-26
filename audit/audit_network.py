@@ -3,8 +3,10 @@
     python3 audit/audit_network.py master.json audit/cache audit            # report only
     python3 audit/audit_network.py master.json audit/cache audit --apply    # also update master.json
 
-Optional: --import-2017 edges.csv names the first import (columns id,Source,Target),
-which tells a connection added by hand from one the source has since dropped.
+audit/import_2017_edges.csv is the first import, of September 2017 (columns
+id,Source,Target). It tells a connection added by hand from one the source has
+since dropped. links.csv in the output folder, written by check_links.py, lets a
+portrait whose address is gone be corrected.
 
 Run audit/fetch_mgp.py --closure and audit/fetch_wikidata.py first.
 
@@ -21,9 +23,12 @@ Status of a connection:
     local          one end is a person who is not in the project (mgplib.LOCAL_IDS)
     wikidata_only  an advisor Wikidata lists that neither the file nor the project has
 
---apply only adds. It adds the new connections and the people they bring in, and
-fills fields that are empty in the file (degrees, Wikipedia page, portrait).
-It never changes or removes a value that is already there.
+--apply adds the new connections and the people they bring in, and fills fields
+that are empty in the file (degrees, Wikipedia page, portrait). It corrects a
+Wikipedia link only when the link does not lead to the person, when the address
+is malformed, or when an English page now exists and the file points to another
+language. Names, degree lines and connections already in the file are never
+changed or removed. Every change, with the old value, goes to changes.csv.
 """
 import csv
 import datetime
@@ -32,6 +37,7 @@ import os
 import re
 import sys
 import unicodedata
+import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import mgplib  # noqa: E402
@@ -50,6 +56,29 @@ def fold(name):
     return re.sub(r"[^a-z]+", " ", name.lower()).strip()
 
 
+FIELD_ORDER = ["id", "name", "students", "advisors", "wikiUrl", "wikiImage", "degreeLists", "isProcessed"]
+
+
+def set_field(record, field, value):
+    """Set or remove a field, keeping the field order master.json has always used."""
+    if value is None:
+        record.pop(field, None)
+    else:
+        record[field] = value
+    ordered = sorted(record.items(), key=lambda kv: FIELD_ORDER.index(kv[0])
+                     if kv[0] in FIELD_ORDER else len(FIELD_ORDER))
+    record.clear()
+    record.update(ordered)
+
+
+def plain(url):
+    return urllib.parse.unquote(url).replace("http://", "https://").replace(" ", "_")
+
+
+def host(url):
+    return urllib.parse.urlsplit(url).netloc
+
+
 def write_csv(path, table, fields):
     with open(path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
@@ -61,16 +90,44 @@ def main():
     args = sys.argv[1:]
     master_path, cache_dir, out_dir = args[0], args[1], args[2]
     apply = "--apply" in args
-    import_path = args[args.index("--import-2017") + 1] if "--import-2017" in args else None
+    here = os.path.dirname(os.path.abspath(__file__))
+    import_path = os.path.join(here, "import_2017_edges.csv")
+    if not os.path.exists(import_path):
+        import_path = None
+    links_path = os.path.join(out_dir, "links.csv")
     today = datetime.date.today().isoformat()
     data = mgplib.load_master(master_path)
-    in_file = {int(k) for k in data}
+    # people kept in local_people.json who are not in the file yet
+    added_local = []
+    for person_id, person in sorted(mgplib.LOCAL_PEOPLE.items()):
+        if str(person_id) in data:
+            continue
+        data[str(person_id)] = {"id": person_id, "name": person["name"], "students": [],
+                                "advisors": list(person["advisors"]),
+                                "degreeLists": dict(person["degreeLists"]), "isProcessed": True}
+        for advisor in person["advisors"]:
+            data[str(advisor)]["students"].append(person_id)
+        added_local.append(person_id)
+    in_file = {int(k) for k in data} - set(added_local)
 
     wikidata = {}
     wd_path = os.path.join(cache_dir, "wikidata.json")
     if os.path.exists(wd_path):
         with open(wd_path, encoding="utf-8") as f:
             wikidata = json.load(f)
+
+    # Wikipedia links settled by hand, each with its reason
+    manual = {}
+    manual_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "wikipedia_manual.csv")
+    if os.path.exists(manual_path):
+        with open(manual_path, encoding="utf-8") as f:
+            manual = {int(row["id"]): row for row in csv.DictReader(f)}
+
+    bad_images = {}
+    if os.path.exists(links_path):
+        with open(links_path, encoding="utf-8") as f:
+            bad_images = {int(r["id"]): r for r in csv.DictReader(f)
+                          if r["field"] == "wikiImage" and r["ok"] == "no"}
 
     first_import = None
     if import_path:
@@ -104,7 +161,8 @@ def main():
 
     file_edges = {(a, int(k)) for k, r in data.items() for a in r.get("advisors", [])}
     source_edges = {(a["id"], s) for s, r in source.items() for a in r["advisors"]}
-    everyone = in_file | set(source)
+    everyone = in_file | set(source) | set(added_local)
+    edges_before = {e for e in file_edges if e[1] not in added_local}
 
     def wikidata_relations(advisor_id, student_id):
         entry = wikidata.get(str(student_id), {})
@@ -119,7 +177,7 @@ def main():
                                          key=lambda e: (e[1], e[0])):
         edge = (advisor_id, student_id)
         in_f, in_s = edge in file_edges, edge in source_edges
-        if in_f and (student_id in mgplib.LOCAL_IDS or advisor_id in mgplib.LOCAL_IDS):
+        if student_id in mgplib.LOCAL_IDS:
             status = "local"
         elif in_f and in_s:
             status = "confirmed"
@@ -143,13 +201,14 @@ def main():
             "advisor_id": advisor_id, "advisor": name_of(advisor_id),
             "student_id": student_id, "student": name_of(student_id),
             "status": status,
-            "in_master_before_audit": "yes" if in_f else "no",
+            "in_master_before_audit": "yes" if edge in edges_before else "no",
             "in_math_genealogy": "yes" if in_s else "no",
             "wikidata": "; ".join(wikidata_relations(advisor_id, student_id)),
             "origin_in_master": origin,
             "advisor_was_in_master": "yes" if advisor_id in in_file else "no",
             "checked": today,
-            "source": "" if student_id in mgplib.LOCAL_IDS else mgplib.MGP_URL.format(student_id),
+            "source": mgplib.LOCAL_SOURCES.get(edge, "") if student_id in mgplib.LOCAL_IDS
+            else mgplib.MGP_URL.format(student_id),
         })
 
     # ---- structure of the file ---------------------------------------------------
@@ -171,7 +230,7 @@ def main():
             if len(set(r.get(field, []))) != len(r.get(field, [])):
                 findings.append("{} repeats an id in {}".format(k, field))
 
-    # ancestors of the root, and cycles
+    # everyone must be tied to the root, as an ancestor or a descendant; and no cycles
     root = min(mgplib.LOCAL_IDS)
     reached, stack = set(), [root]
     while stack:
@@ -180,7 +239,8 @@ def main():
             continue
         reached.add(n)
         stack.extend(data[str(n)].get("advisors", []))
-    unreachable = sorted(in_file - reached)
+        stack.extend(data[str(n)].get("students", []))
+    unreachable = sorted({int(k) for k in data} - reached)
     state, cycles = {}, []
 
     def visit(n, path):
@@ -216,9 +276,35 @@ def main():
         if ya and ys and min(ya) > max(ys):
             out_of_order.append((advisor_id, a["name"], min(ya), student_id, s["name"], max(ys)))
 
+    # ---- is the Wikidata match the right person? ----------------------------------
+    def match_of(person_id):
+        """A degree dated before the person was ten, or after they died, means a wrong match."""
+        wd = wikidata.get(str(person_id), {})
+        rec, src = data.get(str(person_id)), source.get(person_id)
+        # the file's own dates when it has them, otherwise the project's
+        dated = years(list(rec["degreeLists"]) if rec else []) or years(
+            [d["text"] for d in src["degrees"]] if src else [])
+        if not wd.get("item"):
+            return "no match"
+        if not dated or ("born" not in wd and "died" not in wd):
+            return "undated"
+        if "born" in wd and min(dated) < wd["born"] + 10:
+            return "suspect"
+        if "died" in wd and min(dated) > wd["died"]:
+            return "suspect"
+        return "plausible"
+
+    match = {person_id: match_of(person_id) for person_id in everyone}
+    suspects = sorted(i for i, m in match.items() if m == "suspect")
+    for person_id in suspects:  # a suspect match is not used for anything below
+        kept = wikidata.get(str(person_id), {})
+        wikidata[str(person_id)] = {"advisors": [], "file_page": kept.get("file_page", {}),
+                                    "suspect_item": kept.get("item", "")}
+
     # ---- people ------------------------------------------------------------------
     new_people = sorted(set(source) - in_file)
     people_rows, name_diffs, degree_diffs, year_diffs, wiki_diffs = [], [], [], [], []
+    checks = {}
     for person_id in sorted(everyone):
         rec, src = data.get(str(person_id)), source.get(person_id)
         wd = wikidata.get(str(person_id), {})
@@ -227,7 +313,7 @@ def main():
         status = ("local" if person_id in mgplib.LOCAL_IDS else "new" if rec is None
                   else "not at the project" if person_id in not_at_source
                   else "not fetched" if person_id in not_fetched else "existing")
-        name_same = degrees_same = years_same = wiki_same = ""
+        name_same = degrees_same = years_same = wiki_check = ""
         if rec and src:
             name_same = "yes" if re.sub(r"\s+", " ", rec["name"]).strip() == src["name"] else "no"
             degrees_same = "yes" if set(file_degrees) == set(src_degrees) else "no"
@@ -239,10 +325,24 @@ def main():
             if years_same == "no":
                 year_diffs.append((person_id, rec["name"], sorted(set(years(file_degrees))),
                                    sorted(set(years(src_degrees)))))
-        if rec and rec.get("wikiUrl") and wd.get("wikiUrl"):
-            wiki_same = "yes" if rec["wikiUrl"].replace("http://", "https://") == wd["wikiUrl"] else "no"
-            if wiki_same == "no":
-                wiki_diffs.append((person_id, rec["name"], rec["wikiUrl"], wd["wikiUrl"]))
+        page = wd.get("file_page", {})
+        if rec and rec.get("wikiUrl") and person_id not in mgplib.LOCAL_IDS:
+            if not page:
+                wiki_check = "not checked"
+            elif page["status"] != "found":
+                wiki_check = page["status"]
+            elif not page.get("item"):
+                wiki_check = "page has no Wikidata item"
+            elif match.get(person_id) == "suspect":
+                wiki_check = "not checked, Wikidata match is suspect"
+            elif page["item"] == wd.get("item"):
+                wiki_check = "same person"
+            else:
+                wiki_check = "different subject"
+            if wiki_check != "same person":
+                wiki_diffs.append((person_id, rec["name"], rec["wikiUrl"], wiki_check,
+                                   page.get("leads_to", ""), wd.get("wikiUrl", "")))
+            checks[person_id] = wiki_check
         people_rows.append({
             "id": person_id, "status": status,
             "name_in_master": rec["name"] if rec else "",
@@ -254,16 +354,30 @@ def main():
             "advisors_in_master": len(rec["advisors"]) if rec else "",
             "advisors_in_math_genealogy": len(src["advisors"]) if src else "",
             "wikiUrl_in_master": rec.get("wikiUrl", "") if rec else "",
+            "wikiUrl_check": wiki_check,
+            "wikiUrl_leads_to": page.get("leads_to", "") if rec and rec.get("wikiUrl") else "",
             "wikipedia_per_wikidata": wd.get("wikiUrl", ""),
-            "wikiUrl_same": wiki_same,
             "has_portrait_in_master": ("yes" if rec.get("wikiImage") else "no") if rec else "",
-            "wikidata_item": wd.get("item", ""),
+            "wikidata_item": wd.get("item", "") or wd.get("suspect_item", ""),
+            "wikidata_match": match.get(person_id, ""),
+            "wiki_pages": wd.get("sitelinks", ""),
+            "description": wd.get("description", ""),
             "checked": today,
             "source": "" if person_id in mgplib.LOCAL_IDS else mgplib.MGP_URL.format(person_id),
         })
 
     # ---- what --apply does ---------------------------------------------------------
     changes = []
+    for person_id in added_local:
+        person = mgplib.LOCAL_PEOPLE[person_id]
+        changes.append({"change": "person added", "id": person_id, "name": person["name"], "field": "",
+                        "old_value": "", "value": " | ".join(person["degreeLists"]),
+                        "source": person["source"], "date": today})
+        for advisor in person["advisors"]:
+            changes.append({"change": "connection added", "id": person_id, "name": person["name"],
+                            "field": "advisors", "old_value": "",
+                            "value": "{} ({})".format(name_of(advisor), advisor),
+                            "source": person["source"], "date": today})
     for person_id in new_people:
         src, wd = source[person_id], wikidata.get(str(person_id), {})
         record = {"id": person_id, "name": src["name"], "students": [], "advisors": []}
@@ -273,10 +387,12 @@ def main():
             record["wikiImage"] = wd["wikiImage"]
         record["degreeLists"] = {d["text"]: (d["flags"][0] if d["flags"] else "") for d in src["degrees"]}
         record["isProcessed"] = True
+        set_field(record, "isProcessed", True)
         if apply:
             data[str(person_id)] = record
         changes.append({"change": "person added", "id": person_id, "name": src["name"], "field": "",
-                        "value": "", "source": mgplib.MGP_URL.format(person_id), "date": today})
+                        "old_value": "", "value": "", "source": mgplib.MGP_URL.format(person_id),
+                        "date": today})
     for r in rows:
         if r["status"] != "new" or (r["advisor_id"] not in in_file and r["advisor_id"] not in source):
             continue
@@ -287,7 +403,8 @@ def main():
             if r["student_id"] not in advisor["students"]:
                 advisor["students"].append(r["student_id"])
         changes.append({"change": "connection added", "id": r["student_id"], "name": r["student"],
-                        "field": "advisors", "value": "{} ({})".format(r["advisor"], r["advisor_id"]),
+                        "field": "advisors", "old_value": "",
+                        "value": "{} ({})".format(r["advisor"], r["advisor_id"]),
                         "source": r["source"], "date": today})
     for person_id in sorted(in_file - mgplib.LOCAL_IDS):
         rec, src, wd = data[str(person_id)], source.get(person_id), wikidata.get(str(person_id), {})
@@ -296,32 +413,64 @@ def main():
             if apply:
                 rec["degreeLists"] = filled
             changes.append({"change": "empty field filled", "id": person_id, "name": rec["name"],
-                            "field": "degreeLists", "value": " | ".join(filled),
+                            "field": "degreeLists", "old_value": "", "value": " | ".join(filled),
                             "source": mgplib.MGP_URL.format(person_id), "date": today})
-        for field in ("wikiUrl", "wikiImage"):
-            if not rec.get(field) and wd.get(field):
-                if apply:
-                    ordered = {}
-                    for key, value in rec.items():
-                        if key == "degreeLists" and field not in ordered:
-                            if field == "wikiImage" or "wikiImage" not in rec:
-                                ordered[field] = wd[field]
-                        ordered[key] = value
-                        if key == "wikiUrl" and field == "wikiImage":
-                            ordered[field] = wd[field]
-                    ordered.setdefault(field, wd[field])
-                    rec.clear()
-                    rec.update(ordered)
-                changes.append({"change": "empty field filled", "id": person_id, "name": rec["name"],
-                                "field": field, "value": wd[field], "source": wd.get("item", ""),
-                                "date": today})
+        def log(change, field, old, new, src_url):
+            changes.append({"change": change, "id": person_id, "name": rec["name"], "field": field,
+                            "old_value": old or "", "value": new or "", "source": src_url, "date": today})
+
+        # Wikipedia page: must be about this person, English when an English page exists
+        current, target, check = rec.get("wikiUrl"), wd.get("wikiUrl"), checks.get(person_id, "")
+        page = wd.get("file_page", {})
+        new_url, why = current, ""
+        decision = manual.get(person_id)
+        if decision:
+            if decision["decision"] == "remove":
+                new_url = None
+            elif decision["decision"] == "set":
+                new_url = decision["wikiUrl"]
+            if new_url != current:
+                why = "wikiUrl {}, reviewed by hand: {}".format(
+                    "removed" if new_url is None else "set", decision["note"])
+        elif not current and target:
+            new_url, why = target, "empty field filled"
+        elif check in ("no such page", "not a Wikipedia page") or (
+                check == "different subject" and target):
+            new_url, why = target, "wikiUrl corrected, was {}".format(check)
+            if target is None:
+                why = "wikiUrl removed, was {}".format(check)
+        elif check == "same person":
+            if target and wd.get("wikiUrl_language") == "en" and host(current) != "en.wikipedia.org":
+                new_url, why = target, "wikiUrl changed to the English page"
+            elif plain(current) != plain(page["leads_to"]):
+                new_url, why = page["leads_to"], "wikiUrl address corrected"
+        if why:
+            if apply:
+                set_field(rec, "wikiUrl", new_url)
+            log(why, "wikiUrl", current, new_url, wd.get("item", ""))
+
+        # portrait: fill when empty, replace when the address is gone
+        image, bad = rec.get("wikiImage"), bad_images.get(person_id)
+        new_image, why = image, ""
+        if not image and wd.get("wikiImage"):
+            new_image, why = wd["wikiImage"], "empty field filled"
+        elif bad and bad["now_at"]:
+            new_image, why = bad["now_at"], "wikiImage address corrected, same file"
+        elif bad and wd.get("wikiImage"):
+            new_image, why = wd["wikiImage"], "wikiImage replaced, address was {}".format(bad["status"])
+        elif bad and bad["status"] in ("gone", "404", "410"):
+            new_image, why = None, "wikiImage removed, address was {}".format(bad["status"])
+        if why:
+            if apply:
+                set_field(rec, "wikiImage", new_image)
+            log(why, "wikiImage", image, new_image, wd.get("item", ""))
 
     # ---- write ---------------------------------------------------------------------
     os.makedirs(out_dir, exist_ok=True)
     write_csv(os.path.join(out_dir, "connections.csv"), rows, list(rows[0]))
     write_csv(os.path.join(out_dir, "people.csv"), people_rows, list(people_rows[0]))
     write_csv(os.path.join(out_dir, "changes.csv"), changes,
-              ["change", "id", "name", "field", "value", "source", "date"])
+              ["change", "id", "name", "field", "old_value", "value", "source", "date"])
 
     count = {s: sum(1 for r in rows if r["status"] == s) for s in
              ("confirmed", "new", "dataset_only", "local", "not_checked", "wikidata_only")}
@@ -333,7 +482,7 @@ def main():
         "every person in the file to find ancestors the file did not have. Wikidata, joined on",
         "the project id (property P549), is the second source.", "",
         "## Connections", "",
-        "- In `master.json` before the audit: {}".format(len(file_edges)),
+        "- In `master.json` before the audit: {}".format(len(edges_before)),
         "- Confirmed by the project: {}".format(count["confirmed"]),
         "- New, at the project and not in the file: {}".format(count["new"]),
         "- In the file but not at the project today: {} ({} of them supported by Wikidata)".format(
@@ -351,11 +500,12 @@ def main():
         "- Name differs from the project's: {}".format(len(name_diffs)),
         "- Degree lines differ from the project's: {} ({} of them differ in a year)".format(
             len(degree_diffs), len(year_diffs)),
-        "- Wikipedia page differs from the one Wikidata gives: {}".format(len(wiki_diffs)),
+        "- Wikipedia links in the file that do not lead to the person: {}".format(len(wiki_diffs)),
+        "- Wikidata matches set aside because the dates do not fit: {}".format(len(suspects)),
         "",
         "## Structure of the file", "",
         "- Consistency findings (ids, mirrored advisor and student lists, repeats): {}".format(len(findings)),
-        "- People who are not ancestors of id {}: {}".format(root, len(unreachable)),
+        "- People not tied to id {} as ancestor or descendant: {}".format(root, len(unreachable)),
         "- Cycles: {}".format(len(cycles)),
         "- Names carried by more than one id: {}".format(len(same_name)),
         "- Wikidata items carried by more than one id: {}".format(len(same_item)),
@@ -374,7 +524,8 @@ def main():
             if r["status"] != status:
                 continue
             notes = [n for n in (("Wikidata: " + r["wikidata"]) if r["wikidata"] else "",
-                                 r["origin_in_master"]) if n]
+                                 r["origin_in_master"],
+                                 r["source"] if status == "local" else "") if n]
             out.append("{} ({}) advised {} ({}){}".format(
                 r["advisor"], r["advisor_id"], r["student"], r["student_id"],
                 " [" + ", ".join(notes) + "]" if notes else ""))
@@ -387,7 +538,8 @@ def main():
                                   " | ".join(d["text"] for d in source[i]["degrees"]) or "no degree listed")
              for i in new_people])
     listing("In the file but not at the project", "Kept in the file.", edge_lines("dataset_only"))
-    listing("Local connections", "One end is a person who is not in the project's database.",
+    listing("Local connections",
+            "One end is a person who is not in the project's database. The source is the record named.",
             edge_lines("local"))
     listing("Listed by Wikidata only",
             "Advisors Wikidata gives that neither the file nor the project has. Recorded, not added.",
@@ -402,10 +554,16 @@ def main():
     listing("Degree lines that differ", "The file's lines, then the project's.",
             ["{} ({}): {} / {}".format(n, i, " | ".join(f) or "none", " | ".join(s) or "none")
              for i, n, f, s in degree_diffs])
-    listing("Wikipedia pages that differ", "The file's page, then the page Wikidata gives.",
-            ["{} ({}): {} / {}".format(n, i, f, s) for i, n, f, s in wiki_diffs])
+    listing("Wikipedia links that do not lead to the person",
+            "The file's link, what was found, and the person's own page where Wikidata has one.",
+            ["{} ({}): {} is {}{}. Person's page: {}".format(
+                n, i, f, c, " (" + to + ")" if to else "", page_url or "none")
+             for i, n, f, c, to, page_url in wiki_diffs])
+    listing("Wikidata matches not used",
+            "Wikidata puts this project id on a person whose dates do not fit the degree dates.",
+            ["{} ({}): {}".format(name_of(i), i, wikidata[str(i)].get("suspect_item", "")) for i in suspects])
     listing("Consistency findings", "", findings)
-    listing("Not an ancestor of the root", "", ["{} ({})".format(name_of(i), i) for i in unreachable])
+    listing("Not tied to the root", "", ["{} ({})".format(name_of(i), i) for i in unreachable])
     listing("Cycles", "", [" -> ".join(str(n) for n in c) for c in cycles])
     listing("Names carried by more than one id", "", ["{}: {}".format(n, ids) for n, ids in same_name.items()])
     listing("Wikidata items carried by more than one id", "",
@@ -413,11 +571,24 @@ def main():
     listing("Dates out of order", "Advisor's first date, then the student's last.",
             ["{} ({}) {} advised {} ({}) {}".format(an, a, ay, sn, s, sy)
              for a, an, ay, s, sn, sy in out_of_order])
+    ranked = sorted((r for r in people_rows if r["wiki_pages"] != ""),
+                    key=lambda r: -r["wiki_pages"])[:25]
+    listing("Standout people",
+            "The 25 people with the most pages across Wikipedia's language editions and sister "
+            "projects, as counted by Wikidata. The count is a plain measure of how widely a person is written about.",
+            ["{} ({}): {} pages. {}".format(r["name_in_master"] or r["name_in_math_genealogy"], r["id"],
+                                            r["wiki_pages"], r["description"]) for r in ranked])
     listing("Changes made to master.json" if apply else "Changes --apply would make",
             "The full list is in changes.csv.",
             ["{} people added".format(sum(1 for c in changes if c["change"] == "person added")),
+             "of them {} not in the project's database: {}".format(
+                 len(added_local), ", ".join(mgplib.LOCAL_PEOPLE[i]["name"] for i in added_local) or "none"),
              "{} connections added".format(sum(1 for c in changes if c["change"] == "connection added")),
-             "{} empty fields filled".format(sum(1 for c in changes if c["change"] == "empty field filled"))])
+             "{} empty fields filled".format(sum(1 for c in changes if c["change"] == "empty field filled")),
+             "{} Wikipedia links corrected, changed to English or removed".format(
+                 sum(1 for c in changes if c["change"].startswith("wikiUrl"))),
+             "{} portrait addresses corrected, replaced or removed".format(
+                 sum(1 for c in changes if c["change"].startswith("wikiImage")))])
     with open(os.path.join(out_dir, "AUDIT.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(md))
     print("\n".join(md[6:summary_end]))

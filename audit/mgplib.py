@@ -10,9 +10,15 @@ import re
 MGP_URL = "https://www.mathgenealogy.org/id.php?id={}"
 USER_AGENT = "academic-genealogy-audit/1.0"
 
-# Ids in master.json that are not Mathematics Genealogy Project ids.
-# Id 1 is V. K. Cody Bumgardner, who is not in the project's database.
-LOCAL_IDS = {1}
+# People who are not in the Mathematics Genealogy Project's database are kept in
+# audit/local_people.json, each with the advisors and the source that records them.
+# Their ids (1, 2, ...) are this file's own and are never looked up at the project.
+_LOCAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "local_people.json")
+with open(_LOCAL_PATH, encoding="utf-8") as _f:
+    LOCAL_PEOPLE = {int(key): value for key, value in json.load(_f).items()}
+LOCAL_IDS = set(LOCAL_PEOPLE)
+LOCAL_SOURCES = {(advisor, person_id): person["source"]
+                 for person_id, person in LOCAL_PEOPLE.items() for advisor in person["advisors"]}
 
 # The site's robots.txt asks every client to wait 10 seconds between requests.
 CRAWL_DELAY = 10.5

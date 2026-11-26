@@ -1,0 +1,14 @@
+{
+	"1": {
+		"name": "V. K. Cody Bumgardner",
+		"advisors": [22583],
+		"degreeLists": {"Ph.D. University of Kentucky 2017": "img/flags/UnitedStates.gif"},
+		"source": "https://en.wikipedia.org/wiki/Victor_W._Marek"
+	},
+	"2": {
+		"name": "Mahmut Selman Gokmen",
+		"advisors": [1],
+		"degreeLists": {"Ph.D. University of Kentucky 2026": "img/flags/UnitedStates.gif"},
+		"source": "https://uknowledge.uky.edu/cs_etds/159"
+	}
+}
