@@ -521,6 +521,8 @@ def main():
         new_image, why = image, ""
         if not image and wd.get("wikiImage"):
             new_image, why = wd["wikiImage"], "empty field filled"
+        elif image and "#/media/" in image and wd.get("wikiImage"):
+            new_image, why = wd["wikiImage"], "wikiImage replaced, address was a viewer page and not an image file"
         elif bad and bad["now_at"]:
             new_image, why = bad["now_at"], "wikiImage address corrected, same file"
         elif bad and wd.get("wikiImage"):

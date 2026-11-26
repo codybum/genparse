@@ -42,6 +42,7 @@ python3 audit/fetch_wikidata.py audit/cache master.json
 python3 audit/check_links.py master.json audit/links.csv
 python3 audit/audit_network.py master.json audit/cache audit
 python3 audit/verify.py master.json audit/cache
+python3 audit/check_links.py master.json audit/links_after.csv
 ```
 
 1. `fetch_mgp.py` saves the project's record page for each person, then for each ancestor the project lists who is not in the file. It waits 10 seconds between requests, as the site's robots.txt asks, so a first run takes about 45 minutes. It can be stopped and restarted.
@@ -56,7 +57,8 @@ python3 audit/verify.py master.json audit/cache
 | `audit/connections.csv` | One row per connection with its status, the date checked and the source record |
 | `audit/people.csv` | One row per person, with the name, degrees and Wikipedia page in the file beside those at the sources |
 | `audit/changes.csv` | Every change the audit made to `master.json` |
-| `audit/links.csv` | One row per Wikipedia page or portrait address, with the answer the server gave |
+| `audit/links.csv` | One row per Wikipedia page or portrait address in the file before the audit, with the answer the server gave |
+| `audit/links_after.csv` | The same check on the file after the audit. Every address answers |
 | `audit/source_records.json` | What the project's record of each person said when it was fetched |
 | `audit/wikidata.json` | What Wikidata and Wikipedia returned for each person |
 

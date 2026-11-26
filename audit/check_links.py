@@ -5,9 +5,9 @@
 Writes one row per link. A link is ok when the address answers as written.
 When it does not, now_at gives the working address if there is one.
 
-Portraits held by Wikimedia are checked through the Wikimedia API, which says
-whether the file exists and what its address is. Everything else is requested
-directly, one second apart.
+Wikipedia pages and portraits held by Wikimedia are checked through the
+Wikimedia API, which says whether the page or file exists and what its address
+is. Everything else is requested directly, one second apart.
 """
 import csv
 import datetime
@@ -51,6 +51,20 @@ def probe(url):
     return "error", url
 
 
+def api_get(url):
+    """Call a Wikimedia API, waiting and retrying when the server says it is busy."""
+    for attempt in range(6):
+        request = urllib.request.Request(url, headers={"User-Agent": mgplib.USER_AGENT})
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504) or attempt == 5:
+                raise
+            wait = error.headers.get("Retry-After", "")
+            time.sleep(min(int(wait) if wait.isdigit() else 30 * (attempt + 1), 300))
+
+
 def wikimedia_file(url):
     """Return (api host, file name) for an upload.wikimedia.org address."""
     segments = urllib.parse.unquote(urllib.parse.urlsplit(url).path).split("/")
@@ -77,17 +91,46 @@ def wikimedia_addresses(urls):
             query = urllib.parse.urlencode({
                 "action": "query", "format": "json", "prop": "imageinfo", "iiprop": "url",
                 "titles": "|".join(title for _, title in chunk)})
-            request = urllib.request.Request("https://{}/w/api.php?{}".format(api, query),
-                                             headers={"User-Agent": mgplib.USER_AGENT})
-            with urllib.request.urlopen(request, timeout=60) as response:
-                answer = json.load(response).get("query", {})
+            answer = api_get("https://{}/w/api.php?{}".format(api, query)).get("query", {})
             renamed = {hop["from"]: hop["to"] for hop in answer.get("normalized", [])}
             pages = {page["title"]: page for page in answer.get("pages", {}).values()}
             for url, title in chunk:
                 page = pages.get(renamed.get(title, title), {})
                 info = page.get("imageinfo")
                 found[url] = info[0]["url"].split("?")[0] if info else None
-            time.sleep(1)
+            time.sleep(2)
+    return found
+
+
+def wikipedia_pages(urls):
+    """Ask each Wikipedia whether the page exists as addressed. Returns {url: (status, now_at)}."""
+    by_host, found = {}, {}
+    for url in urls:
+        parts = urllib.parse.urlsplit(url)
+        title = urllib.parse.unquote(parts.path.split("/wiki/", 1)[1]).replace("_", " ").strip()
+        if parts.fragment or not title:
+            found[url] = ("not a page address", "")
+        else:
+            by_host.setdefault(parts.netloc, []).append((url, title))
+    for host, pairs in by_host.items():
+        for start in range(0, len(pairs), 40):
+            chunk = pairs[start:start + 40]
+            query = urllib.parse.urlencode({"action": "query", "format": "json", "redirects": 1,
+                                            "titles": "|".join(title for _, title in chunk)})
+            answer = api_get("https://{}/w/api.php?{}".format(host, query)).get("query", {})
+            renamed = {hop["from"]: hop["to"] for hop in answer.get("normalized", [])}
+            moved = {hop["from"]: hop["to"] for hop in answer.get("redirects", [])}
+            pages = {page["title"]: page for page in answer.get("pages", {}).values()}
+            for url, title in chunk:
+                name = renamed.get(title, title)
+                final = moved.get(name, name)
+                if final not in pages or "missing" in pages[final] or "invalid" in pages[final]:
+                    found[url] = ("no such page", "")
+                elif final != name:
+                    found[url] = (200, "https://{}/wiki/{}".format(host, final.replace(" ", "_")))
+                else:
+                    found[url] = (200, "")
+            time.sleep(2)
     return found
 
 
@@ -99,9 +142,14 @@ def main():
              for field in ("wikiUrl", "wikiImage") if record.get(field)]
     at_wikimedia = wikimedia_addresses(sorted(
         {url for _, _, url in links if urllib.parse.urlsplit(url).netloc == WIKIMEDIA_FILES}))
+    at_wikipedia = wikipedia_pages(sorted(
+        {url for _, _, url in links
+         if urllib.parse.urlsplit(url).netloc.endswith(".wikipedia.org") and "/wiki/" in url}))
     rows = []
     for record, field, url in links:
-        if url in at_wikimedia:
+        if url in at_wikipedia:
+            status, now_at = at_wikipedia[url]
+        elif url in at_wikimedia:
             address = at_wikimedia[url]
             if address is None:
                 status, now_at = "gone", ""

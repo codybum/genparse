@@ -146,6 +146,33 @@ def resolve_pages(urls):
     return result
 
 
+def direct_file_addresses(people):
+    """Turn Wikidata's Special:FilePath portrait links into the files' own addresses."""
+    marker = "Special:FilePath/"
+    wanted = {}
+    for entry in people.values():
+        image = entry.get("wikiImage", "")
+        if marker in image:
+            name = urllib.parse.unquote(image.split(marker, 1)[1]).replace("_", " ")
+            wanted.setdefault("File:" + name, []).append(entry)
+    titles = sorted(wanted)
+    for start in range(0, len(titles), 40):
+        chunk = titles[start:start + 40]
+        query = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo",
+                                        "iiprop": "url", "titles": "|".join(chunk)})
+        answer = get_json("https://commons.wikimedia.org/w/api.php?" + query).get("query", {})
+        renamed = {hop["from"]: hop["to"] for hop in answer.get("normalized", [])}
+        pages = {page["title"]: page for page in answer.get("pages", {}).values()}
+        for title in chunk:
+            info = pages.get(renamed.get(title, title), {}).get("imageinfo")
+            for entry in wanted[title]:
+                if info:
+                    entry["wikiImage"] = info[0]["url"].split("?")[0]
+                else:
+                    del entry["wikiImage"]  # the file is gone
+        time.sleep(1)
+
+
 def main():
     cache_dir = sys.argv[1]
     ids = {int(name[:-5]) for name in os.listdir(cache_dir)
@@ -189,6 +216,8 @@ def main():
             if code in entry["pages"]:
                 entry["wikiUrl"], entry["wikiUrl_language"] = entry["pages"][code], code
                 break
+
+    direct_file_addresses(people)
 
     # what the addresses now in the file lead to
     in_file = {k: r["wikiUrl"] for k, r in master.items() if r.get("wikiUrl")}
